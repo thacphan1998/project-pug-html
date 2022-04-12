@@ -192,6 +192,28 @@
 				}
 			]
 		},
+		"apartment": [
+			{
+				"serial": "01",
+				"title": "vị trí trái tim mới đường phạm văn đồng",
+				"content_desp": "Tọa lạc tại cửa ngõ KĐT 377 ha Bắc Cổ Nhuế, cách đường Phạm Văn Đồng 100m. Dự án có vị trí trung tâm, mang tính biểu tượng của cả KĐT. 104 căn Liền Kề Shophouse ở ngã tư đường lớn nên dễ dàng kết nối, vô cùng thuận tiện cũng như đảm bảo giá trị tăng cao trong những năm tới."
+			},
+			{
+				"serial": "02",
+				"title": "CỘNG ĐỒNG 1.275 CĂN HỘ CHUNG CƯ HIỆN HỮU",
+				"content_desp": "Quần thể 377 ha được quy hoạch đồng bộ bởi các tuyến đường 60m, 30m, 25m. Đặc biệt 26,2 ha diện tích hồ, hệ thống trường học liên cấp Đoàn Thị Điểm, bệnh viện cao cấp Phương Đông, trường ĐH Tài Chính, … đặc biệt 5 tòa chung cư nội khu tạo nên quần thể sầm uất liền kề."
+			},
+			{
+				"serial": "03",
+				"title": "TIỆN ÍCH NỘI KHU CAO CẤP ĐẶC QUYỀN",
+				"content_desp": "Các căn thấp tầng đường nằm ôm trọn bởi hệ thống đường dạo bộ, cây xanh, bể bơi bốn mùa, sân thể thảo, trường tiểu học … tất cả được quản lý và vận hành với Savill Việt Nam. Cùng tạo nên một môi trường sống, kinh doanh và đầu tư hấp dẫn bậc nhất của BĐS Bắc Từ Liêm."
+			},
+			{
+				"serial": "04",
+				"title": "KIẾN TRÚC TÂN CỔ ĐIỂN TỐI ƯU CÔNG NĂNG",
+				"content_desp": "Thiết kế vẻ ngoài hoàn mỹ với phong cách Tân Cổ Điển Pháp sang trọng, kiểu cách và đầy tính nghệ thuật. Các căn thấp tầng thiết kế đầy đủ công năng, đặc biệt tối ưu với không gian hầm, khoáng đạt với những ô cửa lớn … ở thì đẳng cấp – kinh doanh thì thuận lợi. ."
+			}
+		],
 		"rooms": [
 			{
 				"img": "images/rooms/2.jpg",
@@ -316,6 +338,9 @@
 						"title": "Gọi ngay",
 						"link": "javascript:void(0);"
 					}
+				},
+				{
+					"url_img_slide": "images/slide/1.jpg"
 				}
 			],
 			"activity": {

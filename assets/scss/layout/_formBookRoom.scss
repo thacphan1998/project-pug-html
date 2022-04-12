@@ -1,36 +1,79 @@
-.wrapFormBookRoom {
-    .formContent {
-        .inputItem {
-            font-size: 14px;
+.wrapFormApartment {
+    background-image: url(../images/banner/bg.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+    .wrapTittleBox {
+        h2 {
+            text-align: center;
+            font-size: 30px;
+            line-height: 29px;
+            font-family: 'RobotoCondensed';
+            text-transform: uppercase;
+            color: #005169;
+            margin-bottom: 20px;
+        }
+    }
+    .contentItem {
+        margin-top: 30px;
+        .colItem {
+            padding: 0 10px;
+            .formContent {
+                background: #fff;
+                min-height: 330px;
+                box-shadow: 1px 4px 8px -1px;
+                margin-bottom: 20px;
+                p {
+                    text-align: justify;
+                    padding: 0px 10px;
+                    font-size: 13px;
+                    font-family: sans-serif;
+                    line-height: 28px;
+                    margin: 0;
+                    strong {
+                        display: block;
+                        text-align: center;
+                        font-size: 40px;
+                        font-weight: 600;
+                        padding-top: 10px;
+                    }
+                }
+                .titleContent {
+                    text-align: center;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    color: #002f5b;
+                    font-weight: 600;
+                    padding: 20px 0 0 0;
+                    letter-spacing: 1px;
+                    margin-bottom: 0;
+                    font-family: 'RobotoCondensed';
+                }
+            }
+        }
+    }
+    
+    .wrapContentItem {
+        text-align: center;
+        font-size: 14px;
+        line-height: 29px;
+        font-family: arial;
+        color: #000;
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+
+        strong {
+           color: #cc0006;
         }
     }
 
-    .contentItem {
-        background-color: $color1;
-        @include borderRadius(10px);
-        padding: 30px;
-        @include boxShadow($boxShadow3);
-        margin-top: 30px;
-    }
-
-    .btnBook {
-        display: block;
-        width: 100%;
-        @include borderRadius(5px);
-        padding: 11.5px 30px;
-    }
 }
 
 @media (min-width: 992px) {
-    .wrapFormBookRoom {    
-        .btnBook {
-            margin-top: 27px;
-        }
-    }
+    
 }
 
 @media (max-width: 991px) {
-    .wrapFormBookRoom {    
-        display: none;
-    }
+    
 }
