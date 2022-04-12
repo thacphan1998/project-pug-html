@@ -1,0 +1,49 @@
+.btnScrollTop {    
+    background-color: $color13;
+    position: fixed;
+    z-index: 990;
+    right: 15px;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    @include borderRadius(100%);
+    border: 1px solid $color1;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    color: white;
+    bottom: 100px;
+    right: 15px;
+
+    svg {        
+        width: 58px;
+        height: 40px;
+        text-align: center;
+        display: block;
+    }    
+
+    &:hover {
+        background-color: $color1;
+        color: $color13;
+        border-color: $color13;
+    }
+}
+
+.modal-open {
+    .btnScrollTop {
+        right: 27px;
+    }
+}
+
+@media (max-width: 991px) {
+    .btnScrollTop {
+        width: 50px;
+        height: 50px;
+        padding: 6px 0;
+
+        svg {        
+            width: 48px;
+            height: 35px;
+        }
+    }
+}

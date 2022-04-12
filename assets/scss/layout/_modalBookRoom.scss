@@ -1,0 +1,36 @@
+.modalBookRoom {
+    .rowItem {
+        margin: 0 -7.5px;
+        
+        .colItem {
+            margin-top: 15px;
+            padding: 0 7.5px;
+
+            &:nth-child(1),
+            &:nth-child(2) {
+                margin-top: 0;
+            }
+        }
+    }
+
+    .btnCancel,
+    .btnConfirm {
+        padding: 10px 40px;
+    }
+
+    .modal-content {
+        border: 5px solid $color20;
+    }
+
+    .formContent {
+        .iconItem {
+            color: $color20;
+        }
+    }
+
+    .modal-title {
+        color: $color20;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}

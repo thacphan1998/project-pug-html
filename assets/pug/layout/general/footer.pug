@@ -1,0 +1,50 @@
+// footer
+.footer(style='background-image:url(images/banner/footer.jpg)')
+    .bgItem
+        .container-xl.containerItem
+            .contentItem
+                .row.rowList
+                    .col-lg-3.colItem.logo
+                        .contentCol
+                            .wrapLogo
+                                img(src= data.footer.logo, alt= data.general.title_website)
+
+                            .clearfix.wrapSocial
+                                each item in data.footer.social
+                                    a(href= item.link target='_blank' title= item.title)
+                                        +render_svg(item.icon.view, item.icon.data)
+
+                    .col-lg-3.colItem.menu
+                        .contentCol
+                            .titleItem4.titleFooter Liên kết nhanh
+
+                            .wrapMenu
+                                ul.row.clearfix.listItem
+                                    each item in data.footer.menu
+                                        li.col-sm-6.colItem
+                                            a.linkItem(href= item.link, title= item.title)= item.title
+
+                    .col-lg-6.colItem.contact
+                        .contentCol
+                            .titleItem4.titleFooter Liên hệ
+
+                            .wrapInfo
+                                each item in data.footer.contact
+                                    a.linkItem(href= item.link, title= item.title target= item.target == true ? '_blank' : '')
+                                        +render_svg(item.icon.view, item.icon.data)
+                                        = item.title
+
+            include copyright.pug
+// end footer
+|
+|
+include button_scroll_top
+|
+|
+include btn_book_screen
+|
+|
+include modal_book_room
+|
+|
++render_link_js(data_page)

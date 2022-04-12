@@ -1,0 +1,1215 @@
+{
+	"data": {
+		"general": {
+			"title_website": "The Jade Orchid",
+			"description_website": "Miracle Luxury Hotel Nha Trang",
+			"keywords_website": "Miracle Luxury Hotel Nha Trang",
+			"url_favicon": "images/logo/favicon.png",
+			"url_website": "http://www.miracleluxuryhotel.vn/",
+			"created_website": "2022-03-04",
+			"position_website": "12.288247, 109.205426",
+			"placename_website": "Nha Trang, Khanh Hoa, Viet Nam",
+			"country_website": "VN",
+			"region_website": "VN-65",
+			"hreflang_website": "vi, en, rus, kor"
+		},
+		"header": {
+			"logo": "images/logo/header.png",
+			"language": [
+				{
+					"url_img": "images/language/vi.jpg",
+					"title": "Việt Nam"
+				},
+				{
+					"url_img": "images/language/cn.jpg",
+					"title": "中国"
+				},
+				{
+					"url_img": "images/language/ru.jpg",
+					"title": "Rossiya"
+				},
+				{
+					"url_img": "images/language/kor.jpg",
+					"title": "日本語"
+				}
+			],
+			"menu": [
+				{
+					"title": "Trang chủ",
+					"link": "index.html"
+				},
+				{
+					"title": "Tổng quan",
+					"link": "javascript:void(0);"
+				},
+				{
+					"title": "Vị trí",
+					"link": "javascript:void(0);"
+				},
+				{
+					"title": "Mặt bằng",
+					"link": "javascript:void(0);"
+				},
+				{
+					"title": "Loại hình sản phẩm",
+					"link": "javascript:void(0);",
+					"children": [
+						{
+							"title": "Biệt thự lâu đài",
+							"link": "javascript:void(0);"
+						},
+						{
+							"title": "Liền kề Shophouse",
+							"link": "javascript:void(0);"
+						},
+						{
+							"title": "Chung cư",
+							"link": "javascript:void(0);"
+						}
+					]
+				},
+				{
+					"title": "Chính sách",
+					"link": "javascript:void(0);"
+				},
+				{
+					"title": "Tiến độ",
+					"link": "javascript:void(0);"
+				},
+				{
+					"title": "Tin tức",
+					"link": "javascript:void(0);",
+					"children": [
+						{
+							"title": "Biệt thự lâu đài",
+							"link": "javascript:void(0);"
+						},
+						{
+							"title": "Liền kề Shophouse",
+							"link": "javascript:void(0);"
+						},
+						{
+							"title": "Chung cư",
+							"link": "javascript:void(0);"
+						}
+					]
+				},
+				{
+					"title": "Liên hệ",
+					"link": "javascript:void(0);"
+				}
+			]
+		},
+		"footer": {
+			"logo": "images/logo/footer.png",
+			"social": [
+				{
+					"icon": {
+						"view": "0 0 320 512",
+						"data": "M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+					},
+					"link": "https://www.facebook.com/Miracle-Luxury-Hotel-Nha-Trang-109043897686219/",
+					"title": "Facebook"
+				},
+				{
+					"icon": {
+						"view": "0 0 576 512",
+						"data": "M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+					},
+					"link": "javascript:void(0);",
+					"title": "Youtube"
+				},
+				{
+					"icon": {
+						"view": "0 0 640 512",
+						"data": "M386.061 228.496c1.834 9.692 3.143 19.384 3.143 31.956C389.204 370.205 315.599 448 204.8 448c-106.084 0-192-85.915-192-192s85.916-192 192-192c51.864 0 95.083 18.859 128.611 50.292l-52.126 50.03c-14.145-13.621-39.028-29.599-76.485-29.599-65.484 0-118.92 54.221-118.92 121.277 0 67.056 53.436 121.277 118.92 121.277 75.961 0 104.513-54.745 108.965-82.773H204.8v-66.009h181.261zm185.406 6.437V179.2h-56.001v55.733h-55.733v56.001h55.733v55.733h56.001v-55.733H627.2v-56.001h-55.733z"
+					},
+					"link": "javascript:void(0);",
+					"title": "Google Plus"
+				}
+			],
+			"menu": [
+				{
+					"title": "Phòng",
+					"link": "javascript:void(0);"
+				},
+				{
+					"title": "Giới thiệu",
+					"link": "javascript:void(0);"
+				},
+				{
+					"title": "Khuyến mãi",
+					"link": "javascript:void(0);"
+				},
+				{
+					"title": "Dịch vụ",
+					"link": "javascript:void(0);"
+				},
+				{
+					"title": "Hình ảnh",
+					"link": "javascript:void(0);"
+				},
+				{
+					"title": "Tin tức",
+					"link": "javascript:void(0);"
+				},
+				{
+					"title": "Điểm đến",
+					"link": "javascript:void(0);"
+				},
+				{
+					"title": "Liên hệ",
+					"link": "javascript:void(0);"
+				}
+			],
+			"contact": [
+				{
+					"icon": {
+						"view": "0 0 384 512",
+						"data": "M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"
+					},
+					"link": "https://www.google.com/maps/place/Miracle+hotel/@12.2203861,109.2001116,15z/data=!4m2!3m1!1s0x0:0xdec1803c6f01d6ae?sa=X&ved=2ahUKEwj51t-vz7T2AhUTL6YKHVAgAM8Q_BJ6BAgdEAU",
+					"title": "23 Hoàng Diệu, Vĩnh Hoà, Thành phố Nha Trang, Khánh Hòa",
+					"target": true
+				},
+				{
+					"icon": {
+						"view": "0 0 512 512",
+						"data": "M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"
+					},
+					"link": "tel:02583909666",
+					"title": "0258 3909 666",
+					"target": false
+				},
+				{
+					"icon": {
+						"view": "0 0 512 512",
+						"data": "M256 352c-16.53 0-33.06-5.422-47.16-16.41L0 173.2V400C0 426.5 21.49 448 48 448h416c26.51 0 48-21.49 48-48V173.2l-208.8 162.5C289.1 346.6 272.5 352 256 352zM16.29 145.3l212.2 165.1c16.19 12.6 38.87 12.6 55.06 0l212.2-165.1C505.1 137.3 512 125 512 112C512 85.49 490.5 64 464 64h-416C21.49 64 0 85.49 0 112C0 125 6.01 137.3 16.29 145.3z"
+					},
+					"link": "mailto:sales.miracleluxuryhotel@gmail.com",
+					"title": "sales.miracleluxuryhotel@gmail.com",
+					"target": false
+				}
+			]
+		},
+		"rooms": [
+			{
+				"img": "images/rooms/2.jpg",
+				"title": "Superior",
+				"link": "javascript:void(0);",
+				"price": "1,500,000",
+				"beds": "3",
+				"baths": "2",
+				"area": "30"
+			},
+			{
+				"img": "images/rooms/1.jpg",
+				"title": "Superior Mountain",
+				"link": "javascript:void(0);",
+				"price": "1,800,000",
+				"beds": "3",
+				"baths": "2",
+				"area": "30"
+			},
+			{
+				"img": "images/rooms/3.jpg",
+				"title": "Deluxe",
+				"link": "javascript:void(0);",
+				"price": "1,200,000",
+				"beds": "3",
+				"baths": "2",
+				"area": "30"
+			},
+			{
+				"img": "images/rooms/4.jpg",
+				"title": "Deluxe Ocean",
+				"link": "javascript:void(0);",
+				"price": "1,000,000",
+				"beds": "3",
+				"baths": "2",
+				"area": "30"
+			},
+			{
+				"img": "images/rooms/5.jpg",
+				"title": "Pacific Double",
+				"link": "javascript:void(0);",
+				"price": "900,000",
+				"beds": "3",
+				"baths": "2",
+				"area": "30"
+			},
+			{
+				"img": "images/rooms/6.jpg",
+				"title": "Pacific Triple",
+				"link": "javascript:void(0);",
+				"price": "800,000",
+				"beds": "3",
+				"baths": "2",
+				"area": "30"
+			}
+		],
+		"services": [
+			{
+				"img": "images/services/1.jpg",
+				"title": "Phòng Hội Nghị",
+				"link": "javascript:void(0);",
+				"summary": "Với mong muốn trở thành một trong những địa điểm lý tưởng để tổ chức các sự kiện tại Nha Trang, Miracle Luxury Hotel Nha Trang được thiết kế dựa trên sự kết hợp độc đáo giữa các yếu tố phong cách, đa năng và linh hoạt"
+			},
+			{
+				"img": "images/services/2.jpg",
+				"title": "Hồ bơi vô cực",
+				"link": "javascript:void(0);",
+				"summary": "Phơi mình dưới ánh nắng ấm áp của vùng biển nhiệt đới và hòa vào làn nước xanh mát tại hồ bơi vô cực của chúng tôi. Còn gì tuyệt vời hơn khi ngâm mình thật lâu và thư giãn tại hồ bơi sau một ngày dài ngắm cảnh đẹp tại Nha Trang. Hồ bơi được thiết kế độc đáo với chất liệu kính trong suốt mang đến trải nghiệm hoàn toàn mới cho quý khách. "
+			},
+			{
+				"img": "images/services/3.jpg",
+				"title": "Sân Thượng",
+				"link": "javascript:void(0);",
+				"summary": "Đài quan sát 360° là điểm đến đầu tiên khai thác loại hình tham quan đặc biệt này tại Nha Trang, giúp bạn trải nghiệm thành phố tuyệt đẹp từ trên cao. Chế độ xem 360 độ, bạn có thể ngắm nhìn vịnh, thành phố và đồi núi với các điểm quan sát khác nhau vào ban ngày và chiều tối."
+			}
+		],
+		"news": [
+			{
+				"img": "images/news/1.jpg",
+				"title": "Khánh Hòa ban hành quy định mô hình quản lý khu du lịch cấp tỉnh",
+				"link": "javascript:void(0);",
+				"summary": "Nội dung quản lý công tác quy hoạch và đầu tư phát triển. Quản lý hoạt động kinh doanh dịch vụ du lịch, hoạt động của hướng dẫn viên du lịch; Quản lý việc đầu tư, khai thác và bảo vệ tài nguyên du lịch, bảo đảm an toàn cho khách du lịch, bảo đảm trật tự, an toàn xã hội, bảo vệ môi trường trong khu du lịch."
+			},
+			{
+				"img": "images/news/2.jpg",
+				"title": "Sở Du lịch chuẩn bị tổ chức “Liên hoan du lịch biển Nha Trang 2022” vào tháng 6/2022",
+				"link": "javascript:void(0);",
+				"summary": "Theo đó nội dung công văn, UBND tỉnh đồng ý về chủ trương tổ chức chương trình và Sở Du lịch có trách nhiệm làm việc với các Sở, ban, ngành, các cơ quan chức năng và thành phố Nha Trang để đảm bảo việc tổ chức các chương trình không làm ảnh hưởng đến các chương trình sự kiện cùng thời điểm. Đảm bảo an ninh, an toàn phòng chống dịch Covid-19."
+			},
+			{
+				"img": "images/news/3.jpg",
+				"title": "Triển khai hướng dẫn thí điểm đón khách du lịch quốc tế trong giai đoạn 02",
+				"link": "javascript:void(0);",
+				"summary": "Triển khai thực hiện Công văn số 1443/UBND-KGVX của UBND tỉnh Khánh Hòa, ngày 23/02 Sở Du lịch tỉnh Khánh Hòa có văn bản số 326/SDL-QLDL thông tin đến các Doanh nghiệp kinh doanh du lịch tham gia thí điểm đón khách du lịch quốc tế đến Khánh Hòa giai đoạn 02 đến ngày 14/3/2022."
+			}
+		],
+		"page_home": {
+			"title_page": "Trang Chủ",
+			"description_page": "trang chủ",
+			"keywords_page": "trang chu",
+			"url_image_page": "https://demo.sweetsoft.vn/miracle-luxury-hotel/images/banner/share.jpg",
+			"link_css_page": [
+				"lib",
+				"fonts",
+				"home"
+			],
+			"link_js_page": [
+				"lib",
+				"home"
+			],
+			"slide_main": [
+				{
+					"url_img": "images/banner/background-banner.jpg",
+					"title_sub": "Chào đón tuần lễ khai trương",
+					"title_main": "GIẢM GIÁ CỰC SỐC<br />LÊN ĐẾN 50%",
+					"text": "Miễn phí tận hưởng các Dịch vụ tiện ích Khách sạn: Hồ bơi, Gym, Xông hơi, Xông khô, Wifi...<br />Miễn phí trang trí phòng Honey moon dành cho các cặp đôi",
+					"button_discover": {
+						"title": "Khám phá",
+						"link": "javascript:void(0);"
+					},
+					"button_call": {
+						"title": "Gọi ngay",
+						"link": "javascript:void(0);"
+					}
+				}
+			],
+			"activity": {
+				"id_name": "activity",
+				"title_main": "Lĩnh vực hoạt động",
+				"list": [
+					{
+						"url_img": "images/icons/tu-van-thiet-ke.png",
+						"link": "javascript:void(0);",
+						"title": "Tư vấn, thiết kế, triển khai hệ thống CNTT",
+						"text_title": "Tư vấn,<br />thiết kế,triển khai<br /> hệ thống CNTT"
+					},
+					{
+						"url_img": "images/icons/dau-tu.png",
+						"linK": "javascript:void(0);",
+						"title": "Đầu tư, cho thuê hạ tầng Công nghệ thông tin",
+						"text_title": "Đầu tư,<br />cho thuê hạ tầng<br />Công nghệ thông tin"
+					},
+					{
+						"url_img": "images/icons/it-outsourcing.png",
+						"link": "javascript:void(0);",
+						"title": "Dịch vụ cho thuê IT Outsourcing",
+						"text_title": "Dịch vụ<br />cho thuê<br />IT Outsourcing"
+					},
+					{
+						"url_img": "images/icons/quan-tri-mang.png",
+						"link": "javascript:void(0);",
+						"title": "Đào tạo Quản trị mạng",
+						"text_title": "Đào tạo<br />Quản trị mạng"
+					}
+				]
+			},
+			"about": {
+				"id_name": "about",
+				"title_main": "Giới thiệu",
+				"text_title": "HKT Solutions<br />thành lập <span style=\"color: #00cdfc;\">Từ 2016</span>",
+				"url_img": "images/banner/about.jpg",
+				"description": "<p>CHÚNG TÔI LÀ <b>CÔNG TY TNHH TƯ VẤN GIẢI PHÁP CÔNG NGHỆ HKT</b>, Đường 19/5, Khu đô thị Vĩnh Điềm Trung, Thành phố Nha Trang, Tỉnh Khánh Hòa.</p><p>Mã số thuế: 4201824276, Số điện thoại: 0258 6299 666, Hotline: 08 68552526.</p><p>Trước đây hoạt động với tên <b>Công ty TNHH Tư Vấn Giải Pháp Công Nghệ Thông Tin</b> (hay <b>ISCVN</b>), Công ty đã xây dựng cho mình một thương hiệu vững chắc với những dự án tầm cỡ từ các khách hàng có tên tuổi như Virgo Condotel Nha Trang, Regalia Hotel, Vesna Hotel, AnaMarina Bay Nha Trang, Paralia Hotel, Navada Hotel, Melisa Hotel,…..</p>",
+				"link": "gioi-thieu.html"
+			},
+			"solutions": {
+				"id_name": "solutions",
+				"title_main": "Khám phá ngay",
+				"text_title": "Các giải pháp của chúng tôi",
+				"url_img": "images/banner/solutions.jpg",
+				"list": [
+					{
+						"url_img": "images/icons/video-intercom.png",
+						"link": "javascript:void(0);",
+						"title": "Hệ thống video intercom"
+					},
+					{
+						"url_img": "images/icons/video-vonference.png",
+						"link": "javascript:void(0);",
+						"title": "Hệ thống Video Conference"
+					},
+					{
+						"url_img": "images/icons/tong-dai.png",
+						"link": "javascript:void(0);",
+						"title": "Hệ thống tổng đài"
+					},
+					{
+						"url_img": "images/icons/am-thanh.png",
+						"link": "javascript:void(0);",
+						"title": "Hệ thống âm thanh"
+					},
+					{
+						"url_img": "images/icons/mang.png",
+						"link": "javascript:void(0);",
+						"title": "Hệ thống mạng"
+					},
+					{
+						"url_img": "images/icons/wifi.png",
+						"link": "javascript:void(0);",
+						"title": "Hệ thống wifi"
+					},
+					{
+						"url_img": "images/icons/truyen-hinh.png",
+						"link": "javascript:void(0);",
+						"title": "Hệ thống truyền hình"
+					},
+					{
+						"url_img": "images/icons/camera.png",
+						"link": "javascript:void(0);",
+						"title": "Hệ thống camera giám sát"
+					},
+					{
+						"url_img": "images/icons/bao-dong-bao-chay.png",
+						"link": "javascript:void(0);",
+						"title": "Hệ thống báo động - báo cháy"
+					},
+					{
+						"url_img": "images/icons/bai-xe.png",
+						"link": "javascript:void(0);",
+						"title": "Hệ thống quản lý bãi xe thông minh"
+					},
+					{
+						"url_img": "images/icons/khoa-cua.png",
+						"link": "javascript:void(0);",
+						"title": "Hệ thống kiểm soát, truy cập, khóa cửa"
+					},
+					{
+						"url_img": "images/icons/wifi.png",
+						"link": "javascript:void(0);",
+						"title": "Hệ thống wifi"
+					}
+				]
+			},
+			"devices": {
+				"id_name": "devices",
+				"title_main": "Thông tin các thiết bị",
+				"text_title": "Danh sách thiết bị của chúng tôi",
+				"list": [
+					{
+						"url_img": "images/devices//thiet-bi-mang.jpg",
+						"link": "ds-san-pham.html",
+						"title": "Thiết bị mạng"
+					},
+					{
+						"url_img": "images/devices//wifi.jpg",
+						"link": "ds-san-pham.html",
+						"title": "Thiết bị Wifi"
+					},
+					{
+						"url_img": "images/devices/servers.jpg",
+						"link": "ds-san-pham.html",
+						"title": "Thiết bị Server"
+					},
+					{
+						"url_img": "images/devices/may-tinh.jpg",
+						"link": "ds-san-pham.html",
+						"title": "Thiết bị máy tính"
+					},
+					{
+						"url_img": "images/devices/may-in.jpg",
+						"link": "ds-san-pham.html",
+						"title": "Thiết bị máy in"
+					},
+					{
+						"url_img": "images/devices/thiet-bi.jpg",
+						"link": "ds-san-pham.html",
+						"title": "Thiết bị"
+					}
+				]
+			},
+			"manager": {
+				"id_name": "manager",
+				"title_main": "Đội ngũ",
+				"text_title": "Quản lý",
+				"list": [
+					{
+						"link": "javascript:void(0);",
+						"url_img": "images/manager/default.jpg",
+						"title_name": "HKT Solutions",
+						"title_position": "Giám đốc"
+					},
+					{
+						"link": "javascript:void(0);",
+						"url_img": "images/manager/default.jpg",
+						"title_name": "HKT Solutions",
+						"title_position": "Trưởng phòng kinh doanh"
+					},
+					{
+						"link": "javascript:void(0);",
+						"url_img": "images/manager/default.jpg",
+						"title_name": "HKT Solutions",
+						"title_position": "Trưởng phòng kỹ thuật"
+					},
+					{
+						"link": "javascript:void(0);",
+						"url_img": "images/manager/default.jpg",
+						"title_name": "HKT Solutions",
+						"title_position": "Trưởng phòng tài chính"
+					}
+				]
+			},
+			"educate": {
+				"id_name": "educate",
+				"title_main": "Đào tạo",
+				"text_title": "Quản trị mạng",
+				"list": [
+					{
+						"link": "javascript:void(0);",
+						"url_img": "images/educate/1.jpg",
+						"class_name": "Đào tạo về VMware",
+						"status": "Đang mở lớp"
+					},
+					{
+						"link": "javascript:void(0);",
+						"url_img": "images/educate/2.jpg",
+						"class_name": "Đào tạo về Microsoft",
+						"status": "Đang mở lớp"
+					},
+					{
+						"link": "javascript:void(0);",
+						"url_img": "images/educate/3.jpg",
+						"class_name": "Đào tạo về Cisco",
+						"status": "Đang mở lớp"
+					}
+				]
+			},
+			"service_special": {
+				"id_name": "service_special",
+				"url_img": "images/banner/service.jpg",
+				"title_main": "Dịch vụ nổi bật",
+				"text_title": "Dịch vụ cho thuê it outsourcing tại nha trang dành cho khách sạn và doanh nghiệp",
+				"description": "Với thế mạnh về giải pháp công nghệ thông tin, sở hữu đội ngũ kỹ thuật được đào tạo bài bản từ các hãng công nghệ, có kiến thức chuyên môn và tay nghề kỹ thuật cao, đáp ứng được tất cả các lĩnh vực kinh doanh. Chúng tôi tự tin giải quyết được vấn đề khó khăn và lo lắng của quý khách hàng trong suốt quá trình vận hành bộ phận này.",
+				"link": "javascript:void(0);"
+			},
+			"counter": {
+				"list": [
+					{
+						"url_img": "images/icons/khach-hang.png",
+						"text_number": "1280+",
+						"title": "Khách hàng"
+					},
+					{
+						"url_img": "images/icons/nhan-vien.png",
+						"text_number": "147+",
+						"title": "Nhân viên"
+					},
+					{
+						"url_img": "images/icons/dich-vu.png",
+						"text_number": "30+",
+						"title": "Dịch vụ"
+					},
+					{
+						"url_img": "images/icons/giai-thuong.png",
+						"text_number": "5+",
+						"title": "Giải thưởng"
+					}
+				]
+			},
+			"testimonial": [
+				{
+					"img": "images/testimonial/1.jpg",
+					"title": "Lê Huyền Nhi Uyên",
+					"job": "Diễn Viên",
+					"text": "Nhân viên ân cần, nhiệt tình. View đẹp, buổi tối nhìn ra biển Nha Trang rất lung linh. Phòng sạch sẽ, tiện nghi, ấm áp. Xung quanh khách sạn có nhiều địa điểm vui chơi, giải trí, ăn uống. Mất khoản 10 phút nếu muốn đi bộ ra biển. Cảm ơn quý khách sạn rất nhiều!"
+				},
+				{
+					"img": "images/testimonial/2.jpg",
+					"title": "Phạm Ngân Hoa",
+					"job": "Người Mẫu",
+					"text": "Nhân viên ân cần, nhiệt tình. View đẹp, buổi tối nhìn ra biển Nha Trang rất lung linh. Phòng sạch sẽ, tiện nghi, ấm áp. Xung quanh khách sạn có nhiều địa điểm vui chơi, giải trí, ăn uống. Mất khoản 10 phút nếu muốn đi bộ ra biển. Cảm ơn quý khách sạn rất nhiều!"
+				},
+				{
+					"img": "images/testimonial/3.jpg",
+					"title": "Lê Trần Linh Nhi",
+					"job": "Ca Sĩ",
+					"text": "Nhân viên ân cần, nhiệt tình. View đẹp, buổi tối nhìn ra biển Nha Trang rất lung linh. Phòng sạch sẽ, tiện nghi, ấm áp. Xung quanh khách sạn có nhiều địa điểm vui chơi, giải trí, ăn uống. Mất khoản 10 phút nếu muốn đi bộ ra biển. Cảm ơn quý khách sạn rất nhiều!"
+				}
+			],
+			"news": {
+				"id_name": "news",
+				"title_main": "Tin tức mới cập nhật",
+				"text_title": "Tin tức mới cập nhật",
+				"link": "ds-tin-tuc.htm",
+				"list": [
+					{
+						"url_img": "images/news/news-1.jpg",
+						"link": "tin-tuc.html",
+						"title": "Quy tắt 30-30-30 khi reset router",
+						"description": "Bộ định tuyến băng thông rộng (Broadband router) được sử dụng cho mạng gia đình có nút reset rất nhỏ nằm ở mặt sau hoặc phía dưới của thiết bị. Nút này cho phép bạn ghi đè trạng thái hiện tại của thiết bị và khôi phục về cài đặt mặc định.</p>",
+						"item_parent": {
+							"title": "Tin tức Công nghệ",
+							"link": "ds-tin-tuc.html"
+						}
+					},
+					{
+						"url_img": "images/news/news-2.jpg",
+						"link": "tin-tuc.html",
+						"title": "Sự khác biệt giữa Mesh Repeater và Roaming cần phải biết",
+						"description": "Trong những năm gần đây công nghệ Mesh Repeater và Roaming được cộng đồng công nghệ nhắc đi nhắc lại và bàn tán xôn xao. Trong bài viết này, HKT Solutions xin chia sẻ lại một bài viết của tác giả Kai Nguyễn (Giám đốc kỹ thuật của Ruijie Networks Việt Nam). Hy vọng với bài chia sẻ này sẽ giúp các bạn có sự phân biệt rõ ràng hơn công nghệ tiên tiến này.",
+						"item_parent": {
+							"title": "Tin tức Công nghệ",
+							"link": "ds-tin-tuc.html"
+						}
+					},
+					{
+						"url_img": "images/news/news-3.jpg",
+						"link": "tin-tuc.html",
+						"title": "Tại sao nên khởi động lại router thường xuyên?",
+						"description": "Mỗi khi đường truyền Internet nhà bạn gặp vấn đề, bạn thường áp dụng phương pháp \"thần thánh\" là rút phích cắm router và chờ vài phút sau rồi cắm lại thì mọi việc sẽ được giải quyết, mạng lại hoạt động ổn định trở lại như bình thường. Vậy đã bao giờ bạn thắc mắc vì sao khởi động lại router thường xuyên lại thần kỳ đến như vậy trong trường hợp này chưa?",
+						"item_parent": {
+							"title": "Tin tức Công nghệ",
+							"link": "ds-tin-tuc.html"
+						}
+					},
+					{
+						"url_img": "images/news/news-4.jpg",
+						"link": "tin-tuc.html",
+						"title": "Sự khác nhau giữa Cloud Server, VPS và Server chuyên dụng",
+						"description": "Cloud Server, VPS và Server chuyên dụng là 3 hệ thống máy chủ phổ biến, tuy có những điểm tương đồng nhưng vẫn sở hữu nhiều đặc tính khác nhau.",
+						"item_parent": {
+							"title": "Tin tức Công nghệ",
+							"link": "ds-tin-tuc.html"
+						}
+					},
+					{
+						"url_img": "images/news/news-5.jpg",
+						"link": "tin-tuc.html",
+						"title": "Ưu nhược điểm của Wifi mesh và Roaming",
+						"description": "Trong thời buổi công nghệ 4.0 rồi, ở đâu làm gì cũng nên cần có kết nối mạng internet ổn định và tin cậy. Trong bài viết này, HKT Solutions chia sẻ một số kiến thức tổng hợp được từ kinh nghiệm thực chiến triển khai các hệ thống mạng. Để giúp các bạn có thể hiểu được ưu nhược điểm của Wifi mesh và Roaming để có giải pháp đầu tư, thay mới thiết bị cho phù hợp với nhu cầu sử dụng",
+						"item_parent": {
+							"title": "Tin tức Công nghệ",
+							"link": "ds-tin-tuc.html"
+						}
+					},
+					{
+						"url_img": "images/news/news-6.jpg",
+						"link": "tin-tuc.html",
+						"title": "Sự khác biệt giữa Mesh Repeater và Roaming cần phải biết",
+						"description": "Trong những năm gần đây công nghệ Mesh Repeater và Roaming được cộng đồng công nghệ nhắc đi nhắc lại và bàn tán xôn xao. Trong bài viết này, HKT Solutions xin chia sẻ lại một bài viết của tác giả Kai Nguyễn (Giám đốc kỹ thuật của Ruijie Networks Việt Nam). Hy vọng với bài chia sẻ này sẽ giúp các bạn có sự phân biệt rõ ràng hơn công nghệ tiên tiến này.",
+						"item_parent": {
+							"title": "Tin tức Công nghệ",
+							"link": "ds-tin-tuc.html"
+						}
+					}
+				]
+			}
+		},
+		"page_product_list": {
+			"title_page": "Thiết bị bị Wifi",
+			"description_page": "Thiết bị bị Wifi",
+			"keywords_page": "thiet bi wifi",
+			"url_image_page": "https://demo.sweetsoft.vn/miracle-luxury-hotel/images/banner/share.jpg",
+			"link_css_page": [
+				"lib",
+				"fonts",
+				"products"
+			],
+			"link_js_page": [
+				"lib"
+			],
+			"breadcrumb": {
+				"url_img": "images/banner/breadcrumb-1.jpg",
+				"menu": [
+					{
+						"title": "Thiết Bị",
+						"link": "san-pham.html"
+					}
+				]
+			},
+			"list": [
+				{
+					"url_img": "images/devices/thiet-bi-mang.jpg",
+					"link": "san-pham.html",
+					"title": "Thiết bị mạng",
+					"price": "106.000"
+				},
+				{
+					"url_img": "images/devices/wifi.jpg",
+					"link": "san-pham.html",
+					"title": "Thiết bị Wifi",
+					"price": "106.000"
+				},
+				{
+					"url_img": "images/devices/servers.jpg",
+					"link": "san-pham.html",
+					"title": "Thiết bị Server",
+					"price": "106.000"
+				},
+				{
+					"url_img": "images/devices/may-tinh.jpg",
+					"link": "san-pham.html",
+					"title": "Thiết bị máy tính",
+					"price": "106.000"
+				},
+				{
+					"url_img": "images/devices/may-in.jpg",
+					"link": "san-pham.html",
+					"title": "Thiết bị máy in",
+					"price": "106.000"
+				},
+				{
+					"url_img": "images/devices/thiet-bi.jpg",
+					"link": "san-pham.html",
+					"title": "Thiết bị",
+					"price": "106.000"
+				}
+			]
+		},
+		"page_contact": {
+			"title_page": "Liên Hệ",
+			"description_page": "Liên Hệ",
+			"keywords_page": "lien he",
+			"url_image_page": "https://demo.sweetsoft.vn/miracle-luxury-hotel/images/banner/share.jpg",
+			"link_css_page": [
+				"lib",
+				"fonts",
+				"contact"
+			],
+			"link_js_page": [
+				"lib"
+			],
+			"breadcrumb": {
+				"url_img": "images/banner/breadcrumb-1.jpg",
+				"menu": []
+			},
+			"contact_info": {
+				"title_main": "Thông tin liên hệ",
+				"text_title": "Liên hệ với chúng tôi",
+				"list": [
+					{
+						"title": "Địa chỉ",
+						"text": "<a href=\"https://www.google.com/maps/place/50+19+Th%C3%A1ng+5,+V%C4%A9nh+Hi%E1%BB%87p,+Th%C3%A0nh+ph%E1%BB%91+Nha+Trang,+Kh%C3%A1nh+H%C3%B2a/@12.2599772,109.1656024,17z/data=!3m1!4b1!4m5!3m4!1s0x31705d6d8504ad75:0x327ce7c806006531!8m2!3d12.2599772!4d109.1677911\" class=\"linkItem\" target=\"_blank\" title=\"50 Đường 19/5, Vĩnh Điềm Trung, Nha Trang, Khánh Hòa\">50 Đường 19/5, Vĩnh Điềm Trung<br />Nha Trang, Khánh Hòa</a>",
+						"url_img": "images/icons/address.png"
+					},
+					{
+						"title": "Email",
+						"text": "<a href=\"mailto:info@hktsolutions.vn\" class=\"linkItem\" title=\"info@hktsolutions.vn\">info@hktsolutions.vn</a>",
+						"url_img": "images/icons/mail-1.png"
+					},
+					{
+						"title": "Điện thoại",
+						"text": "<a href=\"tel:0868552526\" class=\"linkItem\" title=\"CSKH: 086 8552 526\">CSKH: 086 8552 526</a> <a href=\"tel:0941552233\" class=\"linkItem\" title=\"Hotline: 0941 552 233\">Hotline: 0941 552 233</a>",
+						"url_img": "images/icons/phone.png"
+					}
+				]
+			},
+			"contact_form": {
+				"title_main": "Nhắn tin",
+				"text_title": "Nhắn tin cho <span style=\"color: #00cdfc;\">HKT Solutions</span>",
+				"url_img": "images/banner/contact.jpg"
+			},
+			"url_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.8270987495243!2d109.16560241481466!3d12.259977191325536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31705d6d8504ad75%3A0x327ce7c806006531!2zNTAgMTkgVGjDoW5nIDUsIFbEqW5oIEhp4buHcCwgVGjDoG5oIHBo4buRIE5oYSBUcmFuZywgS2jDoW5oIEjDsmE!5e0!3m2!1svi!2s!4v1636939186987!5m2!1svi!2s"
+		},
+		"page_news_list": {
+			"title_page": "Công nghệ",
+			"description_page": "Công nghệ",
+			"keywords_page": "cong-nghe",
+			"url_image_page": "https://demo.sweetsoft.vn/miracle-luxury-hotel/images/banner/share.jpg",
+			"link_css_page": [
+				"lib",
+				"fonts",
+				"news"
+			],
+			"link_js_page": [
+				"lib"
+			],
+			"breadcrumb": {
+				"url_img": "images/banner/breadcrumb-1.jpg",
+				"menu": [
+					{
+						"title": "Tin tức",
+						"link": "danh-muc-tin-tuc.html"
+					}
+				]
+			},
+			"list": [
+				{
+					"url_img": "images/news/news-1.jpg",
+					"link": "tin-tuc.html",
+					"title": "Quy tắt 30-30-30 khi reset router",
+					"description": "Bộ định tuyến băng thông rộng (Broadband router) được sử dụng cho mạng gia đình có nút reset rất nhỏ nằm ở mặt sau hoặc phía dưới của thiết bị. Nút này cho phép bạn ghi đè trạng thái hiện tại của thiết bị và khôi phục về cài đặt mặc định.</p>",
+					"item_parent": {
+						"title": "Tin tức Công nghệ",
+						"link": "ds-tin-tuc.html"
+					}
+				},
+				{
+					"url_img": "images/news/news-2.jpg",
+					"link": "tin-tuc.html",
+					"title": "Sự khác biệt giữa Mesh Repeater và Roaming cần phải biết",
+					"description": "Trong những năm gần đây công nghệ Mesh Repeater và Roaming được cộng đồng công nghệ nhắc đi nhắc lại và bàn tán xôn xao. Trong bài viết này, HKT Solutions xin chia sẻ lại một bài viết của tác giả Kai Nguyễn (Giám đốc kỹ thuật của Ruijie Networks Việt Nam). Hy vọng với bài chia sẻ này sẽ giúp các bạn có sự phân biệt rõ ràng hơn công nghệ tiên tiến này.",
+					"item_parent": {
+						"title": "Tin tức Công nghệ",
+						"link": "ds-tin-tuc.html"
+					}
+				},
+				{
+					"url_img": "images/news/news-3.jpg",
+					"link": "tin-tuc.html",
+					"title": "Tại sao nên khởi động lại router thường xuyên?",
+					"description": "Mỗi khi đường truyền Internet nhà bạn gặp vấn đề, bạn thường áp dụng phương pháp \"thần thánh\" là rút phích cắm router và chờ vài phút sau rồi cắm lại thì mọi việc sẽ được giải quyết, mạng lại hoạt động ổn định trở lại như bình thường. Vậy đã bao giờ bạn thắc mắc vì sao khởi động lại router thường xuyên lại thần kỳ đến như vậy trong trường hợp này chưa?",
+					"item_parent": {
+						"title": "Tin tức Công nghệ",
+						"link": "ds-tin-tuc.html"
+					}
+				},
+				{
+					"url_img": "images/news/news-4.jpg",
+					"link": "tin-tuc.html",
+					"title": "Sự khác nhau giữa Cloud Server, VPS và Server chuyên dụng",
+					"description": "Cloud Server, VPS và Server chuyên dụng là 3 hệ thống máy chủ phổ biến, tuy có những điểm tương đồng nhưng vẫn sở hữu nhiều đặc tính khác nhau.",
+					"item_parent": {
+						"title": "Tin tức Công nghệ",
+						"link": "ds-tin-tuc.html"
+					}
+				},
+				{
+					"url_img": "images/news/news-5.jpg",
+					"link": "tin-tuc.html",
+					"title": "Ưu nhược điểm của Wifi mesh và Roaming",
+					"description": "Trong thời buổi công nghệ 4.0 rồi, ở đâu làm gì cũng nên cần có kết nối mạng internet ổn định và tin cậy. Trong bài viết này, HKT Solutions chia sẻ một số kiến thức tổng hợp được từ kinh nghiệm thực chiến triển khai các hệ thống mạng. Để giúp các bạn có thể hiểu được ưu nhược điểm của Wifi mesh và Roaming để có giải pháp đầu tư, thay mới thiết bị cho phù hợp với nhu cầu sử dụng",
+					"item_parent": {
+						"title": "Tin tức Công nghệ",
+						"link": "ds-tin-tuc.html"
+					}
+				},
+				{
+					"url_img": "images/news/news-6.jpg",
+					"link": "tin-tuc.html",
+					"title": "Sự khác biệt giữa Mesh Repeater và Roaming cần phải biết",
+					"description": "Trong những năm gần đây công nghệ Mesh Repeater và Roaming được cộng đồng công nghệ nhắc đi nhắc lại và bàn tán xôn xao. Trong bài viết này, HKT Solutions xin chia sẻ lại một bài viết của tác giả Kai Nguyễn (Giám đốc kỹ thuật của Ruijie Networks Việt Nam). Hy vọng với bài chia sẻ này sẽ giúp các bạn có sự phân biệt rõ ràng hơn công nghệ tiên tiến này.",
+					"item_parent": {
+						"title": "Tin tức Công nghệ",
+						"link": "ds-tin-tuc.html"
+					}
+				}
+			]
+		},
+		"news_list_right": {
+			"updated_news": [
+				{
+					"url_img": "images/news/news-1.jpg",
+					"link": "tin-tuc.html",
+					"title": "Quy tắt 30-30-30 khi reset router",
+					"description": "Bộ định tuyến băng thông rộng (Broadband router) được sử dụng cho mạng gia đình có nút reset rất nhỏ nằm ở mặt sau hoặc phía dưới của thiết bị. Nút này cho phép bạn ghi đè trạng thái hiện tại của thiết bị và khôi phục về cài đặt mặc định.</p>",
+					"item_parent": {
+						"title": "Tin tức Công nghệ",
+						"link": "ds-tin-tuc.html"
+					}
+				},
+				{
+					"url_img": "images/news/news-2.jpg",
+					"link": "tin-tuc.html",
+					"title": "Sự khác biệt giữa Mesh Repeater và Roaming cần phải biết",
+					"description": "Trong những năm gần đây công nghệ Mesh Repeater và Roaming được cộng đồng công nghệ nhắc đi nhắc lại và bàn tán xôn xao. Trong bài viết này, HKT Solutions xin chia sẻ lại một bài viết của tác giả Kai Nguyễn (Giám đốc kỹ thuật của Ruijie Networks Việt Nam). Hy vọng với bài chia sẻ này sẽ giúp các bạn có sự phân biệt rõ ràng hơn công nghệ tiên tiến này.",
+					"item_parent": {
+						"title": "Tin tức Công nghệ",
+						"link": "ds-tin-tuc.html"
+					}
+				},
+				{
+					"url_img": "images/news/news-3.jpg",
+					"link": "tin-tuc.html",
+					"title": "Tại sao nên khởi động lại router thường xuyên?",
+					"description": "Mỗi khi đường truyền Internet nhà bạn gặp vấn đề, bạn thường áp dụng phương pháp \"thần thánh\" là rút phích cắm router và chờ vài phút sau rồi cắm lại thì mọi việc sẽ được giải quyết, mạng lại hoạt động ổn định trở lại như bình thường. Vậy đã bao giờ bạn thắc mắc vì sao khởi động lại router thường xuyên lại thần kỳ đến như vậy trong trường hợp này chưa?",
+					"item_parent": {
+						"title": "Tin tức Công nghệ",
+						"link": "ds-tin-tuc.html"
+					}
+				},
+				{
+					"url_img": "images/news/news-4.jpg",
+					"link": "tin-tuc.html",
+					"title": "Sự khác nhau giữa Cloud Server, VPS và Server chuyên dụng",
+					"description": "Cloud Server, VPS và Server chuyên dụng là 3 hệ thống máy chủ phổ biến, tuy có những điểm tương đồng nhưng vẫn sở hữu nhiều đặc tính khác nhau.",
+					"item_parent": {
+						"title": "Tin tức Công nghệ",
+						"link": "ds-tin-tuc.html"
+					}
+				},
+				{
+					"url_img": "images/news/news-5.jpg",
+					"link": "tin-tuc.html",
+					"title": "Ưu nhược điểm của Wifi mesh và Roaming",
+					"description": "Trong thời buổi công nghệ 4.0 rồi, ở đâu làm gì cũng nên cần có kết nối mạng internet ổn định và tin cậy. Trong bài viết này, HKT Solutions chia sẻ một số kiến thức tổng hợp được từ kinh nghiệm thực chiến triển khai các hệ thống mạng. Để giúp các bạn có thể hiểu được ưu nhược điểm của Wifi mesh và Roaming để có giải pháp đầu tư, thay mới thiết bị cho phù hợp với nhu cầu sử dụng",
+					"item_parent": {
+						"title": "Tin tức Công nghệ",
+						"link": "ds-tin-tuc.html"
+					}
+				}
+			],
+			"item_special": [
+				{
+					"link": "ds-tin-tuc.html",
+					"title": "Tin hoạt động"
+				},
+				{
+					"link": "ds-tin-tuc.html",
+					"title": "Tin tuyển dụng"
+				},
+				{
+					"link": "ds-tin-tuc.html",
+					"title": "Công nghệ"
+				},
+				{
+					"link": "ds-tin-tuc.html",
+					"title": "Kinh nghiệm – Thủ thuật"
+				}
+			],
+			"tag_list": [
+				{
+					"link": "ds-tin-tuc.html",
+					"title": "Mesh Repeater"
+				},
+				{
+					"link": "ds-tin-tuc.html",
+					"title": "Roaming"
+				}
+			]
+		},
+		"why_choose": {
+			"id_name": "why_choose",
+			"url_img": "images/banner/why-choose.jpg",
+			"title_main": "Lợi ích",
+			"text_title": "Một số lý do<br>bạn nên chọn <span style=\"color: #00cdfc;\">HKT Solutions</span>",
+			"list": [
+				{
+					"url_img": "images/icons/kinh-nghiem.png",
+					"title": "Kinh nghiệm phong phú",
+					"description": "Công ty luôn mong muốn mang đến cho khách hàng những trải nghiệm chuyên nghiệp bằng kinh nghiệm nhiều năm vận hành."
+				},
+				{
+					"url_img": "images/icons/nhan-vien.png",
+					"title": "Nhân viên chăm chỉ",
+					"description": "Đội ngũ nhân viên trẻ, năng động, sáng tạo, nhiệt huyết và có trách nghiệm."
+				},
+				{
+					"url_img": "images/icons/hien-dai.png",
+					"title": "Công nghệ hiện đại",
+					"description": "Công ty còn đầu tư hạ tầng và cho thuê IT để phục vụ nhu cầu khách hàng một cách tối ưu, linh động và hiệu quả nhất."
+				}
+			]
+		},
+		"page_news_item": {
+			"title_page": "Tin Tức",
+			"description_page": "Tin Tức",
+			"keywords_page": "tin-tuc",
+			"url_image_page": "https://demo.sweetsoft.vn/miracle-luxury-hotel/images/banner/share.jpg",
+			"link_css_page": [
+				"lib",
+				"fonts",
+				"list-item-news"
+			],
+			"link_js_page": [
+				"lib"
+			],
+			"breadcrumb": {
+				"url_img": "images/banner/breadcrumb-1.jpg",
+				"menu": []
+			},
+			"list_item": [
+				{
+					"title": "Tin hoạt động",
+					"link": "ds-tin-tuc.html",
+					"list": [
+						{
+							"url_img": "images/news/news-1.jpg",
+							"link": "tin-tuc.html",
+							"title": "Quy tắt 30-30-30 khi reset router",
+							"description": "Bộ định tuyến băng thông rộng (Broadband router) được sử dụng cho mạng gia đình có nút reset rất nhỏ nằm ở mặt sau hoặc phía dưới của thiết bị. Nút này cho phép bạn ghi đè trạng thái hiện tại của thiết bị và khôi phục về cài đặt mặc định.</p>",
+							"item_parent": {
+								"title": "Tin tức Công nghệ",
+								"link": "ds-tin-tuc.html"
+							}
+						},
+						{
+							"url_img": "images/news/news-2.jpg",
+							"link": "tin-tuc.html",
+							"title": "Sự khác biệt giữa Mesh Repeater và Roaming cần phải biết",
+							"description": "Trong những năm gần đây công nghệ Mesh Repeater và Roaming được cộng đồng công nghệ nhắc đi nhắc lại và bàn tán xôn xao. Trong bài viết này, HKT Solutions xin chia sẻ lại một bài viết của tác giả Kai Nguyễn (Giám đốc kỹ thuật của Ruijie Networks Việt Nam). Hy vọng với bài chia sẻ này sẽ giúp các bạn có sự phân biệt rõ ràng hơn công nghệ tiên tiến này.",
+							"item_parent": {
+								"title": "Tin tức Công nghệ",
+								"link": "ds-tin-tuc.html"
+							}
+						},
+						{
+							"url_img": "images/news/news-3.jpg",
+							"link": "tin-tuc.html",
+							"title": "Tại sao nên khởi động lại router thường xuyên?",
+							"description": "Mỗi khi đường truyền Internet nhà bạn gặp vấn đề, bạn thường áp dụng phương pháp \"thần thánh\" là rút phích cắm router và chờ vài phút sau rồi cắm lại thì mọi việc sẽ được giải quyết, mạng lại hoạt động ổn định trở lại như bình thường. Vậy đã bao giờ bạn thắc mắc vì sao khởi động lại router thường xuyên lại thần kỳ đến như vậy trong trường hợp này chưa?",
+							"item_parent": {
+								"title": "Tin tức Công nghệ",
+								"link": "ds-tin-tuc.html"
+							}
+						},
+						{
+							"url_img": "images/news/news-4.jpg",
+							"link": "tin-tuc.html",
+							"title": "Sự khác nhau giữa Cloud Server, VPS và Server chuyên dụng",
+							"description": "Cloud Server, VPS và Server chuyên dụng là 3 hệ thống máy chủ phổ biến, tuy có những điểm tương đồng nhưng vẫn sở hữu nhiều đặc tính khác nhau.",
+							"item_parent": {
+								"title": "Tin tức Công nghệ",
+								"link": "ds-tin-tuc.html"
+							}
+						},
+						{
+							"url_img": "images/news/news-5.jpg",
+							"link": "tin-tuc.html",
+							"title": "Ưu nhược điểm của Wifi mesh và Roaming",
+							"description": "Trong thời buổi công nghệ 4.0 rồi, ở đâu làm gì cũng nên cần có kết nối mạng internet ổn định và tin cậy. Trong bài viết này, HKT Solutions chia sẻ một số kiến thức tổng hợp được từ kinh nghiệm thực chiến triển khai các hệ thống mạng. Để giúp các bạn có thể hiểu được ưu nhược điểm của Wifi mesh và Roaming để có giải pháp đầu tư, thay mới thiết bị cho phù hợp với nhu cầu sử dụng",
+							"item_parent": {
+								"title": "Tin tức Công nghệ",
+								"link": "ds-tin-tuc.html"
+							}
+						},
+						{
+							"url_img": "images/news/news-6.jpg",
+							"link": "tin-tuc.html",
+							"title": "Sự khác biệt giữa Mesh Repeater và Roaming cần phải biết",
+							"description": "Trong những năm gần đây công nghệ Mesh Repeater và Roaming được cộng đồng công nghệ nhắc đi nhắc lại và bàn tán xôn xao. Trong bài viết này, HKT Solutions xin chia sẻ lại một bài viết của tác giả Kai Nguyễn (Giám đốc kỹ thuật của Ruijie Networks Việt Nam). Hy vọng với bài chia sẻ này sẽ giúp các bạn có sự phân biệt rõ ràng hơn công nghệ tiên tiến này.",
+							"item_parent": {
+								"title": "Tin tức Công nghệ",
+								"link": "ds-tin-tuc.html"
+							}
+						}
+					]
+				},
+				{
+					"title": "Tin tức Công nghệ",
+					"link": "ds-tin-tuc.html",
+					"list": [
+						{
+							"url_img": "images/news/news-1.jpg",
+							"link": "tin-tuc.html",
+							"title": "Quy tắt 30-30-30 khi reset router",
+							"description": "Bộ định tuyến băng thông rộng (Broadband router) được sử dụng cho mạng gia đình có nút reset rất nhỏ nằm ở mặt sau hoặc phía dưới của thiết bị. Nút này cho phép bạn ghi đè trạng thái hiện tại của thiết bị và khôi phục về cài đặt mặc định.</p>",
+							"item_parent": {
+								"title": "Tin tức Công nghệ",
+								"link": "ds-tin-tuc.html"
+							}
+						},
+						{
+							"url_img": "images/news/news-2.jpg",
+							"link": "tin-tuc.html",
+							"title": "Sự khác biệt giữa Mesh Repeater và Roaming cần phải biết",
+							"description": "Trong những năm gần đây công nghệ Mesh Repeater và Roaming được cộng đồng công nghệ nhắc đi nhắc lại và bàn tán xôn xao. Trong bài viết này, HKT Solutions xin chia sẻ lại một bài viết của tác giả Kai Nguyễn (Giám đốc kỹ thuật của Ruijie Networks Việt Nam). Hy vọng với bài chia sẻ này sẽ giúp các bạn có sự phân biệt rõ ràng hơn công nghệ tiên tiến này.",
+							"item_parent": {
+								"title": "Tin tức Công nghệ",
+								"link": "ds-tin-tuc.html"
+							}
+						},
+						{
+							"url_img": "images/news/news-3.jpg",
+							"link": "tin-tuc.html",
+							"title": "Tại sao nên khởi động lại router thường xuyên?",
+							"description": "Mỗi khi đường truyền Internet nhà bạn gặp vấn đề, bạn thường áp dụng phương pháp \"thần thánh\" là rút phích cắm router và chờ vài phút sau rồi cắm lại thì mọi việc sẽ được giải quyết, mạng lại hoạt động ổn định trở lại như bình thường. Vậy đã bao giờ bạn thắc mắc vì sao khởi động lại router thường xuyên lại thần kỳ đến như vậy trong trường hợp này chưa?",
+							"item_parent": {
+								"title": "Tin tức Công nghệ",
+								"link": "ds-tin-tuc.html"
+							}
+						},
+						{
+							"url_img": "images/news/news-4.jpg",
+							"link": "tin-tuc.html",
+							"title": "Sự khác nhau giữa Cloud Server, VPS và Server chuyên dụng",
+							"description": "Cloud Server, VPS và Server chuyên dụng là 3 hệ thống máy chủ phổ biến, tuy có những điểm tương đồng nhưng vẫn sở hữu nhiều đặc tính khác nhau.",
+							"item_parent": {
+								"title": "Tin tức Công nghệ",
+								"link": "ds-tin-tuc.html"
+							}
+						},
+						{
+							"url_img": "images/news/news-5.jpg",
+							"link": "tin-tuc.html",
+							"title": "Ưu nhược điểm của Wifi mesh và Roaming",
+							"description": "Trong thời buổi công nghệ 4.0 rồi, ở đâu làm gì cũng nên cần có kết nối mạng internet ổn định và tin cậy. Trong bài viết này, HKT Solutions chia sẻ một số kiến thức tổng hợp được từ kinh nghiệm thực chiến triển khai các hệ thống mạng. Để giúp các bạn có thể hiểu được ưu nhược điểm của Wifi mesh và Roaming để có giải pháp đầu tư, thay mới thiết bị cho phù hợp với nhu cầu sử dụng",
+							"item_parent": {
+								"title": "Tin tức Công nghệ",
+								"link": "ds-tin-tuc.html"
+							}
+						},
+						{
+							"url_img": "images/news/news-6.jpg",
+							"link": "tin-tuc.html",
+							"title": "Sự khác biệt giữa Mesh Repeater và Roaming cần phải biết",
+							"description": "Trong những năm gần đây công nghệ Mesh Repeater và Roaming được cộng đồng công nghệ nhắc đi nhắc lại và bàn tán xôn xao. Trong bài viết này, HKT Solutions xin chia sẻ lại một bài viết của tác giả Kai Nguyễn (Giám đốc kỹ thuật của Ruijie Networks Việt Nam). Hy vọng với bài chia sẻ này sẽ giúp các bạn có sự phân biệt rõ ràng hơn công nghệ tiên tiến này.",
+							"item_parent": {
+								"title": "Tin tức Công nghệ",
+								"link": "ds-tin-tuc.html"
+							}
+						}
+					]
+				}
+			]
+		},
+		"page_news_detail": {
+			"title_page": "Sự khác biệt giữa Mesh Repeater và Roaming cần phải biết",
+			"description_page": "Sự khác biệt giữa Mesh Repeater và Roaming cần phải biết",
+			"keywords_page": "Su-khac-biet-giua-Mesh-Repeater-va-Roaming-can-phai-biet",
+			"url_image_page": "https://demo.sweetsoft.vn/miracle-luxury-hotel/images/banner/share.jpg",
+			"link_css_page": [
+				"lib",
+				"fonts",
+				"news-detail"
+			],
+			"link_js_page": [
+				"lib"
+			],
+			"breadcrumb": {
+				"url_img": "images/banner/breadcrumb-1.jpg",
+				"menu": [
+					{
+						"title": "Tin tức",
+						"link": "danh-muc-tin-tuc.html"
+					},
+					{
+						"title": "Công nghệ",
+						"link": "ds-tin-tuc.html"
+					}
+				]
+			},
+			"url_img": "images/news/news-6.jpg",
+			"sumary": "Trong những năm gần đây công nghệ Mesh Repeater và Roaming được cộng đồng công nghệ nhắc đi nhắc lại và bàn tán xôn xao. Trong bài viết này, HKT Solutions xin chia sẻ lại một bài viết của tác giả Kai Nguyễn (Giám đốc kỹ thuật của Ruijie Networks Việt Nam). Hy vọng với bài chia sẻ này sẽ giúp các bạn có sự phân biệt rõ ràng hơn công nghệ tiên tiến này."
+		},
+		"page_product_detail": {
+			"title_page": "Bộ phát wifi tplink , cục phát wifi tplink 2 râu wr 842N giá rẻ",
+			"description_page": "Bộ phát wifi tplink , cục phát wifi tplink 2 râu wr 842N giá rẻ",
+			"keywords_page": "bo-phat-wifi-tplink-cuc-phat-wifi-tplink-2-rau-wr-842n-gia-re",
+			"url_image_page": "https://demo.sweetsoft.vn/miracle-luxury-hotel/images/banner/share.jpg",
+			"link_css_page": [
+				"lib",
+				"fonts",
+				"product-detail"
+			],
+			"link_js_page": [
+				"lib",
+				"product-detail"
+			],
+			"breadcrumb": {
+				"url_img": "images/banner/breadcrumb-1.jpg",
+				"menu": [
+					{
+						"title": "Thiết Bị",
+						"link": "ds-san-pham.html"
+					},
+					{
+						"title": "Thiết bị bị Wifi",
+						"link": "ds-san-pham.html"
+					}
+				]
+			},
+			"slide": [
+				{
+					"type": "img",
+					"url": "images/devices/wifi-1.jpg"
+				},
+				{
+					"type": "img",
+					"url": "images/devices/wifi-2.jpg"
+				},
+				{
+					"type": "img",
+					"url": "images/devices/wifi-3.jpg"
+				},
+				{
+					"type": "img",
+					"url": "images/devices/wifi-4.jpg"
+				},
+				{
+					"type": "img",
+					"url": "images/devices/wifi-5.jpg"
+				},
+				{
+					"type": "img",
+					"url": "images/devices/wifi-6.jpg"
+				},
+				{
+					"type": "youtube",
+					"url": "https://www.youtube.com/watch?v=YbvEj4CrOcI",
+					"thumbnail": "images/devices/wifi.jpg"
+				},
+				{
+					"type": "video",
+					"url": "https://demo.sweetsoft.vn/an-binh-stone/assets/videos/da_nha_tao_la_gi.mp4",
+					"thumbnail": "images/devices/wifi-7.jpg"
+				}
+			],
+			"price": "200.000",
+			"sumary": "Tính năng nổi bật kích sóng Repeater: Kích sóng wifi, Thu sóng wifi và phát lại với tốc độ cao mà không cần đi dây đảm bảo thẩm mỹ. Với điều kiện chỉ cần Mật Khẩu wifi cần thu. TPlink 842N sẽ thu sóng và phát lại với tốc độ lên đến 300 Mbps"
+		},
+		"page_about": {
+			"title_page": "Giới Thiệu",
+			"description_page": "Giới Thiệu",
+			"keywords_page": "gioi-thieu",
+			"url_image_page": "https://demo.sweetsoft.vn/miracle-luxury-hotel/images/banner/share.jpg",
+			"link_css_page": [
+				"lib",
+				"fonts",
+				"about"
+			],
+			"link_js_page": [
+				"lib"
+			],
+			"breadcrumb": {
+				"url_img": "images/banner/breadcrumb-1.jpg",
+				"menu": []
+			},
+			"text_about": {
+				"title_main": "Giới thiệu",
+				"text_title": "Công ty Tư Vấn Giải Pháp Công Nghệ <span style=\"color: #00cdfc;\">HKT Solutions</span>",
+				"url_img": "images/banner/about-1.jpg"
+			},
+			"video_about": {
+				"title_main": "Video của chúng tôi",
+				"text_title": "TVC Giới thiệu - HKT Solution Nha Trang",
+				"url_img": "images/banner/service.jpg",
+				"url_video": "https://www.youtube.com/embed/YbvEj4CrOcI",
+				"link": "https://www.youtube.com/channel/UCSYN3pkcUTPblrdsSPohxAQ"
+			}
+		}
+	}
+}

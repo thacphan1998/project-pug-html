@@ -1,0 +1,161 @@
+.btn3,
+.btn2,
+.btn1 {
+    text-transform: uppercase;
+    color: $color1;
+    background-color: $color20;
+    font-weight: 700;
+    @include borderRadius(30px);
+    @include transition(0.5s);
+    padding: 15px 20px;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    border: 2px solid $color20;
+
+    svg {
+        width: 15px;
+        height: 15px;
+        @include translate(0, -2px);
+        margin-left: 2px;
+    }
+
+    &:hover {
+        background-color: $color13;
+        color: $color1;
+        border-color: $color3;
+    }
+}
+
+.btn3,
+.btn2 {
+    padding: 15px 30px;
+}
+
+.btn3 {
+    background-color: $color1;
+    color: $color20;
+    border-color: $color20;
+}
+
+.btn4 {
+    text-transform: capitalize;
+    color: $color20;
+    background-color: transparent;
+    font-weight: 700;
+    @include transition(0.5s);
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 22px;
+
+    svg {
+        width: 15px;
+        height: 15px;
+        @include translate(0, -2px);
+        margin-left: 2px;
+    }
+
+    &:hover {
+        color: $color3;
+    }
+}
+
+// btn slide
+.btnSlideType1 {
+    position: absolute;
+    top: 50%;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    z-index: 800;
+    @include transition(0.5s);
+    display: inline-block;
+    text-align: center;
+    @include translate(0, -50%);
+    @include transition(0.5s);
+    color: $color3;
+    width: 50px;
+    height: 50px;
+    @include borderRadius(100%);
+    border: 2px solid $color3;
+    text-align: center;
+
+    svg {
+        width: 18px;
+        height: 46px;
+        display: inline-block;
+    }
+
+    &.left {
+        left: 15px;
+    }
+
+    &.right {
+        right: 15px;
+    }
+
+    &:hover {
+        color: $color1;
+        background-color: $color3;
+    }
+}
+
+.dotsSlide1 {
+    padding-bottom: 40px;
+    
+    .slick-dots {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        list-style: none;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        @include translate(-50%, 0);
+        z-index: 500;
+
+        li {
+            display: inline-block;
+            width: 40px;
+            height: 10px;
+            position: relative;
+            margin: 0;
+            cursor: pointer;
+
+            &:after {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                @include translate(-50%, -50%);
+                content: '';
+                width: 30px;
+                height: 10px;
+                background-color: $color6;
+                @include transition(0.5s);
+                @include borderRadius(30px);
+            }
+
+            &.slick-active,
+            &:hover {
+                &:after {
+                    background-color: $color20;
+                    width: 40px;
+                }
+            }
+        }
+
+        button {
+            display: none;
+        }
+    }
+}
+
+@media(max-width: 991px){
+    .dotsSlide1 {
+        .slick-dots {
+            bottom: 10px;
+        }
+    }
+}

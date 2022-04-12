@@ -1,0 +1,99 @@
+@keyframes ripple-wave-book {
+    $colorShadow: $color25;
+
+    0% {
+        box-shadow:
+            0 0 $colorShadow,
+            0 0 0 5px $colorShadow,
+            0 0 0 15px $colorShadow;
+        opacity: 1;
+    }
+    50% {
+        box-shadow:
+            0 0 0 10px $colorShadow,
+            0 0 0 20px $colorShadow,
+            0 0 0 30px $colorShadow;
+        opacity: 1;
+    }
+    95% {        
+        opacity: 0;
+    }
+    100% {
+        box-shadow:
+            0 0 $colorShadow,
+            0 0 0 5px $colorShadow,
+            0 0 0 15px $colorShadow;
+        opacity: 1;
+    }
+}
+
+.wrapBtnBookScreen {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 990;
+
+    svg {
+        display: inline-block;
+        width: 17px;
+        height: 32px;
+        margin-left: 30px;
+        position: relative;
+        z-index: 3;
+    }
+
+    a {
+        @include transition(0.5s);
+        color: $color1;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+        display: block;
+        padding: 10px 17px 10px 18px;
+        @include borderRadius(30px);
+        background-color: $color3;
+        position: relative;
+        border: 1px solid $color3;
+
+        &::before {
+            position: absolute;
+            top: 4px;
+            right: 5px;
+            width: 42px;
+            height: 42px;
+            content: '';
+            background-color: $color26;
+            @include borderRadius(100%);
+            z-index: 1;
+        }
+
+        &::after {
+            position: absolute;
+            top: 4px;
+            right: 5px;
+            width: 42px;
+            height: 42px;
+            content: '';
+            @include borderRadius(100%);
+            z-index: 0;
+            animation: ripple-wave-book 3s linear infinite;
+            animation-play-state: running;
+        }
+
+        &:hover {
+            background-color: $color1;
+            color: $color3;
+
+            svg {
+                color: $color1;
+            }
+        }
+    }
+}
+
+.modal-open {
+    .wrapBtnBookScreen {
+        right: 27px;
+    }
+}

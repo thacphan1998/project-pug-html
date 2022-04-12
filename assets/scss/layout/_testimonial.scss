@@ -1,0 +1,96 @@
+.wrapTestimonial {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .bgItem {
+        background-color: $color21;
+    }
+
+    .wrapSlideItem {
+        margin: 30px -15px 0 -15px;
+    }
+
+    .itemSlide {
+        padding: 15px;
+    }
+
+    .contentItemSlide {
+        padding: 30px;
+        background-color: $color1;
+        @include borderRadius(20px);
+        position: relative;
+    }
+
+    .wrapIcon {
+        position: absolute;
+        top: -25px;
+        color: $color20;
+        right: 30px;
+
+        svg {
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+    .wrapStar {
+        color: $color20;
+
+        svg {
+            width: 18px;
+            height: 18px;
+        }
+    }
+
+    .text {
+        margin-top: 5px;
+    }
+
+    .wrapImg {
+        width: 70px;
+        height: 70px;
+        padding: 5px;
+        border: 2px dashed $color20;
+        @include borderRadius(100%);
+
+        .wrapImgResize {
+            @include borderRadius(100%);
+        }
+    }
+
+    .media {
+        margin-top: 15px;
+        
+        .media-body {
+            padding-left: 10px;
+        }
+
+        .titleItem {
+            font-family: $nameFont2;
+            color: $color16;
+            line-height: 30px;
+        }
+
+        .job {
+            margin: 5px 0 0 0;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .wrapTestimonial {
+        .contentItemSlide {
+            padding: 15px;
+        }
+
+        .wrapSlideItem {
+            margin: 15px -7.5px 0 -7.5px;
+        }
+    
+        .itemSlide {
+            padding: 30px 7.5px 0 7.5px;
+        }
+    }
+}

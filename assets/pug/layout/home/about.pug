@@ -1,0 +1,28 @@
+// about
+.wrapAboutHome.titleLeft.wrapContent1.bgColor1
+    .container-xl.containerItem
+        .contentItem
+            .row.rowItem
+                .col-lg-6.colImgAbouthome
+                    .wrapImgResize.wrapImgAboutHome
+                        img.imgAbouthome(src= data_page.about.url_img, alt= data.general.title_website)
+
+                .col-lg-6.colTextAboutHome
+                    +render_title('GIỚI THIỆU', 'Miracle Luxury Hotel<br /><span style="color: #ffc107;">Nha Trang</span>')
+
+                    .wrapTextAboutHome
+                        p Khách sạn Miracle Luxury, nơi quy tụ không gian sang trọng, đẳng cấp
+
+                        ul
+                            li Nơi lưu giữ những trải nghiệm, điểm đến an toàn và sự hài lòng của quý khách
+                            li Check-in với các hạng phòng sang trọng, đầy đủ các tiện nghi, ban công hướng biển…
+                            li Tọa lạc ngay trung tâm thành phố, gần các trung tâm vui chơi giải trí, mua sắm và ăn uống... 
+                            li ‍Miễn phí tận hưởng các Dịch vụ tiện ích Khách sạn: Hồ bơi, Gym, Xông hơi, Xông khô, Wifi…
+                            li Miễn phí trang trí phòng Honey moon dành cho các cặp đôi
+                            li Hỗ trợ cho khách hàng nhận phòng sớm và trả phòng trễ tùy theo tình trạng phòng có sẵn.
+                    
+                    a.btn2.btnSeeMoreAbout(href= data_page.about.link, title='Xem thêm')
+                        | Xem thêm
+                        svg(xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512')
+                                    path(fill='currentColor' d='M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z')
+// end about

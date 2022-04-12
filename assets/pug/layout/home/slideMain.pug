@@ -1,0 +1,33 @@
+// slide main
+//- .wrapSlideMain
+//-     .contentSlideMain
+//-         .showSlideMain
+//-             each item in data_page.slide_main
+//-                 .elementSlideMain
+//-                     .contentElSlidemain
+//-                         .wrapImgSlideMain.wrapImgResize
+//-                             img(src= item.url_img alt= item.title_main)
+
+                        //- .wrapTextSlideMain
+                        //-     .container-xl.containerTextSlideMain
+                        //-         .contentTextSlideMain
+                        //-             .titleSubSlideMain= item.title_sub
+
+                        //-             .titleMainOnSlideMain !{item.title_main}
+
+                        //-             .wrapDesSlideMain
+                        //-                 p !{item.text}
+
+                        //-             .wrapBtnSlideMain
+                        //-                 a.btn2.btnDiscoverSlideMain(href= item.button_discover.link  title= item.button_discover.title)
+                        //-                     = item.button_discover.title
+
+                        //-                 a.btn3.btnCallSlideMain(href= item.button_call.link title= item.button_call.title)
+                        //-                     = item.button_call.title
+// end slide main
+
+.wrapBanner 
+    each item in data_page.slide_main   
+        .wrapBackgroundBanner 
+            .bannerImg
+                img(src= item.url_img alt= item.title_main)

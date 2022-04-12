@@ -1,0 +1,67 @@
+.wrapTextAboutHome {
+    @include customText1();
+    margin-top: 30px;
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            position: relative;
+            padding-left: 25px;
+            margin: 0 0 15px 0;
+
+            &::before {
+                content: "🎁";
+                position: absolute;
+                top: -1px;
+                left: 0;
+            }
+        }
+    }
+}
+
+.btnSeeMoreAbout {
+    margin-top: 30px;
+}
+
+.wrapImgAboutHome {
+    padding-top: 56.25%;
+    @include borderRadius(30px 10px 30px 10px);
+}
+
+.colTextAboutHome {
+    .titleMain {
+        line-height: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .wrapImgAboutHome {
+        height: 100%;
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .btnSeeMoreAbout,
+    .wrapTextAboutHome,
+    .colTextAboutHome {
+        margin-top: 15px;
+    }
+
+    .colTextAboutHome {
+        .titleMain {
+            line-height: 40px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .colTextAboutHome {
+        .titleMain {
+            line-height: 30px;
+        }
+    }
+}

@@ -1,0 +1,74 @@
+.wrapServices {
+    .colItem {
+        margin-top: 30px;
+    }
+
+    .wrapImg {
+        overflow: hidden;
+        @include borderRadius(10px);
+        position: relative;
+
+        .wrapImgResize {
+            @include transition(0.5s);
+        }
+    }
+
+    .warpText {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 30px;
+    }
+
+    .contentText {
+        background-color: $color1;
+        @include borderRadius(10px);
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .btnWatchMore {
+        margin-top: 15px;
+        padding: 10px 20px;
+    }
+
+    .linkTitle {
+        font-family: $nameFont2;
+        line-height: 28px;
+    }
+
+    .wrapSummary {
+        margin: 15px 0 0 0;
+        @include splitText(3, 66px);
+    }
+    
+    .contentCol {
+        @include boxShadow($boxShadow3);
+
+        &:hover {
+            .wrapImg {        
+                .wrapImgResize {
+                    @include transform(scale(1.2));
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .wrapServices {
+        .rowList {
+            margin: 0 -7.5px;
+        }
+
+        .colItem {
+            padding: 0 7.5px;
+            margin-top: 15px;
+        }
+
+        .warpText {
+            padding: 15px;
+        }
+    }
+}

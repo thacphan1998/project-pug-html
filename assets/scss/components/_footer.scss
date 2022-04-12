@@ -1,0 +1,210 @@
+.footer {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .bgItem {
+        background-color: $color24;
+        padding: 90px 0 30px 0;
+    }
+
+    .titleFooter {
+        font-size: 20px;
+        line-height: 30px;
+        color: $color1;
+        font-weight: 700;
+    }
+
+    .wrapLogo {
+        text-align: center;
+
+        img {
+            width: 155px;
+            height: auto;
+            display: inline-block;
+        }
+    }
+
+    .wrapSocial {
+        display: table;
+        margin: 30px auto auto auto;
+        
+        a {
+            display: block;
+            float: left;
+            text-align: center;
+            margin-left: 15px;
+            width: 40px;
+            height: 40px;
+            color: $color20;
+            background-color: transparent;
+            @include borderRadius(100%);
+            @include transition(0.5s);
+            border: 2px solid $color20;
+            padding: 10px 0;
+    
+            svg {
+                width: 100%;
+                height: 17px;
+                display: block;
+            }
+    
+            &:first-child {
+                margin-left: 0;
+            }
+    
+            &:hover {
+                background-color: $color20;
+                color: $color1;
+            }
+        }
+    }
+
+    .menu {
+        .wrapMenu {
+            margin-top: 30px;
+            padding: 0 15px;
+        }
+
+        .listItem {
+            padding: 0;
+            list-style: none;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+
+        .linkItem {
+            font-size: 16px;
+            line-height: 22px;
+            color: $color1;
+            text-transform: capitalize;
+            @include transition(0.5s);
+
+            &:hover {
+                color: $color20;
+            }
+        }
+
+        li {
+            float: left;
+            position: relative;
+            padding-left: 20px;
+            margin-top: 13px;
+
+            &:nth-child(1),
+            &:nth-child(2) {
+                margin-top: 0;
+            }
+
+            &::before {
+                position: absolute;
+                top: 6px;
+                left: 0;
+                content: '';
+                background-color: $color20;
+                width: 8px;
+                height: 8px;
+                @include borderRadius(100%);
+            }
+        }
+    }
+
+    .contact {
+        .wrapInfo {
+            margin-top: 30px;
+        }
+
+        .linkItem {
+            position: relative;
+            padding-left: 30px;
+            color: $color1;
+            @include transition(0.5s);
+            display: block;
+            margin-top: 30px;
+
+            &:first-child {
+                margin-top: 0;
+            }
+
+            &:hover {
+                color: $color20;
+            }
+
+            svg {
+                width: 20px;
+                height: 20px;
+                position: absolute;
+                top: 2px;
+                left: 0;
+                color: $color20;
+            }
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .footer {
+        .contact {
+            .linkItem {
+                margin-top: 18px;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .footer {
+        .bgItem {
+            padding-top: 30px;
+        }
+
+        .menu,
+        .contact {
+            margin-top: 30px;
+        }
+
+        .wrapSocial {
+            margin-top: 15px;
+        }
+        
+        .menu {
+            .wrapMenu {
+                margin-top: 15px;
+            }
+    
+            li {
+                margin-top: 10px;
+            }
+        }
+
+        .contact {
+            .wrapInfo {
+                margin-top: 15px;
+            }
+
+            .linkItem {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .footer {
+        .menu {
+            margin-top: 30px;
+
+            li {
+                &:nth-child(2) {
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        .contact {
+            .wrapInfo {
+                margin-top: 15px;
+            }
+        }
+    }
+}

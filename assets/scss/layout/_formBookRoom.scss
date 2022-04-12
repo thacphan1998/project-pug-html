@@ -1,0 +1,36 @@
+.wrapFormBookRoom {
+    .formContent {
+        .inputItem {
+            font-size: 14px;
+        }
+    }
+
+    .contentItem {
+        background-color: $color1;
+        @include borderRadius(10px);
+        padding: 30px;
+        @include boxShadow($boxShadow3);
+        margin-top: 30px;
+    }
+
+    .btnBook {
+        display: block;
+        width: 100%;
+        @include borderRadius(5px);
+        padding: 11.5px 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    .wrapFormBookRoom {    
+        .btnBook {
+            margin-top: 27px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .wrapFormBookRoom {    
+        display: none;
+    }
+}

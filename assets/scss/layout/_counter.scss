@@ -1,0 +1,49 @@
+.wrapCounter {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .bgItem {
+        background-color: $color21;
+    }
+
+    .wrapIcon {
+        width: 70px;
+        height: 70px;
+        margin: auto;
+    }
+
+    .number,
+    .titleItem {
+        margin-top: 15px;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .number {
+        color: $color1;
+    }
+
+    .titleItem {
+        color: $color20;
+    }
+}
+
+@media (max-width: 991px) {
+    .wrapCounter {
+        .colItem {
+            margin-top: 30px;
+
+            &:nth-child(1),
+            &:nth-child(2) {
+                margin-top: 0;
+            }
+        }
+
+        .number,
+        .titleItem {
+            margin-top: 5px;
+        }
+    }
+}

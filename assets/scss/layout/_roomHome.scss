@@ -1,0 +1,118 @@
+.wrapRoom {
+    .colItem {
+        margin-top: 30px;
+    }
+
+    .wrapImg {
+        overflow: hidden;
+        @include borderRadius(8px);
+
+        .wrapImgResize {
+            @include transition(0.5s);
+        }
+    }
+
+    .contentCol {
+        padding: 10px;
+        background-color: $color1;
+        @include borderRadius(10px);
+        height: 100%;
+        @include boxShadow($boxShadow3);
+
+        &:hover {
+            .wrapImg {        
+                .wrapImgResize {
+                    @include transform(scale(1.2));
+                }
+            }
+        }
+    }
+
+    .wrapTitleAndStar {
+        margin-top: 15px;
+
+        .titleMain {
+            float: left;
+            font-family: $nameFont2;
+            @include widthCalc('100% - 115px');
+        }
+
+        .wrapStar {
+            float: right;
+            color: $color20;
+
+            svg {
+                width: 18px;
+                height: 18px;
+            }
+        }
+    }
+
+    .wrapPrice  {
+        color: $color20;
+        margin: 15px 0 0 0;
+
+        svg {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    .wrapInfoNumber {
+        padding: 10px;
+        @include borderRadius(5px);
+        @include boxShadow($boxShadow3);
+        margin-top: 15px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+
+        svg {
+            width: 15px;
+            height: 15px;
+            color: $color20;
+            display: inline-block;
+            margin-right: 5px;
+            @include translate(0, -2px);
+        }
+    }
+
+    .btnBook {
+        margin-top: 15px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .wrapRoom {
+        .wrapInfoNumber {
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .wrapRoom {
+        .rowList {
+            margin: 0 -7.5px;
+        }
+
+        .colItem {
+            padding: 0 7.5px;
+            margin-top: 15px;
+        }
+
+        .wrapTitleAndStar {    
+            .titleMain {
+                width: 100%;
+            }
+    
+            .wrapStar {
+                float: left;
+                width: 100%;
+                margin-top: 5px;
+            }
+        }
+    }
+}

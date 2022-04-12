@@ -1,0 +1,133 @@
+.wrapHiddenModal,
+.wrapHidden {
+    overflow: hidden;
+}
+
+a {
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+textarea,
+a,
+input {
+    &:focus {
+        outline: unset;
+        outline: none;
+        @include boxShadow(unset !important);
+    }
+}
+
+// text
+b,
+strong {
+    font-weight: 700;
+}
+// end text
+
+// grid
+.row1 {
+    margin: 0 -7.5px;
+}
+
+.col1 {
+    padding: 0 7.5px;
+}
+
+.col2 {
+    padding: 10px 7.5px;
+}
+
+.row3 {
+    margin: 0;
+}
+
+.col3 {
+    padding: 0;
+}
+// end grid
+
+// scroll bar
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: $color7;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $color15;
+    @include borderRadius(0);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: $color3;
+}
+
+@media (max-width: 991px) {
+    ::-webkit-scrollbar {
+        width: 2px;
+        height: 2px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: $color5;
+        @include borderRadius(0);
+    }
+}
+// end scroll bar
+
+// slide
+.stopMoveSlide {
+    .slick-track {
+        left: 0 !important;
+        display: table;
+        margin: auto;
+        top: 0 !important;
+        @include transform(unset !important);
+        @include transform(none !important);
+    }
+}
+// end slide
+
+// page content
+.wrapContent1 {
+    padding: 90px 0;
+}
+
+.wrapContent2 {
+    padding: 60px 0;
+}
+
+.bgColor1 {
+    background-color: $color1;
+}
+
+.bgColor2 {
+    background-color: $color4;
+}
+
+@media (max-width: 991px) {
+    .wrapContent1,
+    .wrapContent2 {
+        padding: 30px 0;
+    }
+}
+// end page content
+
+// table in text
+.reponsiveTable {
+    overflow-x: auto;
+}
+// end table in text
+
+// iframe in text
+.reponsiveIframe  {
+    iframe {
+        border: none;
+    }
+}
+// end iframe in text

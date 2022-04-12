@@ -1,0 +1,481 @@
+$MrLeftItemMenu: 40px;
+
+// .wrapHeader {
+//     height: 70px;
+// }
+// header top
+.headerTop {
+    background-color: $color3;
+}
+
+.contentHeaderTop {
+    position: relative;
+    height: 35px;
+}
+
+@media (max-width: 991px) {
+    .contentHeaderTop {
+        height: 0;
+    }
+}
+// end header top
+
+// header bottom
+// .headerBottom {
+//     background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0));
+// }
+@media (max-width: 991px) {
+    .contentHeaderBottom {
+        position: relative;
+    }
+}
+// end header bottom
+
+// logo
+.wrapLogoHeader{
+    font-size: 0;
+    line-height: 0;
+    color: transparent;
+    overflow: hidden;
+    margin: 0;
+    @include transition(0.5s);
+    float: left;
+}
+
+.linkLogoHeader{
+    display: block;
+    padding: 15px 0;
+}
+
+.imgLogoHeader{
+    height: 120px;
+    width: auto;
+    display: inline-block;
+    @include transition(0.5s);
+}
+
+.wrapLinkItemContact {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+@media (max-width: 1199px) {
+    .linkLogoHeader {
+        padding: 5px 0;
+    }
+
+    .imgLogoHeader {
+        height: 60px;
+    }
+}
+
+@media (max-width: 991px) {
+    .wrapLogoHeader{
+        @include transition(0.5s);
+    }
+}
+// end logo
+
+// menu
+.listMenuHeader{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.linkMenuHeader{
+    font-size: 14px;
+    line-height: 22px;
+    color: $color1;
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    @include transition(0.5s);
+}
+
+.wrapBtnCtrMenuHeader{
+    display: none;
+}
+
+.btnDropdownMenuSub {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    @include translate(0, -50%);
+    color: $color1;
+
+    svg {
+        width: 10px;
+        height: 20px;
+        @include transition(0.5s);
+        @include translate(0, -2px);
+    }
+}
+
+.wrapMenuMainHeader {
+    > .wrapMenuMainHeader {
+        > .listMenuMainHeader {
+            visibility: visible;
+            @include opacity(1);
+            @include transition(0.5s);
+            z-index: 990;
+        }
+    }
+}
+
+.menuSub {
+    .listMenuHeader {
+        padding: 15px 20px;
+
+        .linkMenuHeader {
+            padding: 10px 0;
+            color: $color3;
+            font-weight: 300;
+        }
+
+        .itemMenuHeader {
+            border-top: 1px solid $color7;
+        
+            &:first-child {
+                border-top: none;
+            }
+        }
+    }
+}
+
+
+
+.wrapCloseMenuHeaderMobile {
+    display: none;
+}
+
+@media (min-width: 1200px) {
+    .itemMenuHeader {
+        &:hover {
+            color: $color20;
+            
+            > .btnDropdownMenuSub,
+            > .linkMenuHeader{
+                color: $color20;
+            }
+        }
+    }
+
+    .linkMenuHeader{
+        padding: 64px 0;
+    }
+
+    .wrapMenuMainHeader {
+        position: relative;
+        height: 70px;
+        float: right;
+
+        > .wrapMenuHeader {
+            > .listMenuHeader {
+                > .itemMenuHeader{
+                    margin-left: $MrLeftItemMenu;
+                    float: left;
+            
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+        .wrapMenuHeader {
+            top: -39px;
+            position: relative;
+        }
+    }
+
+    .menuSub {
+        position: relative;
+        padding-right: 15px;
+
+        .menuSub {
+            padding-right: 0;
+
+            .btnDropdownMenuSub {
+                @include transform(translate(0, -50%) rotate(-90deg));
+                color: $color2;
+                right: 8px;
+            }
+        }
+
+        .wrapMenuHeader {
+            $transitionMenuSub: opacity .3s ease-out, visibility .1s .1s linear;
+            position: absolute;
+            top: 100px;
+            left: -20px;
+            z-index: 991;
+            visibility: hidden;
+            @include opacity(0);
+            @include transition($transitionMenuSub);
+            padding-top: 10px;
+
+            .wrapMenuHeader {
+                top: 0;
+                left: 100%;
+                padding: 0 0 0 5px;
+            }
+
+            .linkMenuHeader {    
+                text-transform: capitalize;
+                font-size: 15px;
+                font-weight: 500;
+                color: $color1;
+
+                &:hover {
+                    @include translate(5px, 0);
+                }
+            }
+        }
+
+        .listMenuHeader {
+            background-color: #30814fbf;
+            min-width: 230px;
+            border: white 1px solid; 
+            @include borderRadius(10px);
+            @include boxShadow($boxShadow3);
+            white-space: nowrap;
+            position: relative;
+
+            &::before {
+                position: absolute;
+                bottom: 100%;
+                left: 20px;
+                content: '';
+                border: 10px solid transparent;
+                border-bottom-color: $color1;
+            }
+        }
+
+        &:hover {
+            > .wrapMenuHeader {
+                visibility: visible;
+                @include opacity(1);
+            }
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .headerBottom {
+        // background-color: $color1;
+        @include transition(0.5s);
+    }
+
+    .listMenuHeader {
+        .linkMenuHeader{
+            padding: 15px;
+            color: $color2;
+        }
+
+        .itemMenuHeader {
+            border-top: 1px solid $color7;
+
+            &:first-child {
+                border-top: none;
+            }
+
+            &.menuSub {
+                position: relative;
+
+                .menuSub {
+                    .btnDropdownMenuSub {
+                        height: 42px;
+                        padding: 11px 0;
+                    }
+                }
+
+                > .linkMenuHeader{
+                    padding-right: 0;
+                    @include widthCalc('100% - 52px');
+                }
+
+                > .wrapMenuHeader {
+                    display: none;
+                    background-color: $color1;
+                }
+            }
+        }
+    }
+
+    .btnDropdownMenuSub {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 52px;
+        height: 52px;
+        color: $color2;
+        display: block;
+        z-index: 993;
+        padding: 13px 0;
+        @include transition(0.5s);
+        color: $color2;
+        @include translate(0, 0);
+
+        svg {
+            width: 52px;
+            height: 20px;
+        }
+
+        &:hover {
+            color: $color2;
+        }
+    }
+
+    .wrapCloseMenuHeaderMobile {
+        position: fixed;
+        top: 70px;
+        right: -100%;
+        @include heightCalc('100% - 70px');
+        width: 300px;
+        background-color: $color9;
+        z-index: 993;
+        @include transition(0.5s);
+        @include widthCalc('100% - 300px');
+        display: block;
+    }
+
+    .wrapMenuMainHeader{
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        @include heightCalc('100% - 70px');
+        width: 300px;
+        background-color: $color4;
+        overflow-y: auto;
+        z-index: 993;
+        @include transition(0.5s);
+    }
+
+    .wrapBtnCtrMenuHeader{
+        display: block;
+        @include transition(0.5s);
+        float: left;
+        padding: 35px 0;
+        margin-left: 20px;
+
+        .btnCtrMenu {
+            color: $color1 !important;
+            display: block;
+            width: 25px;
+            position: relative;
+            display: block;
+
+            svg {
+                width: 25px;
+                height: 35px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                @include translate(-50%, -50%);
+                @include transition(0.5s);
+
+                &.iconClose {
+                    @include opacity(0);
+                }
+            }
+        }
+    }
+
+    .activeMenu {
+        > .btnDropdownMenuSub {
+            @include transform(rotateX(180deg));
+        }
+
+        > .btnDropdownMenuSub,
+        > .linkMenuHeader {
+            color: $color20;
+        }
+    }
+
+    .showMenu{
+        .wrapMenuMainHeader{
+            left: 0;
+        }
+
+        .wrapCloseMenuHeaderMobile{
+            right: 0;
+        }
+
+        .wrapBtnCtrMenuHeader {
+            .btnCtrMenu {
+                color: $color11;
+
+                svg{
+                    &.iconOpen {
+                        @include opacity(0);
+                    }
+
+                    &.iconClose {
+                        @include opacity(1);
+                    }
+                }
+            }
+        }
+    }
+}
+// end menu
+
+// ctrl right
+
+.wrapCtrlRight {
+    float: right;
+}
+
+// end ctrl right
+
+
+// end language
+
+// fixed menu
+.headerBottom {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 991;
+    background-color: $color28 !important;
+    .linkLogoHeader {
+        padding: 5px 0;
+    }
+
+    .imgLogoHeader {
+        height: 60px;
+    }
+
+    .headerBottom {
+        // background-color: $color1;
+        @include boxShadow($boxShadow3);
+    }
+
+    .wrapBtnCtrMenuHeader {
+        padding: 35px 0;
+
+        .btnCtrMenu {
+            color: $color2;
+        }
+    }
+}
+
+// .fixedMenu {
+    
+// }
+
+@media (min-width: 1200px) {
+    .fixedMenu {
+        .menuSub {
+            .wrapMenuHeader {
+                top: 70px;
+            }
+        }
+
+        .linkMenuHeader {
+            padding: 24px 0;
+        }
+    }
+}
+// end fixed menu

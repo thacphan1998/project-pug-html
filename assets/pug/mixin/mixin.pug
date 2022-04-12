@@ -1,0 +1,166 @@
+mixin head_setting(data_page)
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1')
+    meta(http-equiv='x-ua-compatible' content='ie=edge')
+    |
+    |
+    title= data_page.title_page +' | '+ data.general.title_website
+    |
+    |
+    link(rel='shortcut icon' type='image/png' href= data.general.url_favicon)
+    link(rel='icon' type='image/png' href= data.general.url_favicon)
+    |
+    |
+    meta(property='og:title' content= data_page.title_page +' | '+ data.general.title_website)
+    meta(name='description' content= data.general.description_website +', '+ data_page.description_page)
+    meta(name='keywords' content= data.general.keywords_website +', '+ data_page.keywords_page)
+    link(rel='image_src' type='image/jpg' href= data_page.url_image_page)
+    |
+    |
+    meta(property='og:url' content= data.general.url_website)
+    meta(property='og:type' content='website')
+    meta(property='og:description' content= data.general.description_website +', '+ data_page.description_page)
+    meta(property='og:image' content= data_page.url_image_page)
+    meta(property='og:image:alt' content= data_page.title_page +' | '+ data.general.title_website)
+    meta(property='og:type' content='website')
+    |
+    |
+    meta(name='twitter:title' content= data_page.title_page +' | '+ data.general.title_website)
+    meta(name='twitter:card' content= data_page.url_image_page)
+    meta(name='twitter:description' content= data.general.description_website +', '+ data_page.description_page)
+    meta(name='twitter:image' content= data_page.url_image_page)
+    |
+    |
+    meta(name='dc.created' content= data.general.created_website)
+    meta(name='dc.publisher' content= data.general.title_website)
+    meta(name='dc.rights.copyright' content= data.general.title_website)
+    meta(name='dc.creator.name' content= data.general.title_website)
+    |
+    |
+    meta(name='geo.position' content= data.general.position_website)
+    meta(name='geo.placename' content= data.general.placename_website)
+    meta(name='geo.country' content= data.general.country_website)
+    meta(name='geo.region' content= data.general.region_website)
+    |
+    |
+    meta(name='robots' content='noindex, follow')
+    meta(name='revisit-after' content='3 days')
+    meta(name='rating' content='general')
+    link(rel='alternate' href= data.general.url_website hreflang= data.general.hreflang_website)
+    link(href= data.general.url_website rel='canonical')
+    meta(name='copyright' content= data.general.title_website)
+    meta(name='author' content= data.general.title_website)
+    |
+    |
+    // CSS
+    each item in data_page.link_css_page
+        link(rel='stylesheet' type='text/css' href= 'css/'+ item +'.css')
+
+mixin render_svg(view, data)
+    svg(aria-hidden='true' focusable='false' role='img' xmlns='http://www.w3.org/2000/svg', viewbox= view)
+        path(fill='currentColor', d= data)
+
+mixin render_link_js(data_page)
+    // JS
+    each item in data_page.link_js_page
+        script(src='js/'+ item +'.js')
+    // end JS
+
+mixin render_link_logo(data)
+    a.linkLogoHeader(href='index.html', title= data.general.title_website)
+        img.imgLogoHeader(src= data.header.logo, alt= data.general.title_website)
+
+mixin render_title(title_sub, title_main)
+    .wrapTitleItem 
+        p.titleSub.titleSubItem1= title_sub 
+        h2.titleMain.titleMainItem1 !{title_main}
+
+mixin menu_main(data)
+    .wrapMenuHeader
+        ul.listMenuHeader
+            each item in data
+                - var check_scroll = item.scroll;
+
+                if item.children
+                    li.itemMenuHeader.menuSub
+                        a.linkMenuHeader(href= item.link, title= item.title, class=check_scroll ? 'scroll' : '')= item.title
+
+                        a.btnDropdownMenuSub(href='javascript:void(0);' title='Dropdown')
+                            svg(aria-hidden='true' focusable='false' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 320 512')
+                                path(fill='currentColor' d='M151.5 347.8L3.5 201c-4.7-4.7-4.7-12.3 0-17l19.8-19.8c4.7-4.7 12.3-4.7 17 0L160 282.7l119.7-118.5c4.7-4.7 12.3-4.7 17 0l19.8 19.8c4.7 4.7 4.7 12.3 0 17l-148 146.8c-4.7 4.7-12.3 4.7-17 0z')
+
+                        +menu_main(item.children)
+                else
+                    li.itemMenuHeader
+                            a.linkMenuHeader(href= item.link, title= item.title, class=check_scroll ? 'scroll' : '')= item.title
+
+mixin render_paging(quantily = 5)
+    - var number_paging = 0;
+
+    .clearfix.wrapPaggingList
+        a.linkPagging.prev(href='#' title='Previus')
+            span
+                svg(aria-hidden='true' focusable='false' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 256 512')
+                    path(fill='currentColor' d='M231.293 473.899l19.799-19.799c4.686-4.686 4.686-12.284 0-16.971L70.393 256 251.092 74.87c4.686-4.686 4.686-12.284 0-16.971L231.293 38.1c-4.686-4.686-12.284-4.686-16.971 0L4.908 247.515c-4.686 4.686-4.686 12.284 0 16.971L214.322 473.9c4.687 4.686 12.285 4.686 16.971-.001z')
+
+        while number_paging < quantily
+            a.linkPagging(href='javascript:void(0);' title='1' class= number_paging == 0 ? 'active' : '')
+                if number_paging++ < 9
+                    span= '0'+ number_paging
+                else
+                    span= number_paging
+
+        a.linkPagging.next(href='#' title='Next')
+            span
+                svg(aria-hidden='true' focusable='false' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 256 512')
+                    path(fill='currentColor' d='M24.707 38.101L4.908 57.899c-4.686 4.686-4.686 12.284 0 16.971L185.607 256 4.908 437.13c-4.686 4.686-4.686 12.284 0 16.971L24.707 473.9c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L41.678 38.101c-4.687-4.687-12.285-4.687-16.971 0z')
+
+mixin render_breadcrumb(data)
+    // breadcrumb
+    .wrapBreadcrumb
+        .wrapImgItem
+            img(src= data.breadcrumb.url_img alt= data.title_page)
+
+            .wrapTitleMain
+                h1.titleMainItem2.titleItem= data.title_page
+
+        .contentText
+            .container-xl
+                .contentOverItem
+                    .clearfix.contentItem
+                        .clearfix.wrapMenu
+                            a.linkItem(href='index.htm' title='Trang chủ')
+                                | Trang chủ
+                                svg(aria-hidden='true' focusable='false' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 192 512')
+                                    path(fill='currentColor' d='M166.9 264.5l-117.8 116c-4.7 4.7-12.3 4.7-17 0l-7.1-7.1c-4.7-4.7-4.7-12.3 0-17L127.3 256 25.1 155.6c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0l117.8 116c4.6 4.7 4.6 12.3-.1 17z')
+
+                            each item in data.breadcrumb.menu
+                                a.linkItem(href= item.link title= item.title)
+                                    = item.title
+                                    svg(aria-hidden='true' focusable='false' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 192 512')
+                                        path(fill='currentColor' d='M166.9 264.5l-117.8 116c-4.7 4.7-12.3 4.7-17 0l-7.1-7.1c-4.7-4.7-4.7-12.3 0-17L127.3 256 25.1 155.6c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0l117.8 116c4.6 4.7 4.6 12.3-.1 17z')
+
+                            a.linkItem(href='javascript:void(0);' title= data.title_page)
+                                = data.title_page
+                                svg(aria-hidden='true' focusable='false' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 192 512')
+                                    path(fill='currentColor' d='M166.9 264.5l-117.8 116c-4.7 4.7-12.3 4.7-17 0l-7.1-7.1c-4.7-4.7-4.7-12.3 0-17L127.3 256 25.1 155.6c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0l117.8 116c4.6 4.7 4.6 12.3-.1 17z')
+    // end breadcrumb
+
+mixin render_news_item_special(item_list)
+    each item in item_list
+        h3.titleItem
+            a.linkTitleItem2.linkTitleItem(href= item.link title= item.title)= item.title
+
+mixin render_tag_list(item_list)
+    each item in item_list
+        a.linkTitleItem2.linkTitleItem(href= item.link title= item.title)= item.title
+
+mixin render_share(link, oaid)
+    .clearfix.wrapShare
+        .titleShare Chia sẻ ngay:
+
+        .wrapBtnShareZalo
+            .zalo-share-button(data-href= link data-oaid= oaid data-layout='2' data-color='blue' data-customize='false')
+        
+        .listBtnSharePost
+            .addthis_inline_share_toolbox_wc4f

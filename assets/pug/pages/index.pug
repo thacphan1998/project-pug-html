@@ -1,0 +1,43 @@
+include ../mixin/mixin
+
+- var data_page = data.page_home
+
+doctype html
+html(lang='vi')
+    head
+        +head_setting(data_page)
+    body
+        include ../layout/general/header
+        |
+        |
+        include ../layout/home/slideMain
+        |
+        |
+        include ../layout/home/form_book_room
+        |
+        |
+        include ../layout/home/about
+        |
+        |
+        include ../layout/home/counter
+        |
+        |
+        include ../layout/home/room
+        |
+        |
+        include ../layout/home/services
+        |
+        |
+        include ../layout/home/video
+        |
+        |
+        include ../layout/home/galleryHome
+        |
+        |
+        include ../layout/home/testimonial
+        |
+        |
+        include ../layout/home/news
+        |
+        |
+        include ../layout/general/footer

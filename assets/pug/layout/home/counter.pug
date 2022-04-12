@@ -1,0 +1,18 @@
+// counter
+.wrapCounter(style='background-image: url(images/banner/counter.jpg);')
+    .bgItem.wrapContent1
+        .container-xl.containerItem
+            .contentItem
+                .row.rowList
+                    each item, index in data_page.counter.list
+                        .col-6.col-lg-3.colItem
+                            .contentItem
+                                .wrapIcon
+                                    .wrapImgResize.imgSquare
+                                        img(src= item.url_img alt= item.title)
+
+                                .wrapText
+                                    .titleMainItem2.number= item.text_number
+
+                                    h6.titleItem1.titleItem= item.title
+// end counter

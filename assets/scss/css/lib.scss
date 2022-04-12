@@ -1,0 +1,70 @@
+@import '../abstracts/variable';
+@import '../abstracts/mixin';
+
+// bootstrap
+@import '../vendor/bootstrap';
+// end bootstrap
+
+// date
+@import '../vendor/datePicker';
+// end date
+
+// others
+@import '../vendor/others';
+// end others
+
+// button 
+@import '../components/buttons';
+// end button
+
+// titles
+@import '../components/titles';
+// end titles
+
+// wrap resize img
+@import '../components/wrapImgResize';
+// wrap resize img
+
+// form ctrl
+@import '../components/form';
+// end form ctrl
+
+// header
+@import '../components/header';
+// end header
+
+// footer
+@import '../components/footer';
+// end footer
+
+// copyright
+@import '../components/copyright';
+// end copyright
+
+// btn scroll top
+@import '../components/btnScrollTop';
+// end btn scroll top
+
+// btn book screen
+@import '../layout/btnBookScreen';
+// end btn book screen
+
+// modal book room
+@import '../layout/modalBookRoom';
+// end modal book room
+
+// breadcrumb
+@import '../components/breadcrumb';
+// end breadcrumb
+
+html {
+    background-color: $color1;
+}
+
+body {
+    @include opacity(0);
+
+    &.showContent {
+        @include opacity(1);
+    }
+}
