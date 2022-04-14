@@ -371,6 +371,26 @@
                 }
             }
         ],
+        "product": [
+            {
+                "url": "images/product/product_1.jpg",
+                "title": "22 Căn Biệt Thự Lâu Đài",
+                "param": "Diện tích 180 – 303m2. Mặt tiền 9 – 15,5m2",
+                "specifications": "Xây 1 Tầng Hầm + 4 Tầng Nổi"
+            },
+            {
+                "url": "images/product/product_2.jpg",
+                "title": "104 CĂN LIỀN KẾ SHOPHOUSE",
+                "param": "Diện tích 116 – 285m2. Mặt tiền 5,8 – 10m2",
+                "specifications": "Xây 1 Tầng Hầm + 4 Tầng Nổi"
+            },
+            {
+                "url": "images/banner/background-banner.jpg",
+                "title": "1.275 CĂN CHUNG CƯ CAO CẤP",
+                "param": "Căn hộ 2 PN, 3PN, 4PN",
+                "specifications": "Diện tích 67,8 – 70 – 81,3 – 87,7 – 113 – 129m2"
+            }
+        ],
         "activity": {
             "id_name": "activity",
             "title_main": "Lĩnh vực hoạt động",

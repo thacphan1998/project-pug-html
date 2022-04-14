@@ -1,5 +1,5 @@
 // counter
-.wrapCounter(style='background-image: url(images/banner/counter.jpg);')
+.wrapCounter
     .bgItem.wrapContent1
         .container-xl.containerItem
             .contentItem
@@ -16,3 +16,25 @@
 
                                     h6.titleItem1.titleItem= item.title
 // end counter
+
+.wrapFormCounter.bgSection 
+    .container-xl.containerItem
+        .wrapTittleBox
+            +render_title( 'LOẠI HÌNH SẢN PHẨM', "kkkkk")
+
+        .contentItem 
+            .row.rowItem 
+                each item in data_page.product
+                    .col-md-4.colItem 
+                        .formContent
+                            a.wrapImgProduct.imgBoxshadow(href='javascript:void(0);' title= item.title)
+                                img(src= item.url, alt= item.title )
+                            .wrapDetailProduct
+                                h4.titleContent= item.title
+                                p.param= item.param
+                                p.specifications= item.specifications
+        
+
+
+
+
