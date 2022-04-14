@@ -220,8 +220,8 @@ $(window).on('load', function () {
             pauseOnHover: false,
             pauseOnFocus: false,
             fade: true,
-            prevArrow: btnLeftSlideType1,
-            nextArrow: btnRightSlideType1,
+            // prevArrow: btnLeftSlideType1,
+            // nextArrow: btnRightSlideType1,
             lazyLoad: 'progressive',
             useTransform: false
         });

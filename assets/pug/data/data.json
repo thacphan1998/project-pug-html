@@ -326,7 +326,7 @@
 			],
 			"slide_main": [
 				{
-					"url_img": "images/banner/background-banner.jpg",
+					"url_img": "images/slide/1.jpg",
 					"title_sub": "Chào đón tuần lễ khai trương",
 					"title_main": "GIẢM GIÁ CỰC SỐC<br />LÊN ĐẾN 50%",
 					"text": "Miễn phí tận hưởng các Dịch vụ tiện ích Khách sạn: Hồ bơi, Gym, Xông hơi, Xông khô, Wifi...<br />Miễn phí trang trí phòng Honey moon dành cho các cặp đôi",
@@ -340,7 +340,32 @@
 					}
 				},
 				{
-					"url_img_slide": "images/slide/1.jpg"
+					"url_img": "images/slide/2.jpg",
+					"title_sub": "Chào đón tuần lễ khai trương",
+					"title_main": "GIẢM GIÁ CỰC SỐC<br />LÊN ĐẾN 50%",
+					"text": "Miễn phí tận hưởng các Dịch vụ tiện ích Khách sạn: Hồ bơi, Gym, Xông hơi, Xông khô, Wifi...<br />Miễn phí trang trí phòng Honey moon dành cho các cặp đôi",
+					"button_discover": {
+						"title": "Khám phá",
+						"link": "javascript:void(0);"
+					},
+					"button_call": {
+						"title": "Gọi ngay",
+						"link": "javascript:void(0);"
+					}
+				},
+				{
+					"url_img": "images/slide/3.jpg",
+					"title_sub": "Chào đón tuần lễ khai trương",
+					"title_main": "GIẢM GIÁ CỰC SỐC<br />LÊN ĐẾN 50%",
+					"text": "Miễn phí tận hưởng các Dịch vụ tiện ích Khách sạn: Hồ bơi, Gym, Xông hơi, Xông khô, Wifi...<br />Miễn phí trang trí phòng Honey moon dành cho các cặp đôi",
+					"button_discover": {
+						"title": "Khám phá",
+						"link": "javascript:void(0);"
+					},
+					"button_call": {
+						"title": "Gọi ngay",
+						"link": "javascript:void(0);"
+					}
 				}
 			],
 			"activity": {

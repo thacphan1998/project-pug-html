@@ -27,7 +27,6 @@
 // end slide main
 
 .wrapBanner 
-    each item in data_page.slide_main   
-        .wrapBackgroundBanner 
-            .bannerImg
-                img(src= item.url_img alt= item.title_main)
+    .wrapBackgroundBanner 
+        .bannerImg
+            img(src= 'images/banner/background-banner.jpg' alt= data_page.slide_main.title_main)
