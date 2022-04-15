@@ -1,33 +1,33 @@
 // counter
-.wrapCounter
-    .bgItem.wrapContent1
-        .container-xl.containerItem
-            .contentItem
-                .row.rowList
-                    each item, index in data_page.counter.list
-                        .col-6.col-lg-3.colItem
-                            .contentItem
-                                .wrapIcon
-                                    .wrapImgResize.imgSquare
-                                        img(src= item.url_img alt= item.title)
+//- .wrapCounter
+//-     .bgItem.wrapContent1
+//-         .container-xl.containerItem
+//-             .contentItem
+//-                 .row.rowList
+//-                     each item, index in data_page.counter.list
+//-                         .col-6.col-lg-3.colItem
+//-                             .contentItem
+//-                                 .wrapIcon
+//-                                     .wrapImgResize.imgSquare
+//-                                         img(src= item.url_img alt= item.title)
 
-                                .wrapText
-                                    .titleMainItem2.number= item.text_number
+//-                                 .wrapText
+//-                                     .titleMainItem2.number= item.text_number
 
-                                    h6.titleItem1.titleItem= item.title
+//-                                     h6.titleItem1.titleItem= item.title
 // end counter
 
 .wrapFormCounter.bgSection 
     .container-xl.containerItem
         .wrapTittleBox
-            +render_title( 'LOẠI HÌNH SẢN PHẨM', "kkkkk")
+            +render_title( 'LOẠI HÌNH SẢN PHẨM')
 
         .contentItem 
             .row.rowItem 
                 each item in data_page.product
                     .col-md-4.colItem 
                         .formContent
-                            a.wrapImgProduct.imgBoxshadow(href='javascript:void(0);' title= item.title)
+                            a.wrapImgResize.wrapImgProduct.imgBoxshadow.imgProduct(href='javascript:void(0);' title= item.title)
                                 img(src= item.url, alt= item.title )
                             .wrapDetailProduct
                                 h4.titleContent= item.title

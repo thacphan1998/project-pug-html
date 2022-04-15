@@ -1997,45 +1997,6 @@ body.vjs-full-window {
   }
 }
 
-.wrapCounter {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-.wrapCounter .bgItem {
-  background-color: rgba(0, 0, 0, 0.6);
-}
-.wrapCounter .wrapIcon {
-  width: 70px;
-  height: 70px;
-  margin: auto;
-}
-.wrapCounter .number,
-.wrapCounter .titleItem {
-  margin-top: 15px;
-  text-align: center;
-  font-weight: 700;
-}
-.wrapCounter .number {
-  color: white;
-}
-.wrapCounter .titleItem {
-  color: #ffc107;
-}
-
-@media (max-width: 991px) {
-  .wrapCounter .colItem {
-    margin-top: 30px;
-  }
-  .wrapCounter .colItem:nth-child(1), .wrapCounter .colItem:nth-child(2) {
-    margin-top: 0;
-  }
-  .wrapCounter .number,
-.wrapCounter .titleItem {
-    margin-top: 5px;
-  }
-}
 .wrapFormCounter {
   padding: 30px 0;
   background-image: url("../images/banner/bg-tongquan-product.jpg");
@@ -2049,7 +2010,7 @@ body.vjs-full-window {
   padding-bottom: 10px;
 }
 .wrapFormCounter .contentItem .colItem {
-  padding: 0 10px;
+  padding: 0px 10px 25px 10px;
 }
 .wrapFormCounter .contentItem .colItem .formContent {
   box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -2088,6 +2049,57 @@ body.vjs-full-window {
   font-weight: 600;
   padding: 5px 0 10px 0;
   margin: 0;
+}
+
+.bgRegisInfo {
+  background-image: url("../images/banner/bg-registerInfo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 45% 55%;
+  padding: 30px 0;
+}
+.bgRegisInfo .wrapFormRegisInfo {
+  padding: 30px 0;
+}
+.bgRegisInfo .wrapFormRegisInfo .colItemRegisInfo .inputItem {
+  padding: 0 10px 20px 10px;
+}
+.bgRegisInfo .wrapFormRegisInfo .colItemRegisInfo .inputItem .formControl {
+  height: 45px;
+}
+.bgRegisInfo .wrapFormRegisInfo .colItemRegisInfo .inputItem .inputForm {
+  width: 100%;
+  height: 100%;
+  font-family: "RobotoCondensed";
+  font-size: 16px;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: none;
+}
+.bgRegisInfo .wrapFormRegisInfo .colItemRegisInfo .inputItem .inputForm:focus {
+  box-shadow: 0 0 8px #dfd9d9 !important;
+}
+.bgRegisInfo .wrapFormRegisInfo .colItemRegisInfo .inputItem .submitInput {
+  background-color: #d8a24e;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.bgRegisInfo .wrapFormRegisInfo .colItemRegisInfo .inputItem .submitInput:hover {
+  opacity: 0.6;
+}
+.bgRegisInfo .wrapFormRegisInfo .colItemRegisInfo .inputItem .submitInput:focus {
+  box-shadow: none !important;
+}
+
+.wrapLocation .wrapLocaContent .titleRegisInfo1 {
+  color: #005169;
+}
+.wrapLocation .wrapLocaDetail .imgloca img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .wrapRoom .colItem {

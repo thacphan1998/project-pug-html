@@ -10638,6 +10638,56 @@ strong {
   text-transform: capitalize;
 }
 
+.titleRegisInfo1 {
+  line-height: 36px;
+  color: #fff;
+  font-family: revert;
+  font-size: 30px;
+}
+
+.titleRegisInfo2 {
+  color: #ffd400;
+  font-size: 27PX;
+  line-height: 36px;
+  font-family: sans-serif;
+}
+
+.titleRegisInfo3 {
+  line-height: 36px;
+  font-family: "Comfortaa";
+  font-size: 18px;
+  color: #ffd400;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 870px) {
+  .titleRegisInfo1 {
+    font-size: 20px;
+  }
+
+  .titleRegisInfo2 {
+    font-size: 20PX;
+    line-height: 20px;
+  }
+
+  .titleRegisInfo3 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 549px) {
+  .titleRegisInfo1 {
+    font-size: 16px;
+  }
+
+  .titleRegisInfo2 {
+    font-size: 16PX;
+    line-height: 20px;
+  }
+
+  .titleRegisInfo3 {
+    font-size: 16px;
+  }
+}
 .wrapImgResize {
   overflow: hidden;
   position: relative;
@@ -10663,6 +10713,9 @@ strong {
   -o-transform: translate(-50%, -50%);
   min-height: 100%;
   max-height: 100%;
+}
+.wrapImgResize.imgProduct {
+  padding-top: 65%;
 }
 .wrapImgResize.img16And9 {
   padding-top: 56.25%;

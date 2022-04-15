@@ -70,9 +70,16 @@ mixin render_link_logo(data)
     a.linkLogoHeader(href='index.html', title= data.general.title_website)
         img.imgLogoHeader(src= data.header.logo, alt= data.general.title_website)
 
-mixin render_title(title_main, k)
+mixin render_title(title_main, title_sub)
     .wrapTitleItem 
         h2.titleMain.titleMainItem1= title_main
+        //- p.titleSub.titleSubItem1= title_sub
+
+mixin render_title_02(title_main, title_sub, title_detail)
+    .wrapTitleItem 
+        h3.titleMain.titleMainItem1.titleRegisInfo1= title_main
+        h1.titleMain.titleMainItem1.titleRegisInfo2= title_sub
+        p.titleMain.titleMainItem1.titleRegisInfo3= title_detail
     
 mixin menu_main(data)
     .wrapMenuHeader
