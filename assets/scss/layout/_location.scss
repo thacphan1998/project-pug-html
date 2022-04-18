@@ -1,17 +1,58 @@
 .wrapLocation {
+    padding: 30px 0;
     .wrapLocaContent {
-        .titleRegisInfo1 {
+        padding-bottom: 30px;
+        .titleInfo4 {
             color: $color30;
+            font-size: 40px;
+            padding-bottom: 15px;
         }
+        .titleInfo5 {
+            font-size: 25px;
+            color: #004a02;
+            font-weight: 500;
+            padding-bottom: 8px;
+        }
+        .titleInfo6 {
+            font-size: 16px;
+            text-transform: unset;
+            color: $color8;
+        }
+
     }
     .wrapLocaDetail {
-        .imgloca {
-            img {
-                width: 100%;
-                height: auto;
-                object-fit: cover;
+        .imgLeft {
+            .imgloca {
+                img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+                }
             }
         }
+        .contentRight {
+            .wrapTextAboutHome {
+                p {
+                    font-size: 19px;
+                    text-align: justify;
+                    line-height: 30px;
+                }
+                ul {
+                    padding-left: 10px;
+                    li {
+                        list-style: none;
+                        font-size: 14px;
+                        text-align: right;
+                        color: #000;
+                        font-family: $nameFont2;
+                        border-bottom: 1px solid #ececec;
+                        padding-bottom: 11px;
+                        margin-bottom: 10px;    
+                    }
+                }
+            }
+        }
+        
     }
     
     

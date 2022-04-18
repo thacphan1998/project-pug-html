@@ -2092,14 +2092,51 @@ body.vjs-full-window {
   box-shadow: none !important;
 }
 
-.wrapLocation .wrapLocaContent .titleRegisInfo1 {
-  color: #005169;
+.wrapLocation {
+  padding: 30px 0;
 }
-.wrapLocation .wrapLocaDetail .imgloca img {
+.wrapLocation .wrapLocaContent {
+  padding-bottom: 30px;
+}
+.wrapLocation .wrapLocaContent .titleInfo4 {
+  color: #005169;
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+.wrapLocation .wrapLocaContent .titleInfo5 {
+  font-size: 25px;
+  color: #004a02;
+  font-weight: 500;
+  padding-bottom: 8px;
+}
+.wrapLocation .wrapLocaContent .titleInfo6 {
+  font-size: 16px;
+  text-transform: unset;
+  color: black;
+}
+.wrapLocation .wrapLocaDetail .imgLeft .imgloca img {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.wrapLocation .wrapLocaDetail .contentRight .wrapTextAboutHome p {
+  font-size: 19px;
+  text-align: justify;
+  line-height: 30px;
+}
+.wrapLocation .wrapLocaDetail .contentRight .wrapTextAboutHome ul {
+  padding-left: 10px;
+}
+.wrapLocation .wrapLocaDetail .contentRight .wrapTextAboutHome ul li {
+  list-style: none;
+  font-size: 14px;
+  text-align: right;
+  color: #000;
+  font-family: "Comfortaa";
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 11px;
+  margin-bottom: 10px;
 }
 
 .wrapRoom .colItem {
