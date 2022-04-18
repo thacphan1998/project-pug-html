@@ -6,46 +6,38 @@
 
             .row.rowList.justify-content-center
                 each item in data.services
-                    .col-sm-6.col-lg-4.colItem 
+                    .col-sm-4.colItem 
                         .contentCol 
                             .wrapImg
-                                a.wrapImgResize.img9And16(href= item.link title= item.title)
+                                a.wrapImgResize.img9And16.imgService(href= item.link title= item.title)
                                     img(src= item.img alt= item.title)
                             
-                                .warpText 
-                                    .contentText
-                                        h3.titleItem1.titleMain 
-                                            a.linkTitleItem3.linkTitle(href= item.link title= item.title)= item.title
+                            .warpText 
+                                p.contentText= item.summary
 
-                                        p.wrapSummary= item.summary
-
-                                        a.btnWatchMore.btn2(href= item.link title='Xem thêm') 
-                                            | Xem thêm
-                                            svg(xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512')
-                                                path(fill='currentColor' d='M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z')
 // end room list
 
-.wrapServices.wrapContent1.bgColor1
-    .container-xl.containerItem 
-        .contentItem
-            +render_title('Cùng trải nghiệm', 'Các dịch vụ của chúng tôi')
+//- .wrapServices.wrapContent1.bgColor1
+//-     .container-xl.containerItem 
+//-         .contentItem
+//-             +render_title('Cùng trải nghiệm', 'Các dịch vụ của chúng tôi')
 
-            .row.rowList.justify-content-center
-                each item in data.services
-                    .col-sm-6.col-lg-4.colItem 
-                        .contentCol 
-                            .wrapImg
-                                a.wrapImgResize.img9And16(href= item.link title= item.title)
-                                    img(src= item.img alt= item.title)
+//-             .row.rowList.justify-content-center
+//-                 each item in data.services
+//-                     .col-sm-6.col-lg-4.colItem 
+//-                         .contentCol 
+//-                             .wrapImg
+//-                                 a.wrapImgResize.img9And16(href= item.link title= item.title)
+//-                                     img(src= item.img alt= item.title)
                             
-                                .warpText 
-                                    .contentText
-                                        h3.titleItem1.titleMain 
-                                            a.linkTitleItem3.linkTitle(href= item.link title= item.title)= item.title
+//-                                 .warpText 
+//-                                     .contentText
+//-                                         h3.titleItem1.titleMain 
+//-                                             a.linkTitleItem3.linkTitle(href= item.link title= item.title)= item.title
 
-                                        p.wrapSummary= item.summary
+//-                                         p.wrapSummary= item.summary
 
-                                        a.btnWatchMore.btn2(href= item.link title='Xem thêm') 
-                                            | Xem thêm
-                                            svg(xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512')
-                                                path(fill='currentColor' d='M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z')
+//-                                         a.btnWatchMore.btn2(href= item.link title='Xem thêm') 
+//-                                             | Xem thêm
+//-                                             svg(xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512')
+//-                                                 path(fill='currentColor' d='M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z')

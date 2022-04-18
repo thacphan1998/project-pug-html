@@ -1,0 +1,25 @@
+.wrapFlatDesign {
+    .wrapImgDesign {
+        .imgDesign {
+            width: 100%;
+            box-shadow: 0 3px 6px -4px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);;
+        }
+    }
+
+    .wrapSlideDesign {
+        .showSlideDesign {
+            margin: 20px 0;
+            .imgItemSlide {
+                margin-right: 5px;
+                .imgslideDesign {
+                    position: relative !important;
+                    transform: translate(-50%, -10%);
+                    height: 175px;
+                    // margin-right: 10px;
+                }
+            }
+            
+        }
+    }
+    
+}

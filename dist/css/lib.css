@@ -10498,22 +10498,7 @@ strong {
   text-transform: uppercase;
   margin: auto auto 10px auto;
   display: table;
-  padding-left: 75px;
   position: relative;
-}
-.titleSubItem1::before {
-  content: "";
-  width: 60px;
-  height: 3px;
-  background-color: #ffc107;
-  transform: translate(0, -50%);
-  -webkit-transform: translate(0, -50%);
-  -moz-transform: translate(0, -50%);
-  -ms-transform: translate(0, -50%);
-  -o-transform: translate(0, -50%);
-  position: absolute;
-  top: 50%;
-  left: 0;
 }
 
 .titleLeft .titleSubItem1 {
@@ -10607,29 +10592,6 @@ strong {
   position: relative;
   padding-bottom: 10px;
   font-family: "Comfortaa";
-}
-.titleItem4::before {
-  position: absolute;
-  bottom: -3px;
-  left: 0;
-  width: 8px;
-  height: 8px;
-  background-color: #ffc107;
-  content: "";
-  border-radius: 100%;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
-  -o-border-radius: 100%;
-}
-.titleItem4::after {
-  position: absolute;
-  bottom: 0;
-  left: 8px;
-  width: 40px;
-  height: 2px;
-  background-color: #ffc107;
-  content: "";
 }
 
 .titleItem5 {
@@ -10728,6 +10690,9 @@ strong {
 }
 .wrapImgResize.img3And4 {
   padding-top: 133.33333333%;
+}
+.wrapImgResize.imgService {
+  padding-top: 65%;
 }
 
 .formContent .lblItem {

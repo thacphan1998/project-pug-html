@@ -275,19 +275,79 @@
 				"img": "images/services/1.jpg",
 				"title": "Phòng Hội Nghị",
 				"link": "javascript:void(0);",
-				"summary": "Với mong muốn trở thành một trong những địa điểm lý tưởng để tổ chức các sự kiện tại Nha Trang, Miracle Luxury Hotel Nha Trang được thiết kế dựa trên sự kết hợp độc đáo giữa các yếu tố phong cách, đa năng và linh hoạt"
+				"summary": "BỂ BƠI 4 MÙA"
 			},
 			{
 				"img": "images/services/2.jpg",
 				"title": "Hồ bơi vô cực",
 				"link": "javascript:void(0);",
-				"summary": "Phơi mình dưới ánh nắng ấm áp của vùng biển nhiệt đới và hòa vào làn nước xanh mát tại hồ bơi vô cực của chúng tôi. Còn gì tuyệt vời hơn khi ngâm mình thật lâu và thư giãn tại hồ bơi sau một ngày dài ngắm cảnh đẹp tại Nha Trang. Hồ bơi được thiết kế độc đáo với chất liệu kính trong suốt mang đến trải nghiệm hoàn toàn mới cho quý khách. "
+				"summary": "Khu đường dạo bộ"
 			},
 			{
 				"img": "images/services/3.jpg",
 				"title": "Sân Thượng",
 				"link": "javascript:void(0);",
-				"summary": "Đài quan sát 360° là điểm đến đầu tiên khai thác loại hình tham quan đặc biệt này tại Nha Trang, giúp bạn trải nghiệm thành phố tuyệt đẹp từ trên cao. Chế độ xem 360 độ, bạn có thể ngắm nhìn vịnh, thành phố và đồi núi với các điểm quan sát khác nhau vào ban ngày và chiều tối."
+				"summary": "Khu vui chơi trẻ em"
+			},
+			{
+				"img": "images/services/3.jpg",
+				"title": "Sân Thượng",
+				"link": "javascript:void(0);",
+				"summary": "Trường tiểu học"
+			},
+			{
+				"img": "images/services/3.jpg",
+				"title": "Sân Thượng",
+				"link": "javascript:void(0);",
+				"summary": "trung tâm thương mại"
+			},
+			{
+				"img": "images/services/3.jpg",
+				"title": "Sân Thượng",
+				"link": "javascript:void(0);",
+				"summary": "quảng trường đài phun nước"
+			}
+		],
+		"flat_design": [
+			{
+				"img": "images/flat-design/anh-can-ho-1.jpg",
+				"title": "Phòng Hội Nghị",
+				"link": "javascript:void(0);"
+			},
+			{
+				"img": "images/flat-design/anh-can-ho-2.jpg",
+				"title": "Phòng Hội Nghị",
+				"link": "javascript:void(0);"
+			},
+			{
+				"img": "images/flat-design/anh-can-ho-1.jpg",
+				"title": "Phòng Hội Nghị",
+				"link": "javascript:void(0);"
+			},
+			{
+				"img": "images/flat-design/anh-can-ho-4.jpg",
+				"title": "Phòng Hội Nghị",
+				"link": "javascript:void(0);"
+			},
+			{
+				"img": "images/flat-design/anh-can-ho-1.jpg",
+				"title": "Phòng Hội Nghị",
+				"link": "javascript:void(0);"
+			},
+			{
+				"img": "images/flat-design/anh-can-ho-3.jpg",
+				"title": "Phòng Hội Nghị",
+				"link": "javascript:void(0);"
+			},
+			{
+				"img": "images/flat-design/anh-can-ho-1.jpg",
+				"title": "Phòng Hội Nghị",
+				"link": "javascript:void(0);"
+			},
+			{
+				"img": "images/flat-design/anh-can-ho-2.jpg",
+				"title": "Phòng Hội Nghị",
+				"link": "javascript:void(0);"
 			}
 		],
 		"news": [

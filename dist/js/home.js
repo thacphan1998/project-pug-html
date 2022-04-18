@@ -228,6 +228,48 @@ $(window).on('load', function () {
     }
     // end start slide main
 
+    // slide flat design
+
+    if($('.showSlideDesign').length) {
+        $('.showSlideDesign').slick({
+            autoplay: false,
+            pauseOnHover: false,
+            pauseOnFocus: false,
+            useTransform: false,
+            slidesToShow: 4,
+            swipeToSlide: true,
+            lazyLoad: 'progressive',
+            arrows: false,
+            dots: false,
+            useTransform: false,
+            responsive: [
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                    
+                },
+                {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                    
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 4
+                    }
+                    
+                }
+            ]
+        });
+    }
+
+    // end slide flat design
+
     // slide testimonal
     if($('.slideTestimonial').length) {
         $('.slideTestimonial').slick({
