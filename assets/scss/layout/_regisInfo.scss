@@ -6,40 +6,40 @@
     padding: 30px 0;
     .wrapFormRegisInfo {
         padding: 30px 0;
-        .colItemRegisInfo  {
+        // .colItemRegisInfo  {
             
-            .inputItem {
-                padding: 0 10px 20px 10px;
-                .formControl {
-                    height: 45px;
-                }
-                .inputForm {
-                    width: 100%;
-                    height: 100%;
-                    font-family: $nameFont1;
-                    font-size: 16px;
-                    padding: 0 10px;
-                    border-radius: 5px;
-                    border: none;
-                    &:focus {
-                        box-shadow: 0 0 8px rgb(223, 217, 217) !important;
-                    }
-                }
-                .submitInput {
-                    background-color: $color23;
-                    color: #fff;
-                    font-size: 20px;
-                    font-weight: 600;
-                    &:hover {
-                        opacity: 0.6;
-                    }
-                    &:focus {
-                        box-shadow: none !important;
-                    }
+        //     // .inputItem {
+        //     //     padding: 0 10px 20px 10px;
+        //     //     .formControl {
+        //     //         height: 45px;
+        //     //     }
+        //     //     .inputForm {
+        //     //         width: 100%;
+        //     //         height: 100%;
+        //     //         font-family: $nameFont1;
+        //     //         font-size: 16px;
+        //     //         padding: 0 10px;
+        //     //         border-radius: 5px;
+        //     //         border: none;
+        //     //         &:focus {
+        //     //             box-shadow: 0 0 8px rgb(223, 217, 217) !important;
+        //     //         }
+        //     //     }
+        //     //     .submitInput {
+        //     //         background-color: $color23;
+        //     //         color: #fff;
+        //     //         font-size: 20px;
+        //     //         font-weight: 600;
+        //     //         &:hover {
+        //     //             opacity: 0.6;
+        //     //         }
+        //     //         &:focus {
+        //     //             box-shadow: none !important;
+        //     //         }
 
-                }
-            }
-        }
+        //     //     }
+        //     // }
+        // }
         
         
     }

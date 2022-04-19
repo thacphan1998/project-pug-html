@@ -1,0 +1,55 @@
+.wrapContact {
+    background-image: url("..//images/banner/bg-contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 30px 0;
+    .wrapTitleItem {
+        .titleMain {
+            color: $color1;
+            font-size: 25px;
+            font-family: $nameFont1;
+            letter-spacing: 4px;
+        }
+    }
+    .wrapFormContact {
+        .formGroup {
+            padding: 0;
+            .formControlContact {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .wrapContentContact {
+        .phoneNumber {
+            color: $color1;
+            font-size: 30px;
+            font-weight: 600;
+        }
+        ul {
+            padding-left: 15px;
+            li {
+                font-size: 18px;
+                color: $color1;
+                margin-bottom: 25px;
+                list-style: none;
+                strong {
+                    color: $color29;
+                }
+            }
+        }
+    }
+}
+
+// media
+
+@media screen and(max-width: 576px) {
+    .wrapContact {
+        .wrapTitleItem {
+            .titleMain {
+                font-size: 18px;
+            }
+        }
+    }
+}

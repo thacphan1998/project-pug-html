@@ -1,0 +1,45 @@
+.wrapContact
+    .container-xl.containerItem
+        .row 
+            .col-sm-6 
+                .contentItem
+                    +render_title("TẢI TRỌN BỘ TÀI LIỆU DỰ ÁN")
+
+                    .wrapFormContact
+                        form.formGroup.inputItem(action="")
+                            each item in data.input_form
+                                .formControl.formControlContact
+                                    input.inputForm.inputFormContact.firstName(type= item.type name= item.name placeholder= item.placeholder )
+                            
+                                //- .formControl.formControlContact
+                                //-     input.inputForm.inputFormContact.phoneInput(type="text" name="phone" placeholder="Số điện thoại")
+                            
+                                //- .formControl.formControlContact
+                                //-     input.inputForm.inputFormContact.emailInput(type="text" name="email" placeholder="Email")
+                            
+                            .formControl.formControlContact
+                                input.inputForm.inputFormContact.submitInput(type="submit" value="Đăng ký ngay")
+
+            .col-sm-6 
+                .contentItem
+                    +render_title("HÃY GỌI NGAY CHO CHÚNG TÔI")
+
+                    .wrapContentContact
+                        p 
+                            a.phoneNumber(href='javascript:void(0);' title= 'title') 0911.32.99.11
+
+                        ul  
+                            li  Gọi ngay để có&nbsp
+                                strong căn hot – giá tốt
+                            li   
+                                strong Báo giá chính xác&nbsp
+                                span từ chủ đầu tư
+                            li  Tư vấn lựa chọn các gói vay có lãi suất&nbsp
+                                strong thấp nhất,&nbsp
+                                span thời gian vay&nbsp
+                                strong dài nhất
+                            
+                        
+                    
+                    
+                     

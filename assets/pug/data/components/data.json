@@ -194,6 +194,25 @@
         ]
     },
 
+    "input_form": [
+        {
+            "type": "text",
+            "name": "firstName",
+            "placeholder": "Họ và tên"
+        },
+        {
+            "type": "text",
+            "name": "phone",
+            "placeholder": "Số điện thoại"
+        },
+        {
+            "type": "text",
+            "name": "email",
+            "placeholder": "Email"
+        }
+        
+    ],
+
     "apartment": [
         {
             "serial" : "01",

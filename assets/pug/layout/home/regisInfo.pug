@@ -4,16 +4,19 @@ section.bgRegisInfo
             .wrapContent
                 +render_title_02('ĐĂNG KÝ NHẬN THÔNG TIN BẢNG GIÁ GỐC MỚI NHẤT TỪ CHỦ ĐẦU TƯ', 'CHIẾT KHẤU LÊN TỚI 5% – HỖ TRỢ LÃI SUẤT 0% TRONG 12 THÁNG', 'HOTLINE: 0911.32.99.11')
             .wrapFormRegisInfo 
-                .row.colItemRegisInfo 
-                    .col-md-3.inputItem.colItem
-                        .formControl
-                            input.inputForm.firstName(type="text" name="firstName" placeholder="Họ và tên" required )
-                    .col-md-3.inputItem.colItem
-                        .formControl
-                            input.inputForm.phoneInput(type="text" name="firstName" placeholder="Số điện thoại")
-                    .col-md-3.inputItem.colItem
-                        .formControl
-                            input.inputForm.emailInput(type="email" name="firstName" placeholder="Email")
+                .row.colItemRegisInfo
+                    each item in data.input_form
+                        .col-md-3.inputItem.colItem
+                            .formControl
+                                input.inputForm.firstName(type= item.type name= item.name placeholder= item.placeholder )
+                    //-     .formControl
+                    //-         input.inputForm.firstName(type="text" name="firstName" placeholder="Họ và tên"  )
+                    //- .col-md-3.inputItem.colItem
+                    //-     .formControl
+                    //-         input.inputForm.phoneInput(type="text" name="phone" placeholder="Số điện thoại")
+                    //- .col-md-3.inputItem.colItem
+                    //-     .formControl
+                    //-         input.inputForm.emailInput(type="text" name="email" placeholder="Email")
                     .col-md-3.inputItem.colItem
                         .formControl
                             input.inputForm.submitInput(type="submit" value="Đăng ký ngay")
