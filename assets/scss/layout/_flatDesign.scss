@@ -1,4 +1,12 @@
 .wrapFlatDesign {
+    .wrapTitleItem {
+        .titleMain {
+            color: $color30;
+            font-family: $nameFont1;
+            font-size: 36px;
+            margin-top: 20px;
+        }
+    }
     .wrapImgDesign {
         .imgDesign {
             width: 100%;
@@ -11,11 +19,10 @@
             margin: 20px 0;
             .imgItemSlide {
                 margin-right: 5px;
-                .imgslideDesign {
+                .imgSlideDesign {
                     position: relative !important;
                     transform: translate(-50%, -10%);
                     height: 175px;
-                    // margin-right: 10px;
                 }
             }
             
@@ -23,3 +30,17 @@
     }
     
 }
+
+// media
+
+@media screen and(max-width: 576px) {
+    .wrapFlatDesign {
+        .wrapTitleItem {
+            .titleMain {
+                font-size: 22px;
+            }
+        }
+    }
+}
+
+

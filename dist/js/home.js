@@ -232,7 +232,7 @@ $(window).on('load', function () {
 
     if($('.showSlideDesign').length) {
         $('.showSlideDesign').slick({
-            autoplay: false,
+            autoplay: true,
             pauseOnHover: false,
             pauseOnFocus: false,
             useTransform: false,
@@ -244,7 +244,7 @@ $(window).on('load', function () {
             useTransform: false,
             responsive: [
                 {
-                    breakpoint: 576,
+                    breakpoint: 375,
                     settings: {
                         slidesToShow: 1
                     }

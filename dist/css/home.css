@@ -2202,6 +2202,12 @@ body.vjs-full-window {
     padding: 15px;
   }
 }
+.wrapFlatDesign .wrapTitleItem .titleMain {
+  color: #005169;
+  font-family: "RobotoCondensed";
+  font-size: 36px;
+  margin-top: 20px;
+}
 .wrapFlatDesign .wrapImgDesign .imgDesign {
   width: 100%;
   box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -2212,12 +2218,17 @@ body.vjs-full-window {
 .wrapFlatDesign .wrapSlideDesign .showSlideDesign .imgItemSlide {
   margin-right: 5px;
 }
-.wrapFlatDesign .wrapSlideDesign .showSlideDesign .imgItemSlide .imgslideDesign {
+.wrapFlatDesign .wrapSlideDesign .showSlideDesign .imgItemSlide .imgSlideDesign {
   position: relative !important;
   transform: translate(-50%, -10%);
   height: 175px;
 }
 
+@media screen and (max-width: 576px) {
+  .wrapFlatDesign .wrapTitleItem .titleMain {
+    font-size: 22px;
+  }
+}
 @-webkit-keyframes ripple-wave {
   from {
     box-shadow: 0 0 rgba(255, 255, 255, 0.1), 0 0 0 15px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0.1);
@@ -2226,7 +2237,6 @@ body.vjs-full-window {
     box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0.1), 0 0 0 45px rgba(255, 255, 255, 0.02);
   }
 }
-
 @keyframes ripple-wave {
   from {
     box-shadow: 0 0 rgba(255, 255, 255, 0.1), 0 0 0 15px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0.1);
