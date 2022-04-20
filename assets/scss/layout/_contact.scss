@@ -9,7 +9,7 @@
             color: $color1;
             font-size: 25px;
             font-family: $nameFont1;
-            letter-spacing: 4px;
+            letter-spacing: 2px;
         }
     }
     .wrapFormContact {
@@ -26,12 +26,12 @@
             margin-bottom: 20px;
             .phoneNumber {
                 color: $color1;
-                font-size: 30px;
+                font-size: 26px;
                 font-weight: 600;
             }
             svg {
-                width: 42px;
-                height: 42px;
+                width: 35px;
+                height: 35px;
                 fill: $color1;
                 background-color: red;
                 padding: 8px;
@@ -46,8 +46,15 @@
                 color: $color1;
                 margin-bottom: 25px;
                 list-style: none;
+                line-height: 35px;
                 strong {
                     color: $color29;
+                }
+                svg {
+                    width: 22px;
+                    height: 22px;
+                    fill: white;
+                    margin-right: 20px;
                 }
             }
         }

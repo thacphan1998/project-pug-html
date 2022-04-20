@@ -2217,7 +2217,7 @@ body.vjs-full-window {
   color: white;
   font-size: 25px;
   font-family: "RobotoCondensed";
-  letter-spacing: 4px;
+  letter-spacing: 2px;
 }
 .wrapContact .wrapFormContact .formGroup {
   padding: 0;
@@ -2230,12 +2230,12 @@ body.vjs-full-window {
 }
 .wrapContact .wrapContentContact .wrapPhoneNumber .phoneNumber {
   color: white;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 600;
 }
 .wrapContact .wrapContentContact .wrapPhoneNumber svg {
-  width: 42px;
-  height: 42px;
+  width: 35px;
+  height: 35px;
   fill: white;
   background-color: red;
   padding: 8px;
@@ -2250,9 +2250,16 @@ body.vjs-full-window {
   color: white;
   margin-bottom: 25px;
   list-style: none;
+  line-height: 35px;
 }
 .wrapContact .wrapContentContact ul li strong {
   color: #ffd400;
+}
+.wrapContact .wrapContentContact ul li svg {
+  width: 22px;
+  height: 22px;
+  fill: white;
+  margin-right: 20px;
 }
 
 @media screen and (max-width: 992px) {
@@ -2307,177 +2314,5 @@ body.vjs-full-window {
   }
   .wrapGalleryImage .wrapBoxImage {
     display: none;
-  }
-}
-.wrapTestimonial {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-.wrapTestimonial .bgItem {
-  background-color: rgba(0, 0, 0, 0.6);
-}
-.wrapTestimonial .wrapSlideItem {
-  margin: 30px -15px 0 -15px;
-}
-.wrapTestimonial .itemSlide {
-  padding: 15px;
-}
-.wrapTestimonial .contentItemSlide {
-  padding: 30px;
-  background-color: white;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  position: relative;
-}
-.wrapTestimonial .wrapIcon {
-  position: absolute;
-  top: -25px;
-  color: #ffc107;
-  right: 30px;
-}
-.wrapTestimonial .wrapIcon svg {
-  width: 60px;
-  height: 60px;
-}
-.wrapTestimonial .wrapStar {
-  color: #ffc107;
-}
-.wrapTestimonial .wrapStar svg {
-  width: 18px;
-  height: 18px;
-}
-.wrapTestimonial .text {
-  margin-top: 5px;
-}
-.wrapTestimonial .wrapImg {
-  width: 70px;
-  height: 70px;
-  padding: 5px;
-  border: 2px dashed #ffc107;
-  border-radius: 100%;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
-  -o-border-radius: 100%;
-}
-.wrapTestimonial .wrapImg .wrapImgResize {
-  border-radius: 100%;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
-  -o-border-radius: 100%;
-}
-.wrapTestimonial .media {
-  margin-top: 15px;
-}
-.wrapTestimonial .media .media-body {
-  padding-left: 10px;
-}
-.wrapTestimonial .media .titleItem {
-  font-family: "Comfortaa";
-  color: #051242;
-  line-height: 30px;
-}
-.wrapTestimonial .media .job {
-  margin: 5px 0 0 0;
-}
-
-@media (max-width: 991px) {
-  .wrapTestimonial .contentItemSlide {
-    padding: 15px;
-  }
-  .wrapTestimonial .wrapSlideItem {
-    margin: 15px -7.5px 0 -7.5px;
-  }
-  .wrapTestimonial .itemSlide {
-    padding: 30px 7.5px 0 7.5px;
-  }
-}
-.wrapNews .colItem {
-  margin-top: 30px;
-}
-.wrapNews .wrapImg {
-  overflow: hidden;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-}
-.wrapNews .wrapImg .wrapImgResize {
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-}
-.wrapNews .contentCol:hover .wrapImg .wrapImgResize {
-  transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-}
-.wrapNews .wrapInfo {
-  margin: 15px 0 0 0;
-}
-.wrapNews .wrapInfo svg {
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  transform: translate(0, -2px);
-  -webkit-transform: translate(0, -2px);
-  -moz-transform: translate(0, -2px);
-  -ms-transform: translate(0, -2px);
-  -o-transform: translate(0, -2px);
-  margin-right: 5px;
-  color: #ffc107;
-}
-.wrapNews .wrapInfo .author,
-.wrapNews .wrapInfo .date {
-  float: left;
-  margin: 0;
-}
-.wrapNews .wrapInfo .date {
-  margin-left: 15px;
-}
-.wrapNews .titleMain {
-  margin: 15px 0 0 0;
-}
-.wrapNews .linkTitle {
-  font-family: "Comfortaa";
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  max-height: 56px;
-  line-height: 28px;
-}
-.wrapNews .wrapSummary {
-  margin: 15px 0 0 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  max-height: 66px;
-}
-.wrapNews .btnWatchMore {
-  margin-top: 15px;
-}
-
-@media (max-width: 991px) {
-  .wrapNews .rowList {
-    margin: 0 -7.5px;
-  }
-  .wrapNews .colItem {
-    padding: 0 7.5px;
-    margin-top: 15px;
   }
 }
