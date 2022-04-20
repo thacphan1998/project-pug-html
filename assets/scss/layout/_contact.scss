@@ -56,6 +56,17 @@
 
 // media
 
+@media screen and(max-width: 992px) {
+    .wrapContact {
+        .wrapTitleItem {
+            .titleMain {
+                line-height: 35px;
+            }
+        }
+    }
+    
+}
+
 @media screen and(max-width: 576px) {
     .wrapContact {
         .wrapTitleItem {

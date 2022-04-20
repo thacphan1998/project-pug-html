@@ -2255,213 +2255,58 @@ body.vjs-full-window {
   color: #ffd400;
 }
 
+@media screen and (max-width: 992px) {
+  .wrapContact .wrapTitleItem .titleMain {
+    line-height: 35px;
+  }
+}
 @media screen and (max-width: 576px) {
   .wrapContact .wrapTitleItem .titleMain {
     font-size: 18px;
   }
 }
-@-webkit-keyframes ripple-wave {
-  from {
-    box-shadow: 0 0 rgba(255, 255, 255, 0.1), 0 0 0 15px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0.1);
-  }
-  to {
-    box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0.1), 0 0 0 45px rgba(255, 255, 255, 0.02);
-  }
+.wrapGalleryImage {
+  padding: 30px 0;
 }
-@keyframes ripple-wave {
-  from {
-    box-shadow: 0 0 rgba(255, 255, 255, 0.1), 0 0 0 15px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0.1);
-  }
-  to {
-    box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0.1), 0 0 0 45px rgba(255, 255, 255, 0.02);
-  }
+.wrapGalleryImage .wrapTitleItem .titleMain {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "RobotoCondensed";
+  line-height: 50px;
 }
-.wrapVideo .wrapImg {
-  overflow: hidden;
-  border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
-  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
-  -ms-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
-  -o-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+.wrapGalleryImage .wrapBoxImage {
+  margin: 0;
 }
-.wrapVideo .wrapImg .wrapImgResize {
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
+.wrapGalleryImage .wrapBoxImage .colItemImage {
+  padding: 0 2px 4px 2px;
 }
-.wrapVideo .showVideo {
-  position: relative;
-  margin-top: 30px;
-  cursor: pointer;
-}
-.wrapVideo .showVideo:hover .wrapImg .wrapImgResize {
-  transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-}
-.wrapVideo .wrapIcon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-}
-.wrapVideo .wrapIcon .contentIcon {
-  color: #ffc107;
-  width: 75px;
-  height: 75px;
-  background-color: white;
-  border-radius: 100%;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
-  -o-border-radius: 100%;
-  text-align: center;
-  position: relative;
-}
-.wrapVideo .wrapIcon .contentIcon::before {
-  position: absolute;
-  top: 0;
-  left: 0;
+.wrapGalleryImage .wrapBoxImage .colItemImage .wrapImage img {
   width: 100%;
   height: 100%;
-  z-index: 0;
-  content: "";
-  border-radius: 100%;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
-  -o-border-radius: 100%;
-  -webkit-animation: ripple-wave 1s linear infinite;
-          animation: ripple-wave 1s linear infinite;
-  -webkit-animation-play-state: running;
-          animation-play-state: running;
 }
-.wrapVideo .wrapIcon svg {
-  width: 20px;
-  height: 75px;
-  display: inline-block;
-  position: relative;
-  z-index: 1;
+.wrapGalleryImage .colItemMobile {
+  margin-right: 5px;
 }
 
-.wrapGallery .colItem {
-  margin-top: 30px;
-}
-.wrapGallery .wrapImg {
-  overflow: hidden;
-  border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
-  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
-  -ms-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
-  -o-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
-}
-.wrapGallery .wrapImg .wrapImgResize {
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-  background-color: #333;
-}
-.wrapGallery .wrapIcon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  opacity: 0;
-  filter: alpha(opacity=0);
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-  cursor: pointer;
-}
-.wrapGallery .wrapIcon .contentIcon {
-  color: white;
-  width: 75px;
-  height: 75px;
-  background-color: #ffc107;
-  border-radius: 100%;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
-  -o-border-radius: 100%;
-  text-align: center;
-  position: relative;
-}
-.wrapGallery .wrapIcon svg {
-  width: 20px;
-  height: 75px;
-  display: inline-block;
-  position: relative;
-  z-index: 1;
-}
-.wrapGallery .contentCol {
-  position: relative;
-}
-.wrapGallery .contentCol:hover .wrapImg .wrapImgResize {
-  transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-}
-.wrapGallery .contentCol:hover .wrapImg .wrapImgResize img {
-  opacity: 0.6;
-  filter: alpha(opacity=60);
-}
-.wrapGallery .contentCol:hover .wrapIcon {
-  opacity: 1;
-  filter: alpha(opacity=100);
-}
-
-@media (max-width: 991px) {
-  .wrapGallery .rowList {
-    margin: 0 -7.5px;
-  }
-  .wrapGallery .colItem {
-    padding: 0 7.5px;
-    margin-top: 15px;
+@media screen and (max-width: 870px) {
+  .wrapGalleryImage .wrapTitleItem .titleMain {
+    font-size: 30px;
   }
 }
-@media (max-width: 575px) {
-  .wrapGallery .wrapImg {
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+@media screen and (min-width: 577px) {
+  .wrapGalleryImage .wrapBoxImageMobile {
+    display: none;
   }
-  .wrapGallery .wrapIcon .contentIcon {
-    width: 50px;
-    height: 50px;
+}
+@media screen and (max-width: 576px) {
+  .wrapGalleryImage .wrapTitleItem .titleMain {
+    font-size: 25px;
   }
-  .wrapGallery .wrapIcon svg {
-    width: 17px;
-    height: 50px;
+  .wrapGalleryImage .wrapBoxImageMobile {
+    display: block;
+  }
+  .wrapGalleryImage .wrapBoxImage {
+    display: none;
   }
 }
 .wrapTestimonial {

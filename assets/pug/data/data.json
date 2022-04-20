@@ -367,6 +367,40 @@
 				"link": "javascript:void(0);"
 			}
 		],
+		"gallery_image": [
+			{
+				"title": "Thiết bị máy tính",
+				"url_img": "images/light-gallery/hinh_1.jpg"
+			},
+			{
+				"title": "Thiết bị máy tính",
+				"url_img": "images/light-gallery/hinh_2.jpg"
+			},
+			{
+				"title": "Thiết bị máy tính",
+				"url_img": "images/light-gallery/hinh_3.jpg"
+			},
+			{
+				"title": "Thiết bị máy tính",
+				"url_img": "images/light-gallery/hinh_4.jpg"
+			},
+			{
+				"title": "Thiết bị máy tính",
+				"url_img": "images/light-gallery/hinh_5.jpg"
+			},
+			{
+				"title": "Thiết bị máy tính",
+				"url_img": "images/light-gallery/hinh_6.jpg"
+			},
+			{
+				"title": "Thiết bị máy tính",
+				"url_img": "images/light-gallery/hinh_1.jpg"
+			},
+			{
+				"title": "Thiết bị máy tính",
+				"url_img": "images/light-gallery/hinh_4.jpg"
+			}
+		],
 		"news": [
 			{
 				"img": "images/news/1.jpg",

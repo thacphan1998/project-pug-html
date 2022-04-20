@@ -1,0 +1,18 @@
+.wrapGalleryImage 
+    .container-xl.containerItem
+        .contentItem
+            +render_title('Hình ảnh & tiến độ')
+
+            .row.wrapBoxImage
+                each item in data.gallery_image
+                    .col-sm-3.colItemImage  
+                        .wrapImage
+                            a.imageItem.wrapImgResize(href='javascript:void(0);' title= item.title)
+                                img(src= item.url_img alt= item.title)
+
+            .wrapBoxImageMobile
+                .showSlideGallMobile
+                    each item in data.gallery_image
+                        .colItemMobile 
+                            a.imageItem.wrapImgResize(href='javascript:void(0);' title= item.title)
+                                img(src= item.url_img alt= item.title)
