@@ -41,6 +41,7 @@
                 ul {
                     padding-left: 10px;
                     li {
+                        position: relative;
                         list-style: none;
                         font-size: 14px;
                         text-align: right;
@@ -48,8 +49,16 @@
                         font-family: $nameFont2;
                         border-bottom: 1px solid #ececec;
                         padding-bottom: 11px;
-                        margin-bottom: 10px;    
+                        margin-bottom: 10px; 
+
+                        svg {
+                            fill: $color23;
+                            width: 16px;
+                            height: 16px;
+                            margin-right: 10px;
+                        }
                     }
+                    
                 }
             }
         }
