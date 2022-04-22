@@ -1,9 +1,7 @@
 .wrapAboutHome {
     background-color: rgba(0, 40, 77, 0.92);
     padding: 40px 0;
-    .slick-arrow {
-        display: none !important;
-    }
+   
     .titleItem {
         padding-bottom: 10px;
         .titleMain {
@@ -14,6 +12,17 @@
             word-spacing: 10px;
             letter-spacing: 4px;
     
+        }
+    }
+
+    .showSlideMain {
+        .btnSlideType1 {
+            svg {
+                display: none;
+            }
+        }
+        &:hover .btnSlideType1 svg {
+            display: inline-block;
         }
     }
 

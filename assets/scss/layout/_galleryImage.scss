@@ -23,7 +23,8 @@
         
     }
     .colItemMobile {
-        margin-right: 5px;
+        margin-left: 2.5px;
+        margin-right: 2.5px;
     }
     
     
@@ -62,6 +63,14 @@
         
         .wrapBoxImageMobile {
             display: block;
+            .btnSlideType1 {
+                svg {
+                    display: none;
+                }
+            }
+            &:hover .btnSlideType1 svg {
+                display: inline-block;
+            }
         }
 
         .wrapBoxImage  {

@@ -221,8 +221,8 @@ $(window).on('load', function () {
             pauseOnFocus: false,
             fade: false,
             swipeToSlide: true,
-            // prevArrow: btnLeftSlideType1,
-            // nextArrow: btnRightSlideType1,
+            prevArrow: btnLeftSlideType1,
+            nextArrow: btnRightSlideType1,
             lazyLoad: 'progressive',
             useTransform: false
         });
@@ -239,8 +239,10 @@ $(window).on('load', function () {
             useTransform: false,
             slidesToShow: 4,
             swipeToSlide: true,
+            prevArrow: btnLeftSlideType1,
+            nextArrow: btnRightSlideType1,
             lazyLoad: 'progressive',
-            arrows: false,
+            arrows: true,
             dots: false,
             useTransform: false,
             responsive: [
@@ -275,14 +277,16 @@ $(window).on('load', function () {
 
     if($('.showSlideGallMobile').length) {
         $('.showSlideGallMobile').slick({
-            autoplay: false,
+            autoplay: true,
             pauseOnHover: false,
             pauseOnFocus: false,
             useTransform: false,
             slidesToShow: 2,
             swipeToSlide: true,
+            prevArrow: btnLeftSlideType1,
+            nextArrow: btnRightSlideType1,
             lazyLoad: 'progressive',
-            arrows: false,
+            arrows: true,
             dots: false,
             useTransform: false,
             responsive: [

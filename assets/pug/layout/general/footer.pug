@@ -1,32 +1,11 @@
-// footer
-.footer(style='background-image:url(images/banner/footer.jpg)')
+.footer
     .bgItem
         .container-xl.containerItem
             .contentItem
                 .row.rowList
-                    .col-lg-3.colItem.logo
+                    .col-md-4.colItem.contact
                         .contentCol
-                            .wrapLogo
-                                img(src= data.footer.logo, alt= data.general.title_website)
-
-                            .clearfix.wrapSocial
-                                each item in data.footer.social
-                                    a(href= item.link target='_blank' title= item.title)
-                                        +render_svg(item.icon.view, item.icon.data)
-
-                    .col-lg-3.colItem.menu
-                        .contentCol
-                            .titleItem4.titleFooter Liên kết nhanh
-
-                            .wrapMenu
-                                ul.row.clearfix.listItem
-                                    each item in data.footer.menu
-                                        li.col-sm-6.colItem
-                                            a.linkItem(href= item.link, title= item.title)= item.title
-
-                    .col-lg-6.colItem.contact
-                        .contentCol
-                            .titleItem4.titleFooter Liên hệ
+                            .titleItem4.titleFooter Thông tin liên hệ
 
                             .wrapInfo
                                 each item in data.footer.contact
@@ -34,16 +13,43 @@
                                         +render_svg(item.icon.view, item.icon.data)
                                         = item.title
 
+                    .col-md-4.colItem.contact.subscribeVisit
+                        .contentCol
+                            .titleItem4.titleFooter Đăng ký tham quan dự án
+
+                            form.formGroup.inputItem
+                                each item in data.input_form
+                                    .formControl.formControlContact
+                                        input.inputForm.inputFormContact.firstName.inputFooter(type= item.type, name= item.name, placeholder= item.placeholder )
+                                    
+                                .formControl.formControlContact
+                                    input.inputForm.inputFormContact.submitInput.submitInputFooter(type="submit" value="Nhận vé ngay!")   
+
+                    .col-md-4.colItem.contact
+                        .contentCol
+                            .titleItem4.titleFooter Lưu ý
+
+                            .wrapNote
+                                p * &nbsp&nbsp Cập nhật liên tục những thông tin mới nhất từ Chủ đầu tư. Căn hộ cao cấp và các trang thiết bị kèm theo sẽ được bàn giao theo đúng quy định tại Hợp Đồng Mua Bán ký kết.
+
             include copyright.pug
+
+
+
+
+
+
+
+// footer
+
+
 // end footer
 |
 |
 include button_scroll_top
 |
 |
-|
-|
-include modal_book_room
-|
-|
 +render_link_js(data_page)
+
+
+
