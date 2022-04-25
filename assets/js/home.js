@@ -331,19 +331,19 @@ $(window).on('load', function () {
     // end slide testimonal
 
     // video about
-    $('.wrapVideoAbout').lightGallery({
+    $('.wraplightGallery').lightGallery({
         showThumbByDefault: true,
         download: false,
-        fullScreen: false,
+        fullScreen: true,
         zoom: false,
         scale: false,
         autoplayControls: false,
-        videojs: true,
+        videojs: false,
         share: false,
         counter: false,
-        getCaptionFromTitleOrAlt: false,
-        thumbnail: false,
-        controls: false
+        getCaptionFromTitleOrAlt: true,
+        thumbnail: true,
+        controls: true
     });
     // end video about
 

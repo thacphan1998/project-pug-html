@@ -4,7 +4,7 @@
             +render_title("Mặt bằng & thiết kế")
 
             .wrapImgDesign
-                a.boxImgDesign(href='', title= data.general.title_website)
+                a.boxImgDesign(href='javascript:void(0);', title= data.general.title_website)
                     img.imgDesign(src='./images/flat-design/MB-THE-JADE-ORCHID.jpg' , alt= data.general.title_website)
             
             
@@ -12,7 +12,7 @@
                 .showSlideDesign
                     each item in data.flat_design
                         .imgItemSlide
-                            a.wrapImgResize.fixImgResize
+                            a.wrapImgResize.fixImgResize(href='javascript:void(0);', title= item.title)
                                 img.imgSlideDesign(src= item.img alt= item.title)        
 
 

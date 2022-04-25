@@ -12,11 +12,10 @@
                                 each item in data_page.slide_main
                                     .elementSlideMain
                                         .wrapImgSlideMain.wrapImgResize
+                                            a(href= 'javascript:void(0);', title= item.title)
                                                 img(src= item.url_img alt= item.title_main)
 
                 .col-lg-5.colTextAboutHome
-                    //- +render_title('GIỚI THIỆU', 'Miracle Luxury Hotel<br /><span style="color: #ffc107;">Nha Trang</span>')
-
                     .wrapTextAboutHome
                         p 
                             strong Tên thương mại:

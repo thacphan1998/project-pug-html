@@ -27,7 +27,7 @@ function showBtnScrollTop() {
 $(".btnScrollTop").on('click', function(e){
     $('body,html').animate({
         scrollTop: 0
-    }, 1000);
+    }, 2000);
 
     e.preventDefault();
 });
