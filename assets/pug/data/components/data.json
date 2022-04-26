@@ -53,7 +53,7 @@
             },
             {
                 "title": "Dự án",
-                "link": "javascript:void(0);"
+                "link": "./project.html"
             },
             {
                 "title": "Tiến độ",
@@ -431,6 +431,60 @@
             ]
         }
     },
+
+    "page_project": {
+        "title_page": "Chi tiết dự án",
+        "description_page": "Thiết bị bị Wifi",
+        "keywords_page": "thiet bi wifi",
+        "url_image_page": "https://demo.sweetsoft.vn/miracle-luxury-hotel/images/banner/share.jpg",
+        "link_css_page": [
+            "lib",
+            "fonts",
+            "project"
+        ],
+        "link_js_page": [
+            "lib",
+            "projectList"
+        ],
+        "slide_main": [
+            {
+                "url_img": "images/project-list/hinh-1.jpg",
+                "status": "Đang mở bán",
+                "statusDes": "",
+                "title_sub": "Chào đón tuần lễ khai trương",
+                "title_main": "GIẢM GIÁ CỰC SỐC<br />LÊN ĐẾN 50%",
+                "text": "Miễn phí tận hưởng các Dịch vụ tiện ích Khách sạn: Hồ bơi, Gym, Xông hơi, Xông khô, Wifi...<br />Miễn phí trang trí phòng Honey moon dành cho các cặp đôi"
+                
+            },
+            {
+                "url_img": "images/project-list/hinh-2.jpg",
+                "status": "Đang mở bán",
+                "statusDes": "Mở bán từ tháng 7/2022",
+                "title_sub": "Chào đón tuần lễ khai trương tudnvjfvn",
+                "title_main": "GIẢM GIÁ CỰC SỐC<br />LÊN ĐẾN 50%",
+                "text": "Miễn phí tận hưởng các Dịch vụ tiện ích Khách sạn: Hồ bơi, Gym, Xông hơi, Xông khô, Wifi...<br />Miễn phí trang trí phòng Honey moon dành cho các cặp đôi"
+                
+            },
+            {
+                "url_img": "images/project-list/hinh-3.jpg",
+                "status": "Sắp mở bán",
+                "statusDes": "Bắt đầu mở bán từ tháng 4/2022",
+                "title_sub": "Chào đón tuần lễ khai trương",
+                "title_main": "GIẢM GIÁ CỰC SỐC<br />LÊN ĐẾN 50%",
+                "text": "Miễn phí tận hưởng các Dịch vụ tiện ích Khách sạn: Hồ bơi, Gym, Xông hơi, Xông khô, Wifi...<br />Miễn phí trang trí phòng Honey moon dành cho các cặp đôi"
+            }
+        ],
+        "breadcrumb": {
+            "url_img": "images/banner/breadcrumb-1.jpg",
+            "menu": [
+                {
+                    "title": "Thiết Bị",
+                    "link": "san-pham.html"
+                }
+            ]
+        }
+    },
+
     "page_product_list": {
         "title_page": "Thiết bị bị Wifi",
         "description_page": "Thiết bị bị Wifi",

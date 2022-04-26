@@ -1,0 +1,25 @@
+// slide main
+.wrapSlideMain
+    .contentSlideMain
+        .showSlideMainProject
+            each item in data_page.slide_main
+                .elementSlideMain
+                    .contentElSlidemain
+                        .wrapImgSlideMain.wrapImgResize
+                            img(src= item.url_img alt= item.title_main)
+
+                        .wrapTextSlideMain
+                            .container-xl.containerTextSlideMain
+                                .contentTextSlideMain
+                                    .titleStatusSlideMain
+                                        .titleStatus= item.status
+                                            p= item.statusDes
+
+                                    .titleSubSlideMain= item.title_sub
+
+                                    .titleMainOnSlideMain !{item.title_main}
+
+                                    .wrapDesSlideMain
+                                        p !{item.text}
+
+// end slide main

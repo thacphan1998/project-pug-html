@@ -1,0 +1,18 @@
+include ../mixin/mixin
+
+//- - var data_page = data.page_home
+
+- var data_page = data.page_project
+
+doctype html
+html(lang='vi')
+    head
+        +head_setting(data_page)
+    body
+        include ../layout/general/header
+        |
+        |
+        include ../layout/detail_project/projectList
+        |
+        |
+        include ../layout/general/footer

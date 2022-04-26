@@ -1,0 +1,187 @@
+$MrTopSlide: 30px;
+
+.wrapSlideMain {
+    .elementSlideMain {
+        position: relative;
+    }
+    .btnSlide  {    
+        &.left {
+            left: 15px;
+        }
+    
+        &.right {
+            right: 15px;
+        }
+    }
+}
+
+.wrapImgSlideMain {
+    background-color: $color1;
+    height: 400px;
+
+    img {
+        width: 100%;
+        height: auto;
+        // @include opacity(0.5);
+    }
+}
+
+.wrapTextSlideMain {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    width: 100%;
+}
+
+.wrapBtnSlideMain,
+.wrapDesSlideMain,
+.titleMainOnSlideMain,
+.titleSubSlideMain {
+    @include opacity(0);
+    @include transition(0.5s);
+}
+
+.wrapBtnSlideMain,
+.wrapDesSlideMain,
+.titleMainOnSlideMain {
+    @include translate(0, 30px);
+}
+
+.titleSubSlideMain {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    color: $color1;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: $nameFont2;
+    @include translate(0, 10px);
+    @include propertyAllCode('transition-delay', 0.2s);
+    $colorShadow: $color5;
+    $widthShadow: 1px;
+    text-shadow: 0 $widthShadow $widthShadow $colorShadow, 0 -$widthShadow $widthShadow $colorShadow, $widthShadow 0 $widthShadow $colorShadow, -$widthShadow 0 $widthShadow $colorShadow;
+}
+
+.titleMainOnSlideMain {
+    font-size: 50px;
+    line-height: 64px;
+    font-weight: 700;
+    color: $color3;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: $nameFont2;
+    margin-top: $MrTopSlide;
+    // @include propertyAllCode('transition-delay', 0.6s);
+    $colorShadow: $color1;
+    $widthShadow: 2px;
+    text-shadow: 0 $widthShadow $widthShadow $colorShadow, 0 -$widthShadow $widthShadow $colorShadow, $widthShadow 0 $widthShadow $colorShadow, -$widthShadow 0 $widthShadow $colorShadow;
+}
+
+.wrapDesSlideMain{
+    font-size: 16px;
+    line-height: 22px;
+    color: $color2;
+    margin: 0;
+    // margin-top: $MrTopSlide;
+    // @include propertyAllCode('transition-delay', 0.8s);
+}
+
+
+
+
+
+.slick-current {
+    .wrapDesSlideMain,
+    .titleMainOnSlideMain,
+    .titleSubSlideMain {
+        @include opacity(1);
+        @include translate(0, 0);
+    }
+}
+
+@media (min-width: 1200px) {
+    .wrapSlideMain {
+        overflow: hidden;
+    
+        .btnSlide  {    
+            &.left {
+                left: -50px;
+            }
+        
+            &.right {
+                right: -50px;
+            }
+        }
+    
+        &:hover {
+            .btnSlide  {    
+                &.left {
+                    left: 15px;
+                }
+            
+                &.right {
+                    right: 15px;
+                }
+            }
+        }
+    }
+}
+
+// @media (max-width: 1400px) {
+//     .wrapTextSlideMain {
+//         top: 60%;
+//     }
+// }
+
+@media (max-width: 1199px) {
+    .contentTextSlideMain {
+        padding: 0 65px;
+    }
+
+    // .wrapImgSlideMain {
+    //     @include heightCalc('100vh - 70px');
+    // }
+}
+
+@media (max-width: 991px) {
+    .wrapTextSlideMain {
+        top: 50%;
+    }
+
+    .titleSubSlideMain {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .titleMainOnSlideMain {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .titleMainOnSlideMain,
+    .wrapDesSlideMain,
+    .wrapBtnSlideMain {
+        margin-top: 5px;
+    }
+
+    .btnCallSlideMain {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 575px) {
+    .wrapDesSlideMain,
+    .titleSubSlideMain {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .titleMainOnSlideMain {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    
+    .wrapImgSlideMain {
+        height: 100vw;
+    }
+}
