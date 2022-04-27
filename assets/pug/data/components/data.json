@@ -53,7 +53,7 @@
             },
             {
                 "title": "Dự án",
-                "link": "./project.html"
+                "link": "detailProject.html"
             },
             {
                 "title": "Tiến độ",
@@ -440,38 +440,35 @@
         "link_css_page": [
             "lib",
             "fonts",
-            "project"
+            "detailproject"
         ],
         "link_js_page": [
             "lib",
-            "projectList"
+            "detailproject"
         ],
         "slide_main": [
             {
                 "url_img": "images/project-list/hinh-1.jpg",
                 "status": "Đang mở bán",
-                "statusDes": "",
-                "title_sub": "Chào đón tuần lễ khai trương",
+                "title_sub": "Fiato Premier",
                 "title_main": "GIẢM GIÁ CỰC SỐC<br />LÊN ĐẾN 50%",
-                "text": "Miễn phí tận hưởng các Dịch vụ tiện ích Khách sạn: Hồ bơi, Gym, Xông hơi, Xông khô, Wifi...<br />Miễn phí trang trí phòng Honey moon dành cho các cặp đôi"
+                "text": "Đường Tây Thăng Long, Phường Tây Tựu, Quận Bắc Từ Liêm, Hà Nội"
                 
             },
             {
                 "url_img": "images/project-list/hinh-2.jpg",
                 "status": "Đang mở bán",
                 "statusDes": "Mở bán từ tháng 7/2022",
-                "title_sub": "Chào đón tuần lễ khai trương tudnvjfvn",
-                "title_main": "GIẢM GIÁ CỰC SỐC<br />LÊN ĐẾN 50%",
-                "text": "Miễn phí tận hưởng các Dịch vụ tiện ích Khách sạn: Hồ bơi, Gym, Xông hơi, Xông khô, Wifi...<br />Miễn phí trang trí phòng Honey moon dành cho các cặp đôi"
+                "title_sub": "Avenue Garden",
+                "text": "563 Tô Ngọc Vân, Phường Tam Phú, Thành phố Thủ Đức, Hồ Chí Minh"
                 
             },
             {
                 "url_img": "images/project-list/hinh-3.jpg",
                 "status": "Sắp mở bán",
                 "statusDes": "Bắt đầu mở bán từ tháng 4/2022",
-                "title_sub": "Chào đón tuần lễ khai trương",
-                "title_main": "GIẢM GIÁ CỰC SỐC<br />LÊN ĐẾN 50%",
-                "text": "Miễn phí tận hưởng các Dịch vụ tiện ích Khách sạn: Hồ bơi, Gym, Xông hơi, Xông khô, Wifi...<br />Miễn phí trang trí phòng Honey moon dành cho các cặp đôi"
+                "title_sub": "The Beverly Solari - Vinhomes Grand Park",
+                "text": "KĐT Vinhomes Grand Park, Phường Long Thạnh Mỹ,  Quận 9, Hồ Chí Minh"
             }
         ],
         "breadcrumb": {

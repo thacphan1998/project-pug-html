@@ -18,11 +18,23 @@ $MrTopSlide: 30px;
 .wrapImgSlideMain {
     background-color: $color1;
     height: 400px;
+    position: relative;
+
+    &::after {
+        content: '';
+        width: 100%;
+        height: 260px;
+        background: linear-gradient(179deg, rgba(44,44,44,0) 0%, rgba(44,44,44,0.8) 100%);
+        mix-blend-mode: multiply;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+    }
 
     img {
         width: 100%;
         height: auto;
-        // @include opacity(0.5);
+        
     }
 }
 
@@ -31,6 +43,31 @@ $MrTopSlide: 30px;
     bottom: 5%;
     left: 0;
     width: 100%;
+
+    
+}
+
+.titleStatusSlideMain {
+    background-color: white;
+    color: #961b12;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+    .titleStatus {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    span {
+        font-size: 14px;
+
+        &::before {
+            content: "∙";
+            padding: 0 7px;
+            font-weight: 500;
+        }
+    }
 }
 
 .wrapBtnSlideMain,
@@ -48,42 +85,20 @@ $MrTopSlide: 30px;
 }
 
 .titleSubSlideMain {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 30px;
     font-weight: 700;
     color: $color1;
-    margin: 0;
-    text-transform: uppercase;
+    margin: 10px 0 10px 0;
     font-family: $nameFont2;
     @include translate(0, 10px);
-    @include propertyAllCode('transition-delay', 0.2s);
-    $colorShadow: $color5;
-    $widthShadow: 1px;
-    text-shadow: 0 $widthShadow $widthShadow $colorShadow, 0 -$widthShadow $widthShadow $colorShadow, $widthShadow 0 $widthShadow $colorShadow, -$widthShadow 0 $widthShadow $colorShadow;
-}
-
-.titleMainOnSlideMain {
-    font-size: 50px;
-    line-height: 64px;
-    font-weight: 700;
-    color: $color3;
-    margin: 0;
-    text-transform: uppercase;
-    font-family: $nameFont2;
-    margin-top: $MrTopSlide;
-    // @include propertyAllCode('transition-delay', 0.6s);
-    $colorShadow: $color1;
-    $widthShadow: 2px;
-    text-shadow: 0 $widthShadow $widthShadow $colorShadow, 0 -$widthShadow $widthShadow $colorShadow, $widthShadow 0 $widthShadow $colorShadow, -$widthShadow 0 $widthShadow $colorShadow;
 }
 
 .wrapDesSlideMain{
     font-size: 16px;
     line-height: 22px;
-    color: $color2;
+    color: rgba(255,255,255,0.8);
     margin: 0;
-    // margin-top: $MrTopSlide;
-    // @include propertyAllCode('transition-delay', 0.8s);
 }
 
 
@@ -92,7 +107,6 @@ $MrTopSlide: 30px;
 
 .slick-current {
     .wrapDesSlideMain,
-    .titleMainOnSlideMain,
     .titleSubSlideMain {
         @include opacity(1);
         @include translate(0, 0);
@@ -127,11 +141,6 @@ $MrTopSlide: 30px;
     }
 }
 
-// @media (max-width: 1400px) {
-//     .wrapTextSlideMain {
-//         top: 60%;
-//     }
-// }
 
 @media (max-width: 1199px) {
     .contentTextSlideMain {
@@ -153,12 +162,6 @@ $MrTopSlide: 30px;
         line-height: 22px;
     }
 
-    .titleMainOnSlideMain {
-        font-size: 20px;
-        line-height: 26px;
-    }
-
-    .titleMainOnSlideMain,
     .wrapDesSlideMain,
     .wrapBtnSlideMain {
         margin-top: 5px;
@@ -176,11 +179,6 @@ $MrTopSlide: 30px;
         line-height: 20px;
     }
 
-    .titleMainOnSlideMain {
-        font-size: 20px;
-        line-height: 26px;
-    }
-    
     .wrapImgSlideMain {
         height: 100vw;
     }

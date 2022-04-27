@@ -11,15 +11,17 @@
                         .wrapTextSlideMain
                             .container-xl.containerTextSlideMain
                                 .contentTextSlideMain
-                                    .titleStatusSlideMain
-                                        .titleStatus= item.status
-                                            p= item.statusDes
+                                    span.titleStatusSlideMain
+                                        if item.statusDes
+                                            label.titleStatus= item.status
+                                            span= item.statusDes
+                                        else 
+                                            label.titleStatus= item.status
 
                                     .titleSubSlideMain= item.title_sub
-
-                                    .titleMainOnSlideMain !{item.title_main}
 
                                     .wrapDesSlideMain
                                         p !{item.text}
 
 // end slide main
+

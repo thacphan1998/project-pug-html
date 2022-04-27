@@ -11267,14 +11267,6 @@ strong {
   color: #333;
 }
 
-@media (min-width: 1200px) {
-  .fixedMenu .menuSub .wrapMenuHeader {
-    top: 70px;
-  }
-  .fixedMenu .linkMenuHeader {
-    padding: 24px 0;
-  }
-}
 .footer {
   background-color: #1b3a69;
 }
