@@ -154,7 +154,11 @@ $MrTopSlide: 30px;
 
 @media (max-width: 991px) {
     .wrapTextSlideMain {
-        top: 50%;
+        bottom: 5%;
+    }
+
+    .contentTextSlideMain {
+        padding: 0 0 0 15px;
     }
 
     .titleSubSlideMain {

@@ -19,6 +19,10 @@
     .listCardProject {
         .itemCardProject {
             display: flex;
+            border-radius: 8px;
+            outline-offset: -1px;
+            outline: 1px solid #f2f2f2;
+            box-shadow: 0px 4px 6px 0px rgb(44 44 44 / 4%);
             margin-bottom: 15px;
             .wrapimgCard {
                 width: 250px;
@@ -63,6 +67,11 @@
                         font-weight: 600;
                         margin: 0;
                         padding: 0;
+                    }
+
+                    .titleStatusUpdate {
+                        color: #999;
+                        font-weight: 600;
                     }
 
                     span {

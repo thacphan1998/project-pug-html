@@ -465,8 +465,7 @@
 					"url_img_1": "images/project-list/hinh-1.jpg",
 					"url_img_2": "images/project-list/hinh-2.jpg",
 					"url_img_3": "images/project-list/hinh-1.jpg",
-					"status": "Đang mở bán",
-					"statusDes": "Ra mắt ngày 06/03/2022",
+					"statusUpdate": "Đang cập nhật",
 					"title": "Landmark Tower Đà Nẵng",
 					"spec_project": {
 						"price": "34 triệu/m²",
@@ -485,7 +484,8 @@
 					"url_img_1": "images/project-list/hinh-1.jpg",
 					"url_img_2": "images/project-list/hinh-2.jpg",
 					"url_img_3": "images/project-list/hinh-1.jpg",
-					"status": "Đang cập nhật",
+					"status": "Đã mở bán",
+					"statusDes": "Mở bán ngày 04/04/2022",
 					"title": "The Beverly Solari",
 					"spec_project": {
 						"acreage": "5.86 m²",
@@ -513,6 +513,60 @@
 					},
 					"address": "GIẢM GIÁ CỰC SỐC<br />LÊN ĐẾN 50%",
 					"text": "Đường Tây Thăng Long, Phường Tây Tựu, Quận Bắc Từ Liêm, Hà Nội"
+				},
+				{
+					"url_img_1": "images/project-list/hinh-1.jpg",
+					"url_img_2": "images/project-list/hinh-2.jpg",
+					"url_img_3": "images/project-list/hinh-1.jpg",
+					"statusUpdate": "Đang cập nhật",
+					"title": "The Beverly Solari",
+					"spec_project": {
+						"acreage": "5.86 m²",
+						"apartments": "888",
+						"towers": "1"
+					},
+					"address": "GIẢM GIÁ CỰC SỐC<br />LÊN ĐẾN 50%",
+					"text": "Đường Tây Thăng Long, Phường Tây Tựu, Quận Bắc Từ Liêm, Hà Nội",
+					"company": {
+						"url_img": "images/project-list/hinh-1.jpg",
+						"text": "ACB"
+					}
+				},
+				{
+					"url_img_1": "images/project-list/hinh-1.jpg",
+					"url_img_2": "images/project-list/hinh-2.jpg",
+					"url_img_3": "images/project-list/hinh-1.jpg",
+					"statusUpdate": "Đang cập nhật",
+					"title": "The Beverly Solari",
+					"spec_project": {
+						"acreage": "5.86 m²",
+						"apartments": "888",
+						"towers": "1"
+					},
+					"address": "GIẢM GIÁ CỰC SỐC<br />LÊN ĐẾN 50%",
+					"text": "Đường Tây Thăng Long, Phường Tây Tựu, Quận Bắc Từ Liêm, Hà Nội",
+					"company": {
+						"url_img": "images/project-list/hinh-1.jpg",
+						"text": "ACB"
+					}
+				},
+				{
+					"url_img_1": "images/project-list/hinh-1.jpg",
+					"url_img_2": "images/project-list/hinh-2.jpg",
+					"url_img_3": "images/project-list/hinh-1.jpg",
+					"status": "Đang mở bán",
+					"title": "The Beverly Solari",
+					"spec_project": {
+						"acreage": "5.86 m²",
+						"apartments": "888",
+						"towers": "1"
+					},
+					"address": "GIẢM GIÁ CỰC SỐC<br />LÊN ĐẾN 50%",
+					"text": "Đường Tây Thăng Long, Phường Tây Tựu, Quận Bắc Từ Liêm, Hà Nội",
+					"company": {
+						"url_img": "images/project-list/hinh-1.jpg",
+						"text": "ACB"
+					}
 				}
 			],
 			"breadcrumb": {

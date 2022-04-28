@@ -1161,7 +1161,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 @media (max-width: 991px) {
   .wrapTextSlideMain {
-    top: 50%;
+    bottom: 5%;
+  }
+
+  .contentTextSlideMain {
+    padding: 0 0 0 15px;
   }
 
   .titleSubSlideMain {
@@ -1205,6 +1209,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 .wrapContentMain .listCardProject .itemCardProject {
   display: flex;
+  border-radius: 8px;
+  outline-offset: -1px;
+  outline: 1px solid #f2f2f2;
+  box-shadow: 0px 4px 6px 0px rgba(44, 44, 44, 0.04);
   margin-bottom: 15px;
 }
 .wrapContentMain .listCardProject .itemCardProject .wrapimgCard {
@@ -1245,6 +1253,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   font-weight: 600;
   margin: 0;
   padding: 0;
+}
+.wrapContentMain .listCardProject .itemCardProject .wrapInfoCard .tagStatus .titleStatusUpdate {
+  color: #999;
+  font-weight: 600;
 }
 .wrapContentMain .listCardProject .itemCardProject .wrapInfoCard .tagStatus span {
   color: #5c542f;
