@@ -1,0 +1,121 @@
+.wrapContentMain {
+    .titleContentMain {
+        font-size: 22px;
+        font-weight: 700;
+        font-family: 'RobotoCondensed';
+        color: $color2;
+        margin: 8px 0;
+    }
+
+    .infoProject {
+        display: flex;
+        margin: 10px 0;
+
+        .selectStatus {
+            margin-left: auto;
+        }
+    }
+
+    .listCardProject {
+        .itemCardProject {
+            display: flex;
+            margin-bottom: 15px;
+            .wrapimgCard {
+                width: 250px;
+                position: relative;
+                float: left;
+                display: block;
+
+                img {
+                    width: 100%;
+                    float: left;
+                }
+                
+                > img:nth-child(1) {
+                    height: 180px;
+                }
+                
+                > img:not(:nth-child(1)) {
+                    width: calc(50% - 1px);
+                    height: 65px;
+                    margin-top: 2px;
+                }
+
+                > img:nth-child(3) {
+                    margin-left: 2px;
+                }
+            }
+
+            .wrapInfoCard {
+                width: calc(100% - 250px);
+                height: 245px;
+                padding: 10px 10px 10px 20px;
+
+                .tagStatus {
+                    background: #ffeceb;
+                    display: inline;
+                    font-size: 14px;
+                    color: rgb(92, 84, 47);
+                    padding: 6px;
+                    border-radius: 8px;
+
+                    .titleStatus {
+                        font-weight: 600;
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    span {
+                        color: rgb(92, 84, 47);
+                        &::before {
+                            content: "∙";
+                            padding: 0 7px;
+                            font-weight: 500;
+                        }
+                    }
+                }
+
+                .tagTitle {
+                    font-size: 20px;
+                    color: #333;
+                    margin: 10px 0 0 0;
+
+                }
+                .tagAddress,
+                .textDes,
+                .tagCompany,
+                .tagspecifications {
+                    color: #333;
+                    font-size: 15px;
+                    margin: 10px 0 0 0;
+                }
+
+                
+
+                .textDes {
+                    display: -webkit-box;
+                    overflow: hidden;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                }
+
+                .tagspecifications {
+                    color: #333;
+                    font-weight: 600;
+
+                    span {
+                        margin-right: 8px;
+                        svg {
+                            height: 16px;
+                            width: 16px;
+                            transform: translate(-1px, -2px);
+                        }
+                    }
+
+                }
+                
+            }
+        }
+    }
+    
+}

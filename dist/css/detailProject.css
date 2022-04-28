@@ -1189,3 +1189,99 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     height: 100vw;
   }
 }
+.wrapContentMain .titleContentMain {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "RobotoCondensed";
+  color: #333;
+  margin: 8px 0;
+}
+.wrapContentMain .infoProject {
+  display: flex;
+  margin: 10px 0;
+}
+.wrapContentMain .infoProject .selectStatus {
+  margin-left: auto;
+}
+.wrapContentMain .listCardProject .itemCardProject {
+  display: flex;
+  margin-bottom: 15px;
+}
+.wrapContentMain .listCardProject .itemCardProject .wrapimgCard {
+  width: 250px;
+  position: relative;
+  float: left;
+  display: block;
+}
+.wrapContentMain .listCardProject .itemCardProject .wrapimgCard img {
+  width: 100%;
+  float: left;
+}
+.wrapContentMain .listCardProject .itemCardProject .wrapimgCard > img:nth-child(1) {
+  height: 180px;
+}
+.wrapContentMain .listCardProject .itemCardProject .wrapimgCard > img:not(:nth-child(1)) {
+  width: calc(50% - 1px);
+  height: 65px;
+  margin-top: 2px;
+}
+.wrapContentMain .listCardProject .itemCardProject .wrapimgCard > img:nth-child(3) {
+  margin-left: 2px;
+}
+.wrapContentMain .listCardProject .itemCardProject .wrapInfoCard {
+  width: calc(100% - 250px);
+  height: 245px;
+  padding: 10px 10px 10px 20px;
+}
+.wrapContentMain .listCardProject .itemCardProject .wrapInfoCard .tagStatus {
+  background: #ffeceb;
+  display: inline;
+  font-size: 14px;
+  color: #5c542f;
+  padding: 6px;
+  border-radius: 8px;
+}
+.wrapContentMain .listCardProject .itemCardProject .wrapInfoCard .tagStatus .titleStatus {
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+.wrapContentMain .listCardProject .itemCardProject .wrapInfoCard .tagStatus span {
+  color: #5c542f;
+}
+.wrapContentMain .listCardProject .itemCardProject .wrapInfoCard .tagStatus span::before {
+  content: "∙";
+  padding: 0 7px;
+  font-weight: 500;
+}
+.wrapContentMain .listCardProject .itemCardProject .wrapInfoCard .tagTitle {
+  font-size: 20px;
+  color: #333;
+  margin: 10px 0 0 0;
+}
+.wrapContentMain .listCardProject .itemCardProject .wrapInfoCard .tagAddress,
+.wrapContentMain .listCardProject .itemCardProject .wrapInfoCard .textDes,
+.wrapContentMain .listCardProject .itemCardProject .wrapInfoCard .tagCompany,
+.wrapContentMain .listCardProject .itemCardProject .wrapInfoCard .tagspecifications {
+  color: #333;
+  font-size: 15px;
+  margin: 10px 0 0 0;
+}
+.wrapContentMain .listCardProject .itemCardProject .wrapInfoCard .textDes {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.wrapContentMain .listCardProject .itemCardProject .wrapInfoCard .tagspecifications {
+  color: #333;
+  font-weight: 600;
+}
+.wrapContentMain .listCardProject .itemCardProject .wrapInfoCard .tagspecifications span {
+  margin-right: 8px;
+}
+.wrapContentMain .listCardProject .itemCardProject .wrapInfoCard .tagspecifications span svg {
+  height: 16px;
+  width: 16px;
+  transform: translate(-1px, -2px);
+}
