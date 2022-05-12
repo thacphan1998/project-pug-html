@@ -24,6 +24,10 @@
             outline: 1px solid #f2f2f2;
             box-shadow: 0px 4px 6px 0px rgb(44 44 44 / 4%);
             margin-bottom: 15px;
+
+            &:hover {
+                box-shadow: 0px 4px 16px 0px rgb(44 44 44 / 8%);
+            }
             .wrapimgCard {
                 width: 250px;
                 position: relative;
@@ -54,6 +58,7 @@
                 width: calc(100% - 250px);
                 height: 245px;
                 padding: 10px 10px 10px 20px;
+                position: relative;
 
                 .tagStatus {
                     background: #ffeceb;
@@ -99,7 +104,12 @@
                     margin: 10px 0 0 0;
                 }
 
-                
+                .tagAddress {
+                    display: -webkit-box;
+                    overflow: hidden;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 1;
+                }
 
                 .textDes {
                     display: -webkit-box;
@@ -113,18 +123,267 @@
                     font-weight: 600;
 
                     span {
-                        margin-right: 8px;
                         svg {
                             height: 16px;
                             width: 16px;
                             transform: translate(-1px, -2px);
                         }
-                    }
 
+                        &:not(:last-child)::after {
+                            content: "∙";
+                            padding: 0 7px;
+                            font-weight: 500;
+                        }
+                    }
                 }
-                
+
+                .tagCompany {
+                    display: flex;
+                    align-items: center;
+                    position: absolute;
+                    bottom: 10px;
+                    svg {
+                        width: 20px;
+                        height: 20px;
+                        margin-right: 10px;
+                    }
+                    span {
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+
+    .ItemViewProject {
+        margin-top: 10px;
+        .wrapTitle {
+            h4 {
+                font-size: 22px;
+            }
+        }
+        .wrapSlideMain {
+            margin: 15px 0 20px;
+        }
+        .wrapVideoSlideMain {
+            height: 290px;
+            border-radius: 7px;
+
+            &::after {
+                display: none;
+            }
+        }
+        .titleSubVideo {
+            transition: none
+        }
+
+        .wrapNewsProject {
+            .wrapNewsList {
+                padding: 0;
+
+                .itemNewsList {
+                    position: relative;
+                    padding: 10px 0;
+                    list-style: none;
+                    display: flex;
+                    border-bottom: 1px solid $color32;
+
+                    &:last-child {
+                        border: none;
+                    }
+                    .wrapImgNewList {
+                        float: left;
+                        width: 120px;
+                        height: 90px;
+                        position: relative;
+                        img {
+                            border-radius: 5px;
+                        }
+                    }
+                    .wrapContentNewList {
+                        width: calc(100% - 120px);
+                        padding-left: 18px;
+                        
+                        .wrapTitleNewList {
+                            font-size: 16px;
+                            color: $color2;
+                            font-family: system-ui;
+                            font-weight: 500;
+                            line-height: 22px;
+                            overflow: hidden !important;
+                            display: -webkit-box !important;
+                            -webkit-line-clamp: 3;
+                            -webkit-box-orient: vertical;
+
+                            &:hover {
+                                opacity: 0.6;
+                            }
+                        }
+
+                        .timeNewList {
+                            position: absolute;
+                            bottom: 12px;
+                            font-size: 14px;
+                            color: $color31;
+                            font-weight: normal;
+                            line-height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    // icon video
+
+    @keyframes ripple-wave {
+        from {
+            box-shadow: 0 0 rgb(255 255 255/10%), 0 0 0 15px rgb(255 255 255/10%), 0 0 0 30px rgb(255 255 255/10%);
+        }
+        to {
+            box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0.1), 0 0 0 45px rgba(255, 255, 255, 0.02);
+        }
+    }
+    
+    .wrapVideo {
+        .wrapImg {
+            overflow: hidden;
+            @include borderRadius(15px);
+            @include boxShadow($boxShadow3);
+    
+            .wrapImgResize {
+                @include transition(0.5s);
+            }
+        }
+    
+        .showVideo {
+            position: relative;
+            margin-top: 30px;
+            cursor: pointer;
+    
+            &:hover {
+                .wrapImg {
+                    .wrapImgResize {
+                        @include transform(scale(1.2));
+                    }
+                }
+            }
+        }
+    
+        .wrapIcon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            @include translate(-50%, -50%);
+    
+            .contentIcon {
+                color: $color1;
+                width: 45px;
+                height: 45px;
+                background-color: $color11;
+                @include borderRadius(100%);
+                text-align: center;
+                position: relative;
+    
+                &::before {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 0;
+                    content: "";
+                    @include borderRadius(100%);
+                    animation: ripple-wave 1s linear infinite;
+                    animation-play-state: running;
+                }
+            }
+    
+            svg {
+                width: 15px;
+                height: 45px;
+                display: inline-block;
+                position: relative;
+                z-index: 1;
             }
         }
     }
     
+    
+}
+
+// media
+
+@media screen and(max-width: 992px) {
+    .wrapContentMain {
+        .ItemViewProject {
+            .elementSlideMain {
+               margin-left: 5px;
+               margin-right: 5px; 
+            }
+            .wrapVideoSlideMain {
+                height: 200px;
+            }
+        }
+    }
+    
+}
+
+@media screen and(max-width: 575px) {
+    .wrapContentMain {
+        .listCardProject {
+            .itemCardProject {
+                display: grid;
+                justify-items: center;
+                &:hover {
+                    box-shadow: 0px 4px 16px rgb(44 44 44 / 8%);
+                }
+    
+                .wrapimgCard {
+                    width: 100%;
+                    height: 340px;
+    
+                    img:nth-child(1) {
+                        height: 210px;
+                    }
+                    img:not(:nth-child(1)) {
+                        height: 130px;
+                    }
+                }
+                .wrapInfoCard {
+                    justify-self: start;
+                    width: 100%;
+                    height: auto;
+                    padding: 15px;
+
+                    .tagCompany {
+                        position: relative;
+                        bottom: 3px;
+                    }
+                }
+                
+            }
+        }
+        
+    }
+}
+
+@media screen and(max-width: 390px) {
+    .wrapContentMain {
+        .listCardProject {
+            .itemCardProject {
+                .wrapimgCard {
+                    height: 310px;
+                    
+                    img:nth-child(1) {
+                        height: 210px;
+                    }
+                    img:not(:nth-child(1)) {
+                        height: 100px;
+                    }
+                }
+            }
+        }
+    }
 }

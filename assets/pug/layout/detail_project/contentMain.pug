@@ -6,7 +6,7 @@
                 .wrapTitleItem 
                     h2.titleContentMain Dự án trung tâm thương mại toàn quốc 
             .row.rowItem
-                .col-lg-7.ItemListcontent
+                .col-lg-8.ItemListcontent
                     .infoProject
                         .countsummary
                             p Hiện đang có&nbsp
@@ -20,8 +20,8 @@
                                 option Giá thấp nhất
                     .listCardProject
                         each item in data_page.card_project
-                            a.itemCardProject(href='javascript:void(0);', title= item.title)
-                                .wrapimgCard
+                            .itemCardProject(href='javascript:void(0);', title= item.title)
+                                a.wrapimgCard(href='javascript:void(0);', title= item.title)
                                     img(src= item.url_img_1 , alt= item.title )
                                     img(src= item.url_img_2 , alt= item.title )
                                     img(src= item.url_img_3 , alt= item.title )
@@ -60,6 +60,45 @@
                                     
                                     if item.company
                                         .tagCompany
-                                            img.companyName()
-                                            | ABV
+                                            .iconCompany
+                                                svg(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512")
+                                                    path(d="M436 480h-20V24c0-13.255-10.745-24-24-24H56C42.745 0 32 10.745 32 24v456H12c-6.627 0-12 5.373-12 12v20h448v-20c0-6.627-5.373-12-12-12zM128 76c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40c0 6.627-5.373 12-12 12h-40c-6.627 0-12-5.373-12-12V76zm0 96c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40c0 6.627-5.373 12-12 12h-40c-6.627 0-12-5.373-12-12v-40zm52 148h-40c-6.627 0-12-5.373-12-12v-40c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40c0 6.627-5.373 12-12 12zm76 160h-64v-84c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v84zm64-172c0 6.627-5.373 12-12 12h-40c-6.627 0-12-5.373-12-12v-40c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40zm0-96c0 6.627-5.373 12-12 12h-40c-6.627 0-12-5.373-12-12v-40c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40zm0-96c0 6.627-5.373 12-12 12h-40c-6.627 0-12-5.373-12-12V76c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40z")
+                                            span= item.company.text
+
+                .col-lg-4.ItemViewProject
+                    .wrapVideo
+                        .wrapTitle 
+                            h4 Đánh giá dự án
+                      
+                        .wrapSlideMain
+                            .contentSlideMain
+                                .showSlideProjectNewList
+                                    each item in data_page.slide_video
+                                        .elementSlideMain
+                                            .contentSlideMain
+                                                a.wrapImgSlideMain.wrapImgResize.wrapVideoSlideMain(href='javascript:void(0);' title= item.title)
+                                                    img(src= item.url_img alt= item.title_main)
+
+                                                    .wrapTextSlideMain
+                                                        .container-xl.containerTextSlideMain
+                                                            .contentTextSlideMain
+                                                                .titleSubSlideMain.titleSubVideo= item.title_sub
+                                                    .wrapIcon 
+                                                        .contentIcon
+                                                            svg(xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512')
+                                                                path(fill='currentColor' d='M361 215C375.3 223.8 384 239.3 384 256C384 272.7 375.3 288.2 361 296.1L73.03 472.1C58.21 482 39.66 482.4 24.52 473.9C9.377 465.4 0 449.4 0 432V80C0 62.64 9.377 46.63 24.52 38.13C39.66 29.64 58.21 29.99 73.03 39.04L361 215z')
+                    
+                    .wrapNewsProject
+                        .wrapTitle
+                            h4 Tin tức dự án
+
+                        ul.wrapNewsList
+                            each item in data_page.project_news_list
+                                li.itemNewsList
+                                    .wrapImgNewList.wrapImgResize
+                                        a(href='javascript:void(0);' title= item.title)
+                                            img(src= item.url_img, alt= item.title)
+                                    .wrapContentNewList
+                                        a.wrapTitleNewList(href='javascript:void(0);' title= item.title)= item.title
+                                        .timeNewList= item.time                                        
 // end slide main

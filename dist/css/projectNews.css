@@ -1,0 +1,17 @@
+.wrapBoxTitle {
+  background-color: #f5f5f5;
+  border-left: 5px blue solid;
+  padding: 10px 15px;
+  margin: 30px 0;
+  display: flow-root;
+}
+.wrapBoxTitle h2 {
+  float: left;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+}
+.wrapBoxTitle .time {
+  float: right;
+}

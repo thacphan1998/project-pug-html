@@ -13,7 +13,7 @@
         "hreflang_website": "vi, en, rus, kor"
     },
     "header": {
-        "logo": "images/logo/header.png",
+        "logo": "images/logo/logo-header.png",
         "menu": [
             {
                 "title": "Trang chủ",
@@ -61,21 +61,7 @@
             },
             {
                 "title": "Tin tức",
-                "link": "javascript:void(0);",
-                "children": [
-                    {
-                        "title": "Biệt thự lâu đài",
-                        "link": "javascript:void(0);"
-                    },
-                    {
-                        "title": "Liền kề Shophouse",
-                        "link": "javascript:void(0);"
-                    },
-                    {
-                        "title": "Chung cư",
-                        "link": "javascript:void(0);"
-                    }
-                ]
+                "link": "projectNews.html"
             },
             {
                 "title": "Liên hệ",
@@ -471,11 +457,89 @@
                 "text": "KĐT Vinhomes Grand Park, Phường Long Thạnh Mỹ,  Quận 9, Hồ Chí Minh"
             }
         ],
+        "slide_video": [
+            {
+                "url_img": "images/project-list/hinh-1.jpg",
+                "status": "Đang mở bán",
+                "title_sub": "Fiato Premier"
+            },
+            {
+                "url_img": "images/project-list/hinh-2.jpg",
+                "status": "Đang mở bán",
+                "statusDes": "Mở bán từ tháng 7/2022",
+                "title_sub": "Avenue Garden"
+                
+            },
+            {
+                "url_img": "images/project-list/hinh-1.jpg",
+                "status": "Đang mở bán",
+                "title_sub": "Fiato Premier"
+                
+                
+            },
+            {
+                "url_img": "images/project-list/hinh-2.jpg",
+                "status": "Đang mở bán",
+                "statusDes": "Mở bán từ tháng 7/2022",
+                "title_sub": "Avenue Garden",
+                "text": "563 Tô Ngọc Vân, Phường Tam Phú, Thành phố Thủ Đức, Hồ Chí Minh"
+                
+            },
+            {
+                "url_img": "images/project-list/hinh-1.jpg",
+                "status": "Đang mở bán",
+                "title_sub": "Fiato Premier",
+                "title_main": "GIẢM GIÁ CỰC SỐC<br />LÊN ĐẾN 50%",
+                "text": "Đường Tây Thăng Long, Phường Tây Tựu, Quận Bắc Từ Liêm, Hà Nội"
+                
+            },
+            {
+                "url_img": "images/project-list/hinh-2.jpg",
+                "status": "Đang mở bán",
+                "statusDes": "Mở bán từ tháng 7/2022",
+                "title_sub": "Avenue Garden",
+                "text": "563 Tô Ngọc Vân, Phường Tam Phú, Thành phố Thủ Đức, Hồ Chí Minh"
+                
+            },
+            {
+                "url_img": "images/project-list/hinh-1.jpg",
+                "status": "Đang mở bán",
+                "title_sub": "Fiato Premier",
+                "title_main": "GIẢM GIÁ CỰC SỐC<br />LÊN ĐẾN 50%",
+                "text": "Đường Tây Thăng Long, Phường Tây Tựu, Quận Bắc Từ Liêm, Hà Nội"
+                
+            },
+            {
+                "url_img": "images/project-list/hinh-2.jpg",
+                "status": "Đang mở bán",
+                "statusDes": "Mở bán từ tháng 7/2022",
+                "title_sub": "Avenue Garden",
+                "text": "563 Tô Ngọc Vân, Phường Tam Phú, Thành phố Thủ Đức, Hồ Chí Minh"
+                
+            }
+        ],
+        "project_news_list": [
+            {
+                "url_img": "images/project-list/hinh-4.jpg",
+                "title": "Bất động sản bán lẻ khởi sắc sau đại dịch ",
+                "time": "2 ngày trước"
+            },
+            {
+                "url_img": "images/banner/about.jpg",
+                "title": "Sở hữu tour du thuyền đẳng cấp khi đặt cọc căn hộ Imperium Town Nha Trang",
+                "time": "2 giờ trước"
+            },
+            {
+                "url_img": "images/banner/about.jpg",
+                "title": "Đi tìm điểm độc đáo của homeresort: Nơi nhà cũng là resort",
+                "time": "Hôm nay"
+            }
+        ],
         "card_project": [
             {
-                "url_img_1": "images/project-list/hinh-1.jpg",
-                "url_img_2": "images/project-list/hinh-2.jpg",
-                "url_img_3": "images/project-list/hinh-1.jpg",
+                "url_img_1": "images/img-detail-project/hinh-1.jpg",
+                "url_img_2": "https://sabohome.vn/wp-content/uploads/2021/03/thiet-ke-noi-that-hop-phong-thuy-1.jpg",
+                "url_img_3": "images/img-detail-project/hinh-2.jpg",
                 "statusUpdate": "Đang cập nhật",
                 "title": "Landmark Tower Đà Nẵng",
                 "spec_project": {
@@ -494,7 +558,7 @@
             },
             {
                 "url_img_1": "images/project-list/hinh-1.jpg",
-                "url_img_2": "images/project-list/hinh-2.jpg",
+                "url_img_2": "images/img-detail-project/hinh-3.jpg",
                 "url_img_3": "images/project-list/hinh-1.jpg",
                 "status": "Đã mở bán",
                 "statusDes": "Mở bán ngày 04/04/2022",
@@ -504,7 +568,7 @@
                     "apartments": "888",
                     "towers": "1"
                 },
-                "address": "GIẢM GIÁ CỰC SỐC<br />LÊN ĐẾN 50%",
+                "address": "Khu phát triển nhà ở đô thị Tuyên Quang",
                 "text": "Đường Tây Thăng Long, Phường Tây Tựu, Quận Bắc Từ Liêm, Hà Nội",
                 "company": {
                     "url_img": "images/project-list/hinh-1.jpg",
@@ -517,66 +581,68 @@
                 "url_img_2": "images/project-list/hinh-2.jpg",
                 "url_img_3": "images/project-list/hinh-1.jpg",
                 "status": "Đang mở bán",
-                "title": "The Beverly Solari",
+                "title": "EcoHome Nhơn Bình",
                 "spec_project": {
                     "price": "34 triệu/m²",
                     "acreage": "5.86 m²",
-                    "apartments": "888",
-                    "towers": "1"
+                    "apartments": "1,786",
+                    "towers": "10"
                 },
-                "address": "GIẢM GIÁ CỰC SỐC<br />LÊN ĐẾN 50%",
-                "text": "Đường Tây Thăng Long, Phường Tây Tựu, Quận Bắc Từ Liêm, Hà Nội"
-            },
-            {
-                "url_img_1": "images/project-list/hinh-1.jpg",
-                "url_img_2": "images/project-list/hinh-2.jpg",
-                "url_img_3": "images/project-list/hinh-1.jpg",
-                "statusUpdate": "Đang cập nhật",
-                "title": "The Beverly Solari",
-                "spec_project": {
-                    "acreage": "5.86 m²",
-                    "apartments": "888",
-                    "towers": "1"
-                },
-                "address": "GIẢM GIÁ CỰC SỐC<br />LÊN ĐẾN 50%",
-                "text": "Đường Tây Thăng Long, Phường Tây Tựu, Quận Bắc Từ Liêm, Hà Nội",
+                "address": "Phường Nhơn Bình, Thành phố Quy Nhơn, Bình Định",
+                "text": "Dự án EcoHome Nhơn Bình là khu nhà ở xã hội do Capital House đầu tư xây dựng tại TP. Quy Nhơn, tỉnh Bình Định. Quy mô dự án gồm 5 tòa chung cư với tổng cộng 1380 căn hộ và 50 nhà liền kề phố thương mại trên quỹ đất 4,6ha.",
                 "company": {
                     "url_img": "images/project-list/hinh-1.jpg",
-                    "text": "ACB"
+                    "text": "Công ty CP Đầu tư và Thương mại Thủ Đô"
+                }
+            },
+            {
+                "url_img_1": "images/img-detail-project/hinh-1.jpg",
+                "url_img_2": "images/img-detail-project/hinh-2.jpg",
+                "url_img_3": "images/img-detail-project/hinh-6.jpg",
+                "statusUpdate": "Đang cập nhật",
+                "title": "The Ori Garden",
+                "spec_project": {
+                    "acreage": "10.89 m²",
+                    "apartments": "6786",
+                    "towers": "8"
+                },
+                "address": "Lô B4-1, Khu đô thị xanh Bàu Tràm Lakeside, Phường Hòa Hiệp Nam, Quận Liên Chiểu, Đà Nẵng",
+                "text": "Chung cư The Ori Garden là dự án nhà ở xã hội kết hợp thương mại tọa lạc tại khu đô thị xanh Bàu Tràm, quận Liên Chiểu, Đà Nẵng. Dự án do Công ty Cổ phần Đầu tư Sài Gòn - Đà Nẵng (SDN) đầu tư phát triển với quy mô 4,03ha, gồm 10 block chung cư, cung ứng cho thị trường khoảng 3358 căn hộ và shophouse.",
+                "company": {
+                    "url_img": "images/project-list/hinh-1.jpg",
+                    "text": "Công ty Cổ phần Đầu tư Sài Gòn - Đà Nẵng"
                 }
                 
             },
             {
-                "url_img_1": "images/project-list/hinh-1.jpg",
-                "url_img_2": "images/project-list/hinh-2.jpg",
-                "url_img_3": "images/project-list/hinh-1.jpg",
+                "url_img_1": "images/img-detail-project/hinh-1.jpg",
+                "url_img_2": "images/project-list/hinh-1.jpg",
+                "url_img_3": "images/img-detail-project/hinh-3.jpg",
                 "statusUpdate": "Đang cập nhật",
-                "title": "The Beverly Solari",
+                "title": "NHS Phương Canh Residence",
                 "spec_project": {
                     "acreage": "5.86 m²",
                     "apartments": "888",
                     "towers": "1"
                 },
-                "address": "GIẢM GIÁ CỰC SỐC<br />LÊN ĐẾN 50%",
-                "text": "Đường Tây Thăng Long, Phường Tây Tựu, Quận Bắc Từ Liêm, Hà Nội",
+                "address": "Đường 32, Phường Phương Canh, Quận Nam Từ Liêm, Hà Nội",
+                "text": "Nhà ở xã hội NHS Phương Canh Residence là dự án nhà ở dành cho những người thu nhập thấp được đầu tư bởi liên danh Công ty Cổ phần Đầu tư xây dựng NHS, Công ty Cổ phần Đầu tư Bất động sản Bắc 9 và Công ty TNHH Sơn Dương.",
                 "company": {
                     "url_img": "images/project-list/hinh-1.jpg",
-                    "text": "ACB"
+                    "text": "Công ty CP Đầu tư Xây dựng NHS"
                 }
             },
             {
-                "url_img_1": "images/project-list/hinh-1.jpg",
-                "url_img_2": "images/project-list/hinh-2.jpg",
-                "url_img_3": "images/project-list/hinh-1.jpg",
+                "url_img_1": "images/img-detail-project/hinh-1.jpg",
+                "url_img_2": "images/img-detail-project/hinh-5.jpg",
+                "url_img_3": "images/img-detail-project/hinh-6.jpg",
                 "status": "Đang mở bán",
-                "title": "The Beverly Solari",
+                "title": "Chung cư Hoa Sơn",
                 "spec_project": {
-                    "acreage": "5.86 m²",
-                    "apartments": "888",
-                    "towers": "1"
+                    "acreage": "5.4 ha"
                 },
-                "address": "GIẢM GIÁ CỰC SỐC<br />LÊN ĐẾN 50%",
-                "text": "Đường Tây Thăng Long, Phường Tây Tựu, Quận Bắc Từ Liêm, Hà Nội",
+                "address": "Đường 295, Xã Hoàn Sơn, Tiên Du, Bắc Ninh",
+                "text": "Dự án nhà ở xã hội Hoa Sơn được đầu tư bởi Công ty TNHH Hoa Sơn với quy mô gồm 14 căn nhà phố thương mại và 3 tòa chung cư cao từ 8-12 tầng tại xã Hoàn Sơn, huyện Tiên Du, tỉnh Bắc Ninh.",
                 "company": {
                     "url_img": "images/project-list/hinh-1.jpg",
                     "text": "ACB"
@@ -592,6 +658,28 @@
                 }
             ]
         }
+    },
+
+    "page_news": {
+        "title_page": "Tin tức dự án",
+        "description_page": "Thiết bị bị Wifi",
+        "keywords_page": "thiet bi wifi",
+        "url_image_page": "https://demo.sweetsoft.vn/miracle-luxury-hotel/images/banner/share.jpg",
+        "link_css_page": [
+            "lib",
+            "fonts",
+            "projectNews"
+        ],
+        "link_js_page": [
+            "lib",
+            "projectNews"
+        ],
+        "title_box_content": [
+            {
+                "title": "Dự án",
+                "time": "09/10/2021"
+            }
+        ]
     },
 
     "page_product_list": {

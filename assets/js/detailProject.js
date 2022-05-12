@@ -231,13 +231,13 @@ $(window).on('load', function () {
 
     // slide flat design
 
-    if($('.showSlideDesign').length) {
-        $('.showSlideDesign').slick({
-            autoplay: true,
+    if($('.showSlideProjectNewList').length) {
+        $('.showSlideProjectNewList').slick({
+            autoplay: false,
             pauseOnHover: false,
             pauseOnFocus: false,
             useTransform: false,
-            slidesToShow: 4,
+            slidesToShow: 1,
             swipeToSlide: true,
             prevArrow: btnLeftSlideType1,
             nextArrow: btnRightSlideType1,
@@ -254,9 +254,23 @@ $(window).on('load', function () {
                     
                 },
                 {
-                    breakpoint: 767,
+                    breakpoint: 578,
                     settings: {
                         slidesToShow: 2
+                    }
+                    
+                },
+                {
+                    breakpoint: 578,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                    
+                },
+                {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 3
                     }
                     
                 },
@@ -273,103 +287,4 @@ $(window).on('load', function () {
 
     // end slide flat design
 
-    // slide gallery image
-
-    if($('.showSlideGallMobile').length) {
-        $('.showSlideGallMobile').slick({
-            autoplay: true,
-            pauseOnHover: false,
-            pauseOnFocus: false,
-            useTransform: false,
-            slidesToShow: 2,
-            swipeToSlide: true,
-            prevArrow: btnLeftSlideType1,
-            nextArrow: btnRightSlideType1,
-            lazyLoad: 'progressive',
-            arrows: true,
-            dots: false,
-            useTransform: false,
-            responsive: [
-                {
-                    breakpoint: 576,
-                    settings: {
-                        slidesToShow: 2
-                    }
-                }
-            ]
-        });
-    }
-
-
-    // end slide gallery image
-
-
-
-    // slide testimonal
-    if($('.slideTestimonial').length) {
-        $('.slideTestimonial').slick({
-            autoplay: true,
-            pauseOnHover: false,
-            pauseOnFocus: false,
-            useTransform: false,
-            slidesToShow: 2,
-            swipeToSlide: true,
-            lazyLoad: 'progressive',
-            arrows: false,
-            dots: true,
-            useTransform: false,
-            responsive: [
-                {
-                    breakpoint: 576,
-                    settings: {
-                        slidesToShow: 1
-                    }
-                }
-            ]
-        });
-    }
-    // end slide testimonal
-
-    // video about
-    $('.wraplightGallery').lightGallery({
-        showThumbByDefault: true,
-        download: false,
-        fullScreen: true,
-        zoom: false,
-        scale: false,
-        autoplayControls: false,
-        videojs: false,
-        share: false,
-        counter: false,
-        getCaptionFromTitleOrAlt: true,
-        thumbnail: true,
-        controls: true
-    });
-    // end video about
-
-    // date book room
-    var languagePage = $('html').attr('lang');
-
-    if($('.checkInBookRoom').length && $('.checkOutBookRoom').length ){
-        $('.checkInBookRoom').datepicker({
-            format: 'dd/mm/yyyy',
-            language: languagePage,
-            startDate: new Date(),
-            autoclose: true
-        }).datepicker('setDates', new Date).on('changeDate', function (selected) {
-            var minDate = new Date(selected.date.valueOf());
-            $('.checkOutBookRoom').datepicker('setStartDate', minDate);
-        });
-
-        $('.checkOutBookRoom').datepicker({
-            format: 'dd/mm/yyyy',
-            language: languagePage,
-            startDate: new Date(),
-            autoclose: true
-        }).datepicker('setDates', new Date).on('changeDate', function (selected) {
-            var minDate = new Date(selected.date.valueOf());
-            $('.checkInBookRoom').datepicker('setEndDate', minDate);
-        });
-    }
-    // date book room
 });
