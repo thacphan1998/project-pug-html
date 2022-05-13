@@ -8,17 +8,6 @@
     margin: auto auto 10px auto;
     display: table;
     position: relative;
-
-    // &::before {
-    //     content: '';
-    //     width: 60px;
-    //     height: 3px;
-    //     background-color: $color20;
-    //     @include translate(0, -50%);
-    //     position: absolute;
-    //     top: 50%;
-    //     left: 0;
-    // }
 }
 
 .titleLeft {
@@ -121,27 +110,6 @@
     position: relative;
     padding-bottom: 10px;
     font-family: $nameFont2;
-
-    // &::before {
-    //     position: absolute;
-    //     bottom: -3px;
-    //     left: 0;
-    //     width: 8px;
-    //     height: 8px;
-    //     background-color: $color20;
-    //     content: '';
-    //     @include borderRadius(100%);
-    // }
-
-    // &::after {
-    //     position: absolute;
-    //     bottom: 0;
-    //     left: 8px;
-    //     width: 40px;
-    //     height: 2px;
-    //     background-color: $color20;
-    //     content: '';
-    // }
 }
 
 .titleItem5 {

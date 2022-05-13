@@ -15,3 +15,74 @@
 .wrapBoxTitle .time {
   float: right;
 }
+
+.listPost {
+  padding: 10px 0 0;
+  margin: 0;
+  list-style: none;
+}
+.listPost .itemContentPost {
+  width: 100%;
+  border-bottom: 1px darkgreen dotted;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  display: table;
+}
+.listPost .itemContentPost .postTitleMain {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 35px;
+}
+.listPost .itemContentPost .postTitleMain a {
+  color: #333;
+}
+.listPost .itemContentPost .imgContentPost {
+  position: relative;
+  max-width: 220px;
+  margin-right: 10px;
+  width: 50%;
+  float: left;
+}
+.listPost .itemContentPost .timePost {
+  font-size: 15px;
+  background-color: #f2f2f2;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 4px 8px;
+}
+.listPost .itemContentPost .contentPost {
+  margin-top: 14px;
+  word-spacing: 2px;
+  line-height: 24px;
+  font-size: 15px;
+  color: #444;
+}
+
+@media screen and (max-width: 575px) {
+  .listPost .itemContentPost .postTitleMain {
+    font-size: 18px;
+  }
+  .listPost .itemContentPost .timePost {
+    display: none;
+  }
+}
+.wrapItemHotTopic {
+  padding-top: 30px;
+}
+
+.listContent {
+  padding: 0;
+  list-style: none;
+  border: 1px #ddd solid;
+  margin-top: 10px;
+  background-color: #f2f2f2;
+  padding: 0px 15px;
+}
+.listContent .itemContent {
+  border-bottom: 1px #ddd dotted;
+  padding: 8px 0;
+}
+.listContent .itemContent a {
+  color: #444;
+  font-size: 16px;
+}

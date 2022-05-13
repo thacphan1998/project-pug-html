@@ -80,7 +80,11 @@ mixin render_title_02(title_main, title_sub, title_detail)
         h3.titleMain.titleMainItem1.titleInfo1.titleInfo4= title_main
         h1.titleMain.titleMainItem1.titleInfo2.titleInfo5= title_sub
         p.titleMain.titleMainItem1.titleInfo3.titleInfo6= title_detail
-    
+
+mixin render_title_projectNews(title_main)
+    .wraptitleProjectNews
+        h3.titleMainProjectNews= title_main
+   
 mixin menu_main(data)
     .wrapMenuHeader
         ul.listMenuHeader

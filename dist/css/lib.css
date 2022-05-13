@@ -10649,6 +10649,18 @@ strong {
     font-size: 16px;
   }
 }
+.wraptitleProjectNews {
+  border-bottom: 1px #ddd solid;
+}
+
+.titleMainProjectNews {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+  color: #222;
+}
+
 .wrapImgResize {
   overflow: hidden;
   position: relative;
@@ -10695,6 +10707,9 @@ strong {
 }
 .wrapImgResize.imageItem {
   padding-top: 65%;
+}
+.wrapImgResize.imgContentPost {
+  padding-top: 20%;
 }
 
 .inputItem {

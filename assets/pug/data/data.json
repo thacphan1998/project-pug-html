@@ -653,23 +653,46 @@
 			],
 			"title_box_content": [
 				{
-					"title": "Dự án",
+					"title": "Tin Dự án",
 					"time": "09/10/2021"
 				}
 			],
-			"box_social": [
+			"content_post": [
 				{
-					"icon": "",
-					"title": "Chia sẻ"
+					"url_img": "images/project-news/hình-2.jpg",
+					"title": "3 ông lớn khu công nghiệp đầu tư dự án 2.074 tỉ tại Quảng Trị",
+					"time_post": "10/09/2021 8:40 AM",
+					"content": "Vừa qua, dự án Khu công nghiệp Quảng Trị do Liên doanh các nhà đầu tư gồm: Công ty liên doanh TNHH khu công nghiệp Việt Nam - Singapore, Công ty cổ phần đô thị Amata Biên Hòa và  Sumitomo Corporation thực hiện chính thức được khởi động."
 				},
 				{
-					"icon": "s",
-					"title": "Thích"
+					"url_img": "images/project-news/hình-4.jpg",
+					"title": "3 ông lớn khu công nghiệp đầu tư dự án 2.074 tỉ tại Quảng Trị",
+					"time_post": "10/09/2021 8:40 AM",
+					"content": "dự án tỷ đô blablablablbla."
 				},
 				{
-					"icon": "s",
-					"title": "Lưu bài viết"
+					"url_img": "images/project-news/hình-5.jpg",
+					"title": "3 ông lớn khu công nghiệp đầu tư dự án 2.074 tỉ tại Quảng Trị",
+					"time_post": "10/09/2021 8:40 AM",
+					"content": "dự án tỷ đô blablablablbla."
+				},
+				{
+					"url_img": "images/project-news/hình-6.jpg",
+					"title": "3 ông lớn khu công nghiệp đầu tư dự án 2.074 tỉ tại Quảng Trị",
+					"time_post": "10/09/2021 8:40 AM",
+					"content": "dự án tỷ đô blablablablbla."
+				},
+				{
+					"url_img": "images/project-news/hình-2.jpg",
+					"title": "3 ông lớn khu công nghiệp đầu tư dự án 2.074 tỉ tại Quảng Trị",
+					"time_post": "10/09/2021 8:40 AM",
+					"content": "dự án tỷ đô blablablablbla."
 				}
+			],
+			"hot_topic": [
+				"FLC",
+				"Tân Hoàng Minh",
+				"vinPearl"
 			]
 		},
 		"page_product_list": {
