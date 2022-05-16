@@ -120,12 +120,17 @@
 .listItemNewForYou .wrapImg {
   float: left;
   width: 90px;
-  height: 65px;
+  height: 85px;
   margin-right: 10px;
 }
 .listItemNewForYou .wrapImg img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  -webkit-object-fit: cover;
+  -moz-object-fit: cover;
+  -ms-object-fit: cover;
+  -o-object-fit: cover;
 }
 .listItemNewForYou .titleContentNewForYou {
   font-size: 15px;
@@ -152,10 +157,84 @@
   list-style: none;
   margin-bottom: 20px;
 }
-.itemContentFocalCharacter .wrapImg {
-  height: 220px;
+
+.nameItem {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  margin-top: 6px;
+  margin-bottom: 5px;
   overflow: hidden;
 }
-.itemContentFocalCharacter .wrapImg img {
+.nameItem a {
+  color: #222;
+}
+.nameItem a:hover {
+  color: #0090cf;
+  transition: 0.6s;
+}
+
+.contentDes {
+  font-size: 14px;
+  line-height: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+li.itemContentFocalCharacter:not(:nth-child(1)) {
+  display: table;
   width: 100%;
+}
+li.itemContentFocalCharacter:not(:nth-child(1)) .wrapImg {
+  float: left;
+  width: 90px;
+  height: 85px;
+  margin-right: 10px;
+  padding-top: 0;
+}
+li.itemContentFocalCharacter:not(:nth-child(1)) .nameItem {
+  border-bottom: 1px #ddd solid;
+  padding-bottom: 5px;
+}
+
+.wrapListExpertOpinion {
+  margin: 0;
+  padding: 15px 0 0 0;
+}
+
+.itemContentExpertOpinion {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.nameItem {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  margin-top: 6px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+.nameItem a {
+  color: #222;
+}
+.nameItem a:hover {
+  color: #0090cf;
+  transition: 0.6s;
+}
+
+li.itemContentExpertOpinion:not(:nth-child(1)) {
+  display: table;
+  width: 100%;
+}
+li.itemContentExpertOpinion:not(:nth-child(1)) .wrapImg {
+  float: left;
+  width: 90px;
+  height: 85px;
+  margin-right: 10px;
+  padding-top: 0;
+}
+li.itemContentExpertOpinion:not(:nth-child(1)) .nameItem {
+  font-weight: 400;
+  margin-top: -3px;
 }

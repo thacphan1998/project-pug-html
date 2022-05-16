@@ -1,17 +1,19 @@
-.wrapFocalCharacter {
-    margin-top: 20px;
-}
-.wrapListFocalCharacter {
+// .wrapexpertOpinion {
+//     margin-top: 20px;
+// }
+.wrapListExpertOpinion {
     margin: 0;
     padding: 15px 0 0 0;
 }
-.itemContentFocalCharacter {
+.itemContentExpertOpinion {
     list-style: none;
     margin-bottom: 20px;
 }
 
+
+    
 .nameItem {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     line-height: 22px;
     margin-top: 6px;
@@ -26,15 +28,8 @@
         }
     }
 }
-    
-.contentDes {
-    font-size: 14px;
-    line-height: 25px;
-    margin: 0;
-    padding: 0;
-}
 
-li.itemContentFocalCharacter:not(:nth-child(1)) {
+li.itemContentExpertOpinion:not(:nth-child(1)) {
     display: table;
     width: 100%;
 
@@ -45,9 +40,10 @@ li.itemContentFocalCharacter:not(:nth-child(1)) {
         margin-right: 10px;
         padding-top: 0;
     }
-
+    
     .nameItem {
-        border-bottom: 1px $color6 solid;
-        padding-bottom: 5px;
+        font-weight: 400;
+        margin-top: -3px;
+        
     }
 }

@@ -1,0 +1,12 @@
+.wrapExpertOpinion
+    +render_title_projectNews('QUAN ĐIỂM CHUYÊN GIA')
+
+    .wrapContentExpertOpinion
+        ul.wrapListExpertOpinion
+            each item in data_page.expert_opinion
+                li.itemContentExpertOpinion
+                    .wrapImg.wrapImgResize
+                        a(href='javascript:void(0);' title= item.content)
+                            img(src= item.url_img , alt= item.content)
+                    h3.nameItem
+                        a(href='javascript:void(0);' title= item.content)= item.content 

@@ -5,8 +5,9 @@
         ul.wrapListFocalCharacter
             each item in data_page.focal_character
                 li.itemContentFocalCharacter
-                    .wrapImg
+                    .wrapImg.wrapImgResize
                         a(href='javascript:void(0);' title= item.name)
                             img(src= item.url_img , alt= item.name)
-                    h3.name= item.name 
+                    h3.nameItem
+                        a(href='javascript:void(0);' title= item.name)= item.name 
                     p.contentDes= item.content

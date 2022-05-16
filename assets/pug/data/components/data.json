@@ -735,14 +735,28 @@
                 "content": "Chủ tịch tập đoàn"
             },
             {
-                "url_img": "images/banner/about.jpg",
-                "name": "Ông Lê Hải Nam",
-                "content": "Tổng Giám Đốc tập đoàn"
+                "url_img": "images/Focal-character/hinh-3.jpg",
+                "name": "Ông Nguyễn Đức Chi",
+                "content": " Chủ tịch HĐQT của Công ty cổ phần Crystal Bay (Crystal Bay Group) "
             },
             {
-                "url_img": "images/banner/about.jpg",
-                "name": "Ông Phan Chu Minh",
-                "content": "Phó Chủ tịch tập đoàn"
+                "url_img": "images/Focal-character/hinh-4.jpg",
+                "name": "Ông Lương Trí Thìn",
+                "content": " Chủ Tịch HĐQT Tập Đoàn Đất Xanh "
+            }
+        ],
+        "expert_opinion": [
+            {
+                "url_img": "images/Focal-character/hinh-2.jpg",
+                "content": "Kiểm soát nguồn vốn: \"Đánh chuột chớ làm vỡ bình\""
+            },
+            {
+                "url_img": "images/Focal-character/hinh-3.jpg",
+                "content": "Kinh tế tư nhân đóng vai trò xung kích"
+            },
+            {
+                "url_img": "images/Focal-character/hinh-1.jpg",
+                "content": "Bất động sản nghỉ dưỡng mở rộng quỹ đất, chuyên gia nói gì?"
             }
         ]
     },

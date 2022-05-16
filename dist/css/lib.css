@@ -10711,6 +10711,9 @@ strong {
 .wrapImgResize.imgContentPost {
   padding-top: 20%;
 }
+.wrapImgResize.wrapImg {
+  padding-top: 96%;
+}
 
 .inputItem {
   padding: 0 10px 20px 10px;
@@ -11431,15 +11434,18 @@ strong {
   -o-border-radius: 100%;
   border: 1px solid white;
   cursor: pointer;
-  width: 60px;
-  height: 60px;
+  width: 39px;
+  height: 39px;
   color: white;
-  bottom: 100px;
+  bottom: 40px;
   right: 15px;
 }
 .btnScrollTop svg {
-  width: 58px;
-  height: 40px;
+  position: absolute;
+  width: 35px;
+  height: 30px;
+  top: 2px;
+  left: 2px;
   text-align: center;
   display: block;
 }
@@ -11460,6 +11466,9 @@ strong {
     padding: 6px 0;
   }
   .btnScrollTop svg {
+    position: absolute;
+    top: 5px;
+    left: 1px;
     width: 48px;
     height: 35px;
   }
