@@ -8,14 +8,27 @@
     border: 1px #ddd solid;
     margin-top: 10px;
     background-color: #f2f2f2;
-    padding: 0px 15px;
+    // padding: 0px 15px;
 
     .itemContent {
         border-bottom: 1px #ddd dotted;
-        padding: 8px 0;
+        padding: 8px 12px;
         a {
-            color: #444;
+            color: $color34;
             font-size: 16px;
+            &:hover {
+                color: $color13;
+                transition: 0.8s;
+            }
         }
+        
     }
+
+    > li:nth-child(even) {
+        background-color: #DEEAF3;
+    }
+}
+
+.active {
+    background-color: #DEEAF3 ;
 }

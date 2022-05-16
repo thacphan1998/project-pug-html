@@ -717,6 +717,33 @@
             "FLC",
             "Tân Hoàng Minh",
             "vinPearl"
+        ],
+        "new_for_you": [
+            {
+                "url_img": "images/banner/about.jpg",
+                "title_content": "Bình Định mời đầu tư khu đô thị Bình Chương Nam trị giá hơn 1.600 tỉ đồng"
+            },
+            {
+                "url_img": "images/banner/about.jpg",
+                "title_content": "Quảng Ninh: Khởi công loạt dự án 10 nghìn tỉ trong Khu kinh tế Vân Đồn"
+            }
+        ],
+        "focal_character": [
+            {
+                "url_img": "images/Focal-character/hinh-1.jpg",
+                "name": "Ông Nguyễn Bá Dương",
+                "content": "Chủ tịch tập đoàn"
+            },
+            {
+                "url_img": "images/banner/about.jpg",
+                "name": "Ông Lê Hải Nam",
+                "content": "Tổng Giám Đốc tập đoàn"
+            },
+            {
+                "url_img": "images/banner/about.jpg",
+                "name": "Ông Phan Chu Minh",
+                "content": "Phó Chủ tịch tập đoàn"
+            }
         ]
     },
 

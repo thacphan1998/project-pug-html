@@ -1,0 +1,11 @@
+.wrapNewForYou 
+    +render_title_projectNews('TIN DÀNH CHO BẠN')
+
+    .wrapContentNewForYou
+        ul.listNewForYou
+            each item in data_page.new_for_you
+                li.listItemNewForYou
+                    a.wrapImg(href='javascript:void(0);' title= item.title_content)
+                        img(src= item.url_img , alt= item.title_content) 
+                    h4.titleContentNewForYou
+                        a(href='javascript:void(0);' title= item.title_content)= item.title_content

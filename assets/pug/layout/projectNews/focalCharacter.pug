@@ -1,0 +1,12 @@
+.wrapFocalCharacter
+    +render_title_projectNews('NHÂN VẬT TIÊU ĐIỂM')
+
+    .wrapContentFocalCharacter
+        ul.wrapListFocalCharacter
+            each item in data_page.focal_character
+                li.itemContentFocalCharacter
+                    .wrapImg
+                        a(href='javascript:void(0);' title= item.name)
+                            img(src= item.url_img , alt= item.name)
+                    h3.name= item.name 
+                    p.contentDes= item.content

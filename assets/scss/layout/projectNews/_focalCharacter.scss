@@ -1,0 +1,19 @@
+.wrapFocalCharacter {
+    margin-top: 20px;
+}
+.wrapListFocalCharacter {
+    margin: 0;
+    padding: 15px 0 0 0;
+}
+.itemContentFocalCharacter {
+    list-style: none;
+    margin-bottom: 20px;
+    .wrapImg {
+        height: 220px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+        }
+    }
+}
