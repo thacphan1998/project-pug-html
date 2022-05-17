@@ -8,24 +8,32 @@
 .itemContentFocalCharacter {
     list-style: none;
     margin-bottom: 20px;
-}
 
-.nameItem {
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 22px;
-    margin-top: 6px;
-    margin-bottom: 5px;
-    overflow: hidden;
-    a {
-        color: $color33;
-
-        &:hover {
-            color: $color13;
-            transition: 0.6s;
+    .wrapImg {
+        img {
+            object-position: top;
+        }
+    }
+    
+    .nameItem {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+        margin-top: 6px;
+        margin-bottom: 5px;
+        overflow: hidden;
+        a {
+            color: $color33;
+    
+            &:hover {
+                color: $color13;
+                transition: 0.6s;
+            }
         }
     }
 }
+
+
     
 .contentDes {
     font-size: 14px;
@@ -44,10 +52,20 @@ li.itemContentFocalCharacter:not(:nth-child(1)) {
         height: 85px;
         margin-right: 10px;
         padding-top: 0;
+        img {
+            object-position: top;
+        }
+    }
+
+    .wrapImgResize {
+        img {
+            object-position: top;
+        }
     }
 
     .nameItem {
         border-bottom: 1px $color6 solid;
         padding-bottom: 5px;
+        margin-top: -2px;
     }
 }

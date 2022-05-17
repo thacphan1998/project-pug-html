@@ -5,8 +5,9 @@
                 li.itemContentPost
                     h2.postTitleMain
                         a(href='javascript:void(0);', title= item.title)= item.title
-                    a.imgContentPost.wrapImgResize(href='javascript:void(0);', title= item.content)
-                        img(src= item.url_img, alt= item.title)
+                    .wrapImgPost.wrapImgResize 
+                        a.imgContentPost(href='javascript:void(0);', title= item.content)
+                            img(src= item.url_img, alt= item.title)
                     span.timePost= item.time_post
                     p.contentPost= item.content
         

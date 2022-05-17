@@ -1,3 +1,46 @@
+.listContent {
+  margin: 0;
+  padding: 0;
+}
+
+.listItem {
+  display: table;
+  width: 100%;
+  border-bottom: 1px #ddd dashed;
+  padding: 18px 0;
+  list-style: none;
+}
+.listItem:last-child {
+  border: none;
+}
+.listItem .wrapImg {
+  float: left;
+  width: 90px;
+  height: 85px;
+  margin-right: 10px;
+}
+.listItem .wrapImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-object-fit: cover;
+  -moz-object-fit: cover;
+  -ms-object-fit: cover;
+  -o-object-fit: cover;
+}
+.listItem .titleContent {
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: -5px;
+}
+.listItem .titleContent a {
+  color: #444;
+}
+.listItem .titleContent a:hover {
+  color: #0090cf;
+  transition: 0.8s;
+}
+
 @media screen and (max-width: 992px) {
   .contentRight {
     display: none;
@@ -26,36 +69,41 @@
   margin: 0;
   list-style: none;
 }
-.listPost .itemContentPost {
+
+.itemContentPost {
   width: 100%;
   border-bottom: 1px #ddd dotted;
   margin-bottom: 10px;
   padding-bottom: 20px;
   display: table;
 }
-.listPost .itemContentPost .postTitleMain {
+
+.postTitleMain {
   font-size: 22px;
   font-weight: 600;
   line-height: 35px;
 }
-.listPost .itemContentPost .postTitleMain a {
+.postTitleMain a {
   color: #333;
 }
-.listPost .itemContentPost .imgContentPost {
+
+.imgContentPost {
   position: relative;
   max-width: 220px;
   margin-right: 10px;
   width: 50%;
   float: left;
 }
-.listPost .itemContentPost .timePost {
+
+.timePost {
   font-size: 15px;
   background-color: #f2f2f2;
   display: inline-block;
   border-radius: 3px;
   padding: 4px 8px;
 }
-.listPost .itemContentPost .contentPost {
+
+.contentPost {
   margin-top: 14px;
   word-spacing: 2px;
   line-height: 24px;
@@ -75,73 +123,31 @@
   padding-top: 30px;
 }
 
-.listContent {
+.listContentHotTopic {
   padding: 0;
   list-style: none;
   border: 1px #ddd solid;
   margin-top: 10px;
   background-color: #f2f2f2;
 }
-.listContent .itemContent {
+.listContentHotTopic .itemContent {
   border-bottom: 1px #ddd dotted;
   padding: 8px 12px;
 }
-.listContent .itemContent a {
+.listContentHotTopic .itemContent a {
   color: #444;
   font-size: 16px;
 }
-.listContent .itemContent a:hover {
+.listContentHotTopic .itemContent a:hover {
   color: #0090cf;
   transition: 0.8s;
 }
-.listContent > li:nth-child(even) {
+.listContentHotTopic > li:nth-child(even) {
   background-color: #DEEAF3;
 }
 
 .active {
   background-color: #DEEAF3;
-}
-
-.listNewForYou {
-  margin: 0;
-  padding: 0;
-}
-
-.listItemNewForYou {
-  display: table;
-  width: 100%;
-  border-bottom: 1px #ddd dashed;
-  padding: 18px 0;
-  list-style: none;
-}
-.listItemNewForYou:last-child {
-  border: none;
-}
-.listItemNewForYou .wrapImg {
-  float: left;
-  width: 90px;
-  height: 85px;
-  margin-right: 10px;
-}
-.listItemNewForYou .wrapImg img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  -webkit-object-fit: cover;
-  -moz-object-fit: cover;
-  -ms-object-fit: cover;
-  -o-object-fit: cover;
-}
-.listItemNewForYou .titleContentNewForYou {
-  font-size: 15px;
-  line-height: 24px;
-}
-.listItemNewForYou .titleContentNewForYou a {
-  color: #444;
-}
-.listItemNewForYou .titleContentNewForYou a:hover {
-  color: #0090cf;
-  transition: 0.8s;
 }
 
 .wrapFocalCharacter {
@@ -157,8 +163,11 @@
   list-style: none;
   margin-bottom: 20px;
 }
-
-.nameItem {
+.itemContentFocalCharacter .wrapImg img {
+  -o-object-position: top;
+     object-position: top;
+}
+.itemContentFocalCharacter .nameItem {
   font-size: 16px;
   font-weight: 600;
   line-height: 22px;
@@ -166,10 +175,10 @@
   margin-bottom: 5px;
   overflow: hidden;
 }
-.nameItem a {
+.itemContentFocalCharacter .nameItem a {
   color: #222;
 }
-.nameItem a:hover {
+.itemContentFocalCharacter .nameItem a:hover {
   color: #0090cf;
   transition: 0.6s;
 }
@@ -192,9 +201,18 @@ li.itemContentFocalCharacter:not(:nth-child(1)) .wrapImg {
   margin-right: 10px;
   padding-top: 0;
 }
+li.itemContentFocalCharacter:not(:nth-child(1)) .wrapImg img {
+  -o-object-position: top;
+     object-position: top;
+}
+li.itemContentFocalCharacter:not(:nth-child(1)) .wrapImgResize img {
+  -o-object-position: top;
+     object-position: top;
+}
 li.itemContentFocalCharacter:not(:nth-child(1)) .nameItem {
   border-bottom: 1px #ddd solid;
   padding-bottom: 5px;
+  margin-top: -2px;
 }
 
 .wrapListExpertOpinion {
@@ -205,6 +223,11 @@ li.itemContentFocalCharacter:not(:nth-child(1)) .nameItem {
 .itemContentExpertOpinion {
   list-style: none;
   margin-bottom: 20px;
+}
+
+.wrapImg img {
+  -o-object-position: top;
+     object-position: top;
 }
 
 .nameItem {
@@ -237,4 +260,15 @@ li.itemContentExpertOpinion:not(:nth-child(1)) .wrapImg {
 li.itemContentExpertOpinion:not(:nth-child(1)) .nameItem {
   font-weight: 400;
   margin-top: -3px;
+}
+
+.itemSellEsate {
+  border: none;
+  padding-bottom: 0;
+  padding-top: 18px;
+}
+
+.titleContent span {
+  color: red;
+  font-weight: 700;
 }

@@ -1,0 +1,12 @@
+.wrapsellEstate
+    +render_title_projectNews('MUA BÁN NHÀ ĐẤT TẠI HOÀI NHƠN')
+
+    .wrapContentsellEstate
+        ul.listContent
+            each item in data_page.sell_estate
+                li.listItem.itemSellEsate
+                    a.wrapImg(href='javascript:void(0);' title= item.content)
+                        img(src= item.url_img , alt= item.content) 
+                    h4.titleContent
+                        a(href='javascript:void(0);' title= item.content)= item.content
+                            span= item.price 

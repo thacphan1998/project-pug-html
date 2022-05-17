@@ -1,6 +1,4 @@
-// .wrapexpertOpinion {
-//     margin-top: 20px;
-// }
+
 .wrapListExpertOpinion {
     margin: 0;
     padding: 15px 0 0 0;
@@ -10,8 +8,12 @@
     margin-bottom: 20px;
 }
 
+.wrapImg {
+    img {
+        object-position: top;
+    }
+}
 
-    
 .nameItem {
     font-size: 15px;
     font-weight: 600;
@@ -39,6 +41,7 @@ li.itemContentExpertOpinion:not(:nth-child(1)) {
         height: 85px;
         margin-right: 10px;
         padding-top: 0;
+        
     }
     
     .nameItem {

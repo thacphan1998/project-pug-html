@@ -758,6 +758,23 @@
                 "url_img": "images/Focal-character/hinh-1.jpg",
                 "content": "Bất động sản nghỉ dưỡng mở rộng quỹ đất, chuyên gia nói gì?"
             }
+        ],
+        "sell_estate": [
+            {
+                "url_img": "images/banner/about.jpg",
+                "content": " Chủ tịch HĐQT của Công ty cổ phần Crystal Bay (Crystal Bay Group) ",
+                "price": "34 triệu"
+            },
+            {
+                "url_img": "images/banner/about.jpg",
+                "content": " Chủ tịch HĐQT của Công ty cổ phần Crystal Bay (Crystal Bay Group) ",
+                "price": "34 triệu"
+            },
+            {
+                "url_img": "images/banner/about.jpg",
+                "content": " Chủ tịch HĐQT của Công ty cổ phần Crystal Bay (Crystal Bay Group) ",
+                "price": "34 triệu"
+            }
         ]
     },
 
