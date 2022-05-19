@@ -1,0 +1,15 @@
+include ../mixin/mixin
+
+- var data_page = data.page_contact
+doctype html
+html(lang='vi')
+    head
+        +head_setting(data_page)
+    body
+        include ../layout/general/header
+        |
+        |
+        include ../layout/contact/content
+        |
+        |
+        include ../layout/general/footer

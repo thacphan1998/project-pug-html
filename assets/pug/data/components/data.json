@@ -56,16 +56,12 @@
                 "link": "detailProject.html"
             },
             {
-                "title": "Tiến độ",
-                "link": "javascript:void(0);"
-            },
-            {
                 "title": "Tin tức",
                 "link": "projectNews.html"
             },
             {
                 "title": "Liên hệ",
-                "link": "javascript:void(0);"
+                "link": "contact.html"
             }
         ]
     },
@@ -557,7 +553,7 @@
                 }
             },
             {
-                "url_img_1": "images/project-list/hinh-1.jpg",
+                "url_img_1": "images/img-detail-project/hinh-7.jpg",
                 "url_img_2": "images/img-detail-project/hinh-3.jpg",
                 "url_img_3": "images/project-list/hinh-1.jpg",
                 "status": "Đã mở bán",
@@ -710,6 +706,36 @@
                 "title": "3 ông lớn khu công nghiệp đầu tư dự án 2.074 tỉ tại Quảng Trị",
                 "time_post": "10/09/2021 8:40 AM",
                 "content": "dự án tỷ đô blablablablbla."
+            },
+            {
+                "url_img": "images/project-news/hình-2.jpg",
+                "title": "3 ông lớn khu công nghiệp đầu tư dự án 2.074 tỉ tại Quảng Trị",
+                "time_post": "10/09/2021 8:40 AM",
+                "content": "dự án tỷ đô blablablablbla."
+            },
+            {
+                "url_img": "images/project-news/hình-5.jpg",
+                "title": "3 ông lớn khu công nghiệp đầu tư dự án 2.074 tỉ tại Quảng Trị",
+                "time_post": "10/09/2021 8:40 AM",
+                "content": "dự án tỷ đô blablablablbla."
+            },
+            {
+                "url_img": "images/project-news/hình-5.jpg",
+                "title": "3 ông lớn khu công nghiệp đầu tư dự án 2.074 tỉ tại Quảng Trị",
+                "time_post": "10/09/2021 8:40 AM",
+                "content": "dự án tỷ đô blablablablbla."
+            },
+            {
+                "url_img": "images/project-news/hình-5.jpg",
+                "title": "3 ông lớn khu công nghiệp đầu tư dự án 2.074 tỉ tại Quảng Trị",
+                "time_post": "10/09/2021 8:40 AM",
+                "content": "dự án tỷ đô blablablablbla."
+            },
+            {
+                "url_img": "images/project-news/hình-2.jpg",
+                "title": "3 ông lớn khu công nghiệp đầu tư dự án 2.074 tỉ tại Quảng Trị",
+                "time_post": "10/09/2021 8:40 AM",
+                "content": "dự án tỷ đô blablablablbla."
             }
         ],
 
@@ -775,6 +801,11 @@
                 "content": " Chủ tịch HĐQT của Công ty cổ phần Crystal Bay (Crystal Bay Group) ",
                 "price": "34 triệu"
             }
+        ],
+        "utility_list": [
+            "Tính chi phí vay vốn",
+            "Tính chi phí vay vốn",
+            "Tính chi phí vay vốn"
         ]
     },
 
@@ -818,27 +849,7 @@
             "url_img": "images/banner/breadcrumb-1.jpg",
             "menu": []
         },
-        "contact_info": {
-            "title_main": "Thông tin liên hệ",
-            "text_title": "Liên hệ với chúng tôi",
-            "list": [
-                {
-                    "title": "Địa chỉ",
-                    "text": "<a href=\"https://www.google.com/maps/place/50+19+Th%C3%A1ng+5,+V%C4%A9nh+Hi%E1%BB%87p,+Th%C3%A0nh+ph%E1%BB%91+Nha+Trang,+Kh%C3%A1nh+H%C3%B2a/@12.2599772,109.1656024,17z/data=!3m1!4b1!4m5!3m4!1s0x31705d6d8504ad75:0x327ce7c806006531!8m2!3d12.2599772!4d109.1677911\" class=\"linkItem\" target=\"_blank\" title=\"50 Đường 19/5, Vĩnh Điềm Trung, Nha Trang, Khánh Hòa\">50 Đường 19/5, Vĩnh Điềm Trung<br />Nha Trang, Khánh Hòa</a>",
-                    "url_img": "images/icons/address.png"
-                },
-                {
-                    "title": "Email",
-                    "text": "<a href=\"mailto:info@hktsolutions.vn\" class=\"linkItem\" title=\"info@hktsolutions.vn\">info@hktsolutions.vn</a>",
-                    "url_img": "images/icons/mail-1.png"
-                },
-                {
-                    "title": "Điện thoại",
-                    "text": "<a href=\"tel:0868552526\" class=\"linkItem\" title=\"CSKH: 086 8552 526\">CSKH: 086 8552 526</a> <a href=\"tel:0941552233\" class=\"linkItem\" title=\"Hotline: 0941 552 233\">Hotline: 0941 552 233</a>",
-                    "url_img": "images/icons/phone.png"
-                }
-            ]
-        },
+        
         "contact_form": {
             "title_main": "Nhắn tin",
             "text_title": "Nhắn tin cho <span style=\"color: #00cdfc;\">HKT Solutions</span>",

@@ -14,6 +14,10 @@
     margin-bottom: 10px;
     padding-bottom: 20px;
     display: table;
+
+    &:last-child {
+        border: none;
+    }
 }
 
 .postTitleMain {
@@ -25,15 +29,11 @@
     }
 }
 
-.imgContentPost {
-    position: relative;
-    max-width: 220px;
-    margin-right: 10px;
-    width: 50%; 
+.wrapImgPost {
+    // padding-top: 18%;
+    width: 200px;
     float: left;
-    // img {
-    //     width: 100%;
-    // }
+    margin-right: 10px;
 }
 .timePost {
     font-size: 15px;
@@ -44,6 +44,7 @@
 }
 .contentPost {
     margin-top: 14px;
+    margin-bottom: 0;
     word-spacing: 2px;
     line-height: 24px;
     font-size: 15px;
@@ -56,6 +57,7 @@
         .itemContentPost {
             .postTitleMain {
                 font-size: 18px;
+                line-height: 26px;
             }
             .timePost {
                 display: none;
@@ -63,4 +65,18 @@
         }
     }
     
+}
+
+@media screen and(max-width: 375px) {
+    .wrapImgPost {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+    }
+
+    .contentPost {
+        margin-top: 10px;
+        word-spacing: 2px;
+        font-size: 16px;
+    }
 }

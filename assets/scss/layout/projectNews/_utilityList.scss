@@ -1,3 +1,37 @@
-h2{
-    color: red;
+.wrapUtilityList {
+    margin-top: 15px;
 }
+
+.utilityList {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.itemUtilityList {
+    padding: 3px 0;
+    margin: 5px 0;
+    border-bottom: 1px dashed $color6;
+
+    a {
+        display: flex;
+        align-items: center;
+        
+        svg {
+            width: 15px;
+            height: 15px;
+            fill: $color35;
+            margin-right: 10px;
+        }
+        span {
+            margin: 0;
+            font-size: 16px;
+            color: $color35;
+            &:hover {
+                color: $color13;
+            }
+        }
+    }
+}
+
+

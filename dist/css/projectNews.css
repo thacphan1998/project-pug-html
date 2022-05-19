@@ -41,6 +41,11 @@
   transition: 0.8s;
 }
 
+.wrapContentMain {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
 @media screen and (max-width: 992px) {
   .contentRight {
     display: none;
@@ -50,7 +55,7 @@
   background-color: #f5f5f5;
   border-left: 5px blue solid;
   padding: 10px 15px;
-  margin: 30px 0;
+  margin: 0;
   display: flow-root;
 }
 .wrapBoxTitle h2 {
@@ -77,6 +82,9 @@
   padding-bottom: 20px;
   display: table;
 }
+.itemContentPost:last-child {
+  border: none;
+}
 
 .postTitleMain {
   font-size: 22px;
@@ -87,12 +95,10 @@
   color: #333;
 }
 
-.imgContentPost {
-  position: relative;
-  max-width: 220px;
-  margin-right: 10px;
-  width: 50%;
+.wrapImgPost {
+  width: 200px;
   float: left;
+  margin-right: 10px;
 }
 
 .timePost {
@@ -105,6 +111,7 @@
 
 .contentPost {
   margin-top: 14px;
+  margin-bottom: 0;
   word-spacing: 2px;
   line-height: 24px;
   font-size: 15px;
@@ -114,13 +121,27 @@
 @media screen and (max-width: 575px) {
   .listPost .itemContentPost .postTitleMain {
     font-size: 18px;
+    line-height: 26px;
   }
   .listPost .itemContentPost .timePost {
     display: none;
   }
 }
+@media screen and (max-width: 375px) {
+  .wrapImgPost {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+  }
+
+  .contentPost {
+    margin-top: 10px;
+    word-spacing: 2px;
+    font-size: 16px;
+  }
+}
 .wrapItemHotTopic {
-  padding-top: 30px;
+  padding-top: 0px;
 }
 
 .listContentHotTopic {
@@ -271,4 +292,38 @@ li.itemContentExpertOpinion:not(:nth-child(1)) .nameItem {
 .titleContent span {
   color: red;
   font-weight: 700;
+}
+
+.wrapUtilityList {
+  margin-top: 15px;
+}
+
+.utilityList {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.itemUtilityList {
+  padding: 3px 0;
+  margin: 5px 0;
+  border-bottom: 1px dashed #ddd;
+}
+.itemUtilityList a {
+  display: flex;
+  align-items: center;
+}
+.itemUtilityList a svg {
+  width: 15px;
+  height: 15px;
+  fill: #666;
+  margin-right: 10px;
+}
+.itemUtilityList a span {
+  margin: 0;
+  font-size: 16px;
+  color: #666;
+}
+.itemUtilityList a span:hover {
+  color: #0090cf;
 }

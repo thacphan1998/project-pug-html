@@ -21,10 +21,11 @@
                     .listCardProject
                         each item in data_page.card_project
                             .itemCardProject(href='javascript:void(0);', title= item.title)
-                                a.wrapimgCard(href='javascript:void(0);', title= item.title)
-                                    img(src= item.url_img_1 , alt= item.title )
-                                    img(src= item.url_img_2 , alt= item.title )
-                                    img(src= item.url_img_3 , alt= item.title )
+                                .wrapimgCard
+                                    a(href='javascript:void(0);', title= item.title)
+                                        img(src= item.url_img_1 , alt= item.title )
+                                        img(src= item.url_img_2 , alt= item.title )
+                                        img(src= item.url_img_3 , alt= item.title )
 
                                 .wrapInfoCard
                                     .tagStatus

@@ -1215,6 +1215,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     -webkit-line-clamp: 1;
   }
 }
+.titleItem {
+  margin: 30px 0 10px;
+}
+
 .wrapContentMain .titleContentMain {
   font-size: 22px;
   font-weight: 700;
@@ -1250,15 +1254,15 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   width: 100%;
   float: left;
 }
-.wrapContentMain .listCardProject .itemCardProject .wrapimgCard > img:nth-child(1) {
+.wrapContentMain .listCardProject .itemCardProject .wrapimgCard img:nth-child(1) {
   height: 180px;
 }
-.wrapContentMain .listCardProject .itemCardProject .wrapimgCard > img:not(:nth-child(1)) {
+.wrapContentMain .listCardProject .itemCardProject .wrapimgCard img:not(:nth-child(1)) {
   width: calc(50% - 1px);
   height: 65px;
   margin-top: 2px;
 }
-.wrapContentMain .listCardProject .itemCardProject .wrapimgCard > img:nth-child(3) {
+.wrapContentMain .listCardProject .itemCardProject .wrapimgCard img:nth-child(3) {
   margin-left: 2px;
 }
 .wrapContentMain .listCardProject .itemCardProject .wrapInfoCard {
