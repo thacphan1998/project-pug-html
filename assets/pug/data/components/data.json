@@ -939,7 +939,17 @@
             }
         ]
     },
-    
+    "page_detail_news": {
+        "title_page": "Chi tiết tin tức",
+        "link_css_page": [
+            "lib",
+            "fonts",
+            "detailNews"
+        ],
+        "link_js_page": [
+            "lib"
+        ]
+    },
     "page_about": {
         "title_page": "Giới Thiệu",
         "description_page": "Giới Thiệu",

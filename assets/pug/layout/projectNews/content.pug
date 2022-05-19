@@ -4,9 +4,9 @@
             each item in data_page.content_post 
                 li.itemContentPost
                     h2.postTitleMain
-                        a(href='javascript:void(0);', title= item.title)= item.title
+                        a(href='detailNews.html', title= item.title)= item.title
                     .wrapImgPost 
-                        a.imgContentPost.wrapImgResize(href='javascript:void(0);', title= item.content)
+                        a.imgContentPost.wrapImgResize(href='detailNews.html', title= item.content)
                             img(src= item.url_img, alt= item.title)
                     .wrapcontentDes 
                         span.timePost= item.time_post
