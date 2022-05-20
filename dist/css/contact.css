@@ -83,3 +83,9 @@ legend {
   font-weight: 600;
   background-color: #d8a24e;
 }
+.boxSubmit button:hover {
+  opacity: 0.8;
+}
+.boxSubmit button:focus {
+  outline: none;
+}

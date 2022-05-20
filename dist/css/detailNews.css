@@ -1,0 +1,123 @@
+.wrapBlockTitle {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.wrapBlockTitle h1 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 45px;
+  margin: 0;
+}
+
+.infoDate {
+  padding: 8px 15px;
+}
+
+.blcokIcon {
+  padding-bottom: 15px;
+  border-bottom: 1px red dotted;
+}
+
+.itemIcon {
+  width: auto;
+  outline: none;
+  height: 28px;
+  font-size: 12px;
+  color: white;
+  background-color: blue;
+  padding: 2px 6px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.itemIcon:hover {
+  opacity: 0.6;
+}
+.itemIcon:focus {
+  outline: none;
+}
+
+svg {
+  fill: white;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.iconSave {
+  background: none;
+  color: blue;
+  border: 1px #999 solid;
+  margin-right: 0;
+}
+.iconSave svg {
+  fill: blue;
+}
+
+.blockTextContent {
+  font-size: 16px;
+}
+.blockTextContent img {
+  width: 98%;
+  height: auto;
+}
+.blockTextContent p {
+  margin-bottom: 10px;
+  line-height: 26px;
+}
+
+.titleContentPostDes {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.imgPostDes {
+  position: relative;
+  text-align: center;
+}
+
+.linkDesPost {
+  margin-bottom: 15px;
+  line-height: 26px;
+}
+.linkDesPost > a {
+  color: blue;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.postAuthor {
+  text-align: right;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.boxComment {
+  border-top: 5px #f2f2f2 solid;
+  padding-top: 15px;
+}
+.boxComment h5 {
+  font-size: 20px;
+  color: #0749ad;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.boxComment textarea {
+  width: 100%;
+  border: 1px #f2f2f2 solid;
+  padding: 5px 10px;
+}
+.boxComment input {
+  float: right;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-weight: 600;
+  color: white;
+  background-color: #0749ad;
+}
+.boxComment input:hover {
+  opacity: 0.8;
+}
