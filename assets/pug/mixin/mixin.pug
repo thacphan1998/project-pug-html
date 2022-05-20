@@ -85,6 +85,11 @@ mixin render_title_projectNews(title_main)
     .wraptitleProjectNews
         h3.titleMainProjectNews= title_main
    
+mixin render_box_general_news_title(title_main, time)
+    .wrapBoxGeneralNewsTitle 
+        h2= title_main
+        .time= time
+
 mixin menu_main(data)
     .wrapMenuHeader
         ul.listMenuHeader

@@ -4,7 +4,7 @@
 			"title_website": "The Jade Orchid",
 			"description_website": "Miracle Luxury Hotel Nha Trang",
 			"keywords_website": "Miracle Luxury Hotel Nha Trang",
-			"url_favicon": "images/logo/favicon.png",
+			"url_favicon": "images/logo/logo-header.png",
 			"url_website": "http://www.miracleluxuryhotel.vn/",
 			"created_website": "2022-03-04",
 			"position_website": "12.288247, 109.205426",
@@ -647,12 +647,6 @@
 				"lib",
 				"projectNews"
 			],
-			"title_box_content": [
-				{
-					"title": "Tin Dự án",
-					"time": "09/10/2021"
-				}
-			],
 			"content_post": [
 				{
 					"url_img": "images/project-news/hình-2.jpg",
@@ -922,6 +916,23 @@
 			],
 			"link_js_page": [
 				"lib"
+			],
+			"read_more": [
+				{
+					"url_img": "images/banner/about.jpg",
+					"title": "jskjka",
+					"content_des": "cscksckslcklsclsklskclkclskc"
+				},
+				{
+					"url_img": "images/banner/about.jpg",
+					"title": "jskjka",
+					"content_des": "cscksckslcklsclsklskclkclskc"
+				},
+				{
+					"url_img": "images/banner/about.jpg",
+					"title": "jskjka",
+					"content_des": "cscksckslcklsclsklskclkclskc"
+				}
 			]
 		},
 		"page_about": {

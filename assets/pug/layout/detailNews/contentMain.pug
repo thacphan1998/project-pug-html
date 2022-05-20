@@ -14,7 +14,7 @@
                                             svg(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512")
                                                 path(d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z")
                                         span chia sẻ
-                                        span 14
+                                        span.iconFaceNumber 14
                                 a(href= 'javascript:void(0);', title= "Thích")
                                     button(type= "submit").itemIcon
                                         span.icon.iconLike
@@ -27,29 +27,84 @@
                                             svg(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512")
                                                 path(d="M384 48V512l-192-112L0 512V48C0 21.5 21.5 0 48 0h288C362.5 0 384 21.5 384 48z")
                                         span Lưu vào facebook
-                    .contentBlock
-                        .blockTextContent
-                            .titleContentPostDes
-                                | Vừa qua, dự án  Quảng Trị do Liên doanh các nhà đầu tư gồm: Công ty liên doanh TNHH khu công nghiệp Việt Nam - Singapore, Công ty cổ phần đô thị Amata Biên Hòa và  Sumitomo Corporation thực hiện chính thức được khởi động.
-                            p
-                            .imgPostDes 
-                                img(src= "./images/img-detail-news/kcn-quang-tri.jpg" alt= "3 ông lớn khu công nghiệp đầu tư dự án 2.074 tỉ tại Quảng Trị" title= "3 ông lớn khu công nghiệp đầu tư dự án 2.074 tỉ tại Quảng Trị")
-                            p
-                            p.text-center   
-                                em Lễ khởi công dự án
-                            p Dự án khu công nghiệp Quảng Trị có quy mô khoảng 500ha được thực hiện tại xã Hải Trường và xã Hải Thọ, huyện Hải Lăng với tổng mức đầu tư 2.074 tỉ đồng.
-                            p Trong đó, giai đoạn 1 sẽ triển khai trên phạm vi 100ha với mức vốn đầu tư 504 tỉ đồng, tiến độ thực hiện từ năm 2021 đến năm 2025.
-                            p Dự án được đầu tư xây dựng tại vị trí gắn liền với nhiều trục giao thông quan trọng quốc gia như Quốc lộ 1, Quốc lộ 15D, cao tốc Bắc - Nam, đường sắt Bắc - Nam; nằm gần cảng nước sâu Mỹ Thuỷ, các khẩu quốc tế như La Lay, Lao Bảo.
-                            p Tỉnh Quảng Trị cam kết sẽ tiếp tục đồng hành, hỗ trợ cùng các nhà đầu tư hoàn thành các nhiệm vụ cần thiết để triển khai thi công vào quý IV/2022.
-                            p Đồng thời đề nghị các nhà đầu tư tích cực phối hợp với chính quyền địa phương, bố trí nhân lực có kinh nghiệm, huy động các nguồn lực tài chính và các điều kiện đảm bảo khác để dự án triển khai đúng kế hoạch đã đề ra.
-                        .linkDesPost 
-                            a(href= 'javascript:void(0);', title= "Huyện Hàm Tân (Bình Thuận) thực hiện nhiều giải pháp phát triển các khu công nghiệp ")
-                                | >> Huyện Hàm Tân (Bình Thuận) thực hiện nhiều giải pháp phát triển các khu công nghiệp 
-                        .postAuthor Diệu Trang
+                    .wrapContentBlock
+                        .contentBlock
+                            .blockTextContent
+                                .titleContentPostDes
+                                    | Vừa qua, dự án  Quảng Trị do Liên doanh các nhà đầu tư gồm: Công ty liên doanh TNHH khu công nghiệp Việt Nam - Singapore, Công ty cổ phần đô thị Amata Biên Hòa và  Sumitomo Corporation thực hiện chính thức được khởi động.
+                                p
+                                .imgPostDes 
+                                    img(src= "./images/img-detail-news/kcn-quang-tri.jpg" alt= "3 ông lớn khu công nghiệp đầu tư dự án 2.074 tỉ tại Quảng Trị" title= "3 ông lớn khu công nghiệp đầu tư dự án 2.074 tỉ tại Quảng Trị")
+                                p
+                                p.text-center   
+                                    em Lễ khởi công dự án
+                                p Dự án khu công nghiệp Quảng Trị có quy mô khoảng 500ha được thực hiện tại xã Hải Trường và xã Hải Thọ, huyện Hải Lăng với tổng mức đầu tư 2.074 tỉ đồng.
+                                p Trong đó, giai đoạn 1 sẽ triển khai trên phạm vi 100ha với mức vốn đầu tư 504 tỉ đồng, tiến độ thực hiện từ năm 2021 đến năm 2025.
+                                p Dự án được đầu tư xây dựng tại vị trí gắn liền với nhiều trục giao thông quan trọng quốc gia như Quốc lộ 1, Quốc lộ 15D, cao tốc Bắc - Nam, đường sắt Bắc - Nam; nằm gần cảng nước sâu Mỹ Thuỷ, các khẩu quốc tế như La Lay, Lao Bảo.
+                                p Tỉnh Quảng Trị cam kết sẽ tiếp tục đồng hành, hỗ trợ cùng các nhà đầu tư hoàn thành các nhiệm vụ cần thiết để triển khai thi công vào quý IV/2022.
+                                p Đồng thời đề nghị các nhà đầu tư tích cực phối hợp với chính quyền địa phương, bố trí nhân lực có kinh nghiệm, huy động các nguồn lực tài chính và các điều kiện đảm bảo khác để dự án triển khai đúng kế hoạch đã đề ra.
+                            .linkDesPost 
+                                a(href= 'javascript:void(0);', title= "Huyện Hàm Tân (Bình Thuận) thực hiện nhiều giải pháp phát triển các khu công nghiệp ")
+                                    | >> Huyện Hàm Tân (Bình Thuận) thực hiện nhiều giải pháp phát triển các khu công nghiệp 
+                            .postAuthor Diệu Trang
+                        .wrapBoxTagLink 
+                            .boxTextTags Tags:&nbsp
+                                a(href= 'javascript:void(0);', title= "bat dong san ha quang") bat dong san ha quang
+                                span ,&nbsp
+                                a(href= 'javascript:void(0);', title= "bat dong san minh tri") bat dong san minh tri
+                        .wrapItemDetailOthers
+                            h3.titleDetailOthers Tin nhiều người đọc
+                            ul.listDetailOthers
+                                li.itemDetailOthers 
+                                    h5
+                                        a(href= 'javascript:void(0);', title= "Thích")
+                                            svg.ionDetailOthers(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512")
+                                                path(d="M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256z")
+                                            | Nhà đất Khánh Hòa bớt nóng (10:35 17/05/2022) 
+                                li.itemDetailOthers 
+                                    h5
+                                        a(href= 'javascript:void(0);', title= "Thích")
+                                            svg.ionDetailOthers(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512")
+                                                path(d="M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256z")
+                                            | The Sailing Quy Nhơn - vững bước tiến về đích thành công
+                                li.itemDetailOthers
+                                    h5
+                                        a(href= 'javascript:void(0);', title= "Thích")
+                                            svg.ionDetailOthers(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512")
+                                                path(d="M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256z")
+                                            | Sắp xuất hiện phố thương mại chuyên gia gần KCN VSIP Bình Dương 
+                                li.itemDetailOthers 
+                                    h5
+                                        a(href= 'javascript:void(0);', title= "Thích")
+                                            svg.ionDetailOthers(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512")
+                                                path(d="M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256z")
+                                            | Nhà đất Khánh Hòa bớt nóng (10:35 17/05/2022) 
+                                li.itemDetailOthers 
+                                    h5
+                                        a(href= 'javascript:void(0);', title= "Thích")
+                                            svg.ionDetailOthers(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512")
+                                                path(d="M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256z")
+                                            | Sắp xuất hiện phố thương mại chuyên gia gần KCN VSIP Bình Dương 
+                            
                         .boxComment
                             .postComment 
-                                h5 Nhận xét của bạn
-                                textarea(name="binhluan" rows="5" placeholder= "Nhận xét của bạn sẽ được biên tập trước khi đăng") 
+                                h5 Nhận xét
+                                textarea(name="binhluan" rows="5" placeholder= "Nhận xét của bạn") 
                                 input(type="button" value= "Gửi bình luận")
+                    .clearfix
+                    .wrapReadMore
+                        +render_box_general_news_title("ĐỌC THÊM")  
+
+                        .wrapContentReadMore 
+                            ul.listReadMore
+                                each item in data_page.read_more
+                                    li.itemReadMore
+                                        .wrapImgReadMore
+                                            a.imgReadmore.wrapImgResize(href= 'javascript:void(0);', title= item.title)
+                                                img(src= item.url_img , alt= item.title ) 
+                                        .wrapContent
+                                            h2 
+                                                a(href= 'javascript:void(0);', title= item.title)= item.title
+                                            p= item.content_des       
                 .col-lg-3.blockContentRight
                     h1 thac

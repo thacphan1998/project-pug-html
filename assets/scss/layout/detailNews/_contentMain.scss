@@ -1,3 +1,5 @@
+// start title main
+
 .wrapBlockTitle {
     padding-top: 10px;
     padding-bottom: 20px;
@@ -15,19 +17,29 @@
 }
 
 .infoDate  {
+    font-size: 14px;
+    font-style: italic;
     padding: 8px 15px;
 }
 
 .blcokIcon {
     padding-bottom: 15px;
-    border-bottom: 1px red dotted;
+    border-bottom: 1px $color37 dotted;
     
+}
+
+// end titile Main
+
+.contentBlock {
+    border-bottom: 1px $color32 solid;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 .itemIcon {
     width: auto;
     outline: none;
-    height: 28px;
+    height: 26px;
     font-size: 12px;
     color: white;
     background-color: blue;
@@ -43,11 +55,15 @@
     &:focus {
         outline: none;
     }
+
+    .iconFaceNumber {
+        margin-left: 5px;
+    }
 }
 svg {
     fill: white;
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
     margin-right: 5px;
 }
 
@@ -103,6 +119,68 @@ svg {
     padding: 10px 0;
 }
 
+// start Tags
+
+.wrapBoxTagLink {
+    margin: 10px 0 15px;
+}
+
+.boxTextTags {
+    color: $color34;
+    padding: 10px 10px;
+    background-color: #f2f2f2;
+    border: 1px #e5e5e5 solid;
+    a {
+        color: $color34;
+        &:hover {
+            color: $color18;
+        }
+    }
+}
+
+// end Tags
+
+// start Detail Others
+.wrapItemDetailOthers {
+    margin-bottom: 20px;
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+        
+    }
+}
+
+.titleDetailOthers {
+    font-size: 20px;
+    color: #444;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-bottom: 7px;
+    border-bottom: 1px $color37 dashed;
+}
+
+.itemDetailOthers {
+    margin-bottom: 8px;
+    h5 {
+        font-size: 16px;
+        a {
+            color: $color2;
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+    }
+    .ionDetailOthers {
+        width: 6px;
+        height: 6px;
+        fill: red;
+        margin-bottom: 4px;
+        margin-right: 12px;
+    }
+}
+// End Detail Others
 .boxComment {
     border-top: 5px $color32 solid;
     padding-top: 15px;
@@ -124,13 +202,40 @@ svg {
         border: none;
         border-radius: 4px;
         margin-top: 10px;
-        padding: 5px 10px;
+        padding: 5px 15px;
         font-weight: 600;
         color: white;
-        background-color: #0749ad;
+        background-color: $color23;
 
         &:hover {
             opacity: 0.8;
         }
     }
 }
+
+// start read more
+
+.wrapReadMore {
+    margin-top: 20px;
+}
+
+.listReadMore {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.itemReadMore {
+    width: 100%;
+    border-bottom: 1px #ddd dotted;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    display: table;
+}
+
+.wrapImgReadMore {
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+

@@ -10,18 +10,26 @@
 }
 
 .infoDate {
+  font-size: 14px;
+  font-style: italic;
   padding: 8px 15px;
 }
 
 .blcokIcon {
   padding-bottom: 15px;
-  border-bottom: 1px red dotted;
+  border-bottom: 1px #ccc dotted;
+}
+
+.contentBlock {
+  border-bottom: 1px #f2f2f2 solid;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 .itemIcon {
   width: auto;
   outline: none;
-  height: 28px;
+  height: 26px;
   font-size: 12px;
   color: white;
   background-color: blue;
@@ -36,11 +44,14 @@
 .itemIcon:focus {
   outline: none;
 }
+.itemIcon .iconFaceNumber {
+  margin-left: 5px;
+}
 
 svg {
   fill: white;
-  width: 15px;
-  height: 15px;
+  width: 12px;
+  height: 12px;
   margin-right: 5px;
 }
 
@@ -93,6 +104,61 @@ svg {
   padding: 10px 0;
 }
 
+.wrapBoxTagLink {
+  margin: 10px 0 15px;
+}
+
+.boxTextTags {
+  color: #444;
+  padding: 10px 10px;
+  background-color: #f2f2f2;
+  border: 1px #e5e5e5 solid;
+}
+.boxTextTags a {
+  color: #444;
+}
+.boxTextTags a:hover {
+  color: rgba(15, 117, 189, 0.95);
+}
+
+.wrapItemDetailOthers {
+  margin-bottom: 20px;
+}
+.wrapItemDetailOthers ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.titleDetailOthers {
+  font-size: 20px;
+  color: #444;
+  font-weight: bold;
+  padding-bottom: 5px;
+  margin-bottom: 7px;
+  border-bottom: 1px #ccc dashed;
+}
+
+.itemDetailOthers {
+  margin-bottom: 8px;
+}
+.itemDetailOthers h5 {
+  font-size: 16px;
+}
+.itemDetailOthers h5 a {
+  color: #333;
+}
+.itemDetailOthers h5 a:hover {
+  opacity: 0.6;
+}
+.itemDetailOthers .ionDetailOthers {
+  width: 6px;
+  height: 6px;
+  fill: red;
+  margin-bottom: 4px;
+  margin-right: 12px;
+}
+
 .boxComment {
   border-top: 5px #f2f2f2 solid;
   padding-top: 15px;
@@ -113,11 +179,35 @@ svg {
   border: none;
   border-radius: 4px;
   margin-top: 10px;
-  padding: 5px 10px;
+  padding: 5px 15px;
   font-weight: 600;
   color: white;
-  background-color: #0749ad;
+  background-color: #d8a24e;
 }
 .boxComment input:hover {
   opacity: 0.8;
+}
+
+.wrapReadMore {
+  margin-top: 20px;
+}
+
+.listReadMore {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.itemReadMore {
+  width: 100%;
+  border-bottom: 1px #ddd dotted;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  display: table;
+}
+
+.wrapImgReadMore {
+  width: 200px;
+  float: left;
+  margin-right: 10px;
 }

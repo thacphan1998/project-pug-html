@@ -10649,6 +10649,24 @@ strong {
     font-size: 16px;
   }
 }
+.wrapBoxGeneralNewsTitle {
+  background-color: #f5f5f5;
+  border-left: 5px blue solid;
+  padding: 10px 15px;
+  margin: 0;
+  display: flow-root;
+}
+.wrapBoxGeneralNewsTitle h2 {
+  float: left;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+}
+.wrapBoxGeneralNewsTitle .time {
+  float: right;
+}
+
 .wraptitleProjectNews {
   border-bottom: 1px #ddd solid;
 }
@@ -10713,6 +10731,9 @@ strong {
 }
 .wrapImgResize.wrapImg {
   padding-top: 80%;
+}
+.wrapImgResize.imgReadmore {
+  padding-top: 70%;
 }
 
 .inputItem {
