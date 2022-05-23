@@ -960,6 +960,23 @@
                 "title": "Dự án Cảng hàng không Quảng Trị - mở ra cơ hội để phát triển",
                 "content_des": "Dự án Cảng hàng không Quảng Trị trở thành hiện thực đã đáp ứng sự mong chờ của chính quyền và những người dân Quảng Trị mang nhiều khát vọng đổi thay… Với một tỉnh đang còn nhiều tiềm năng thì dự án sẽ là động lực để Quảng Trị cất cánh trong tương lai không xa."
             }
+        ],
+        "new_project_intro": [
+            {
+                "url_img": "images/img-detail-news/hinh-5.jpg",
+                "title": "Dự án Fidel Central Park Quảng Trị",
+                "status_project": "Sắp mở bán"
+            },
+            {
+                "url_img": "images/img-detail-news/hinh-6.jpg",
+                "title": "Khu đô thị sinh thái biển AE Resort Cửa Tùng",
+                "status_project": "Đang mở bán"
+            },
+            {
+                "url_img": "images/img-detail-news/hinh-7.jpg",
+                "title": "Dự án Vincom Shophouse Đông Hà Quảng Trị",
+                "handed_over": "Đã bàn giao"
+            }
         ]
     },
     "page_about": {

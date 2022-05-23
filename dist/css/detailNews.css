@@ -228,6 +228,10 @@ svg {
 .contentReadMore h2 a {
   color: #333;
 }
+.contentReadMore h2 a:hover {
+  color: #0090cf;
+  transition: 0.4s;
+}
 .contentReadMore .desReadMore {
   line-height: 26px;
   margin: 0;
@@ -257,4 +261,58 @@ svg {
 }
 .itemReadLot .titleDes a {
   color: #333;
+}
+.itemReadLot .titleDes a:hover {
+  color: #0090cf;
+  transition: 0.4s;
+}
+
+.wrapNewProjectIntro ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.itemNewProjectIntro {
+  position: relative;
+  display: table;
+  width: 100%;
+  border-bottom: 1px #ddd dashed;
+  padding: 18px 0;
+  list-style: none;
+}
+.itemNewProjectIntro h4 {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: -5px;
+}
+.itemNewProjectIntro h4 a {
+  color: #444;
+}
+.itemNewProjectIntro h4 a:hover {
+  color: #0090cf;
+  transition: 0.4s;
+}
+.itemNewProjectIntro span {
+  background-color: #f2f2f2;
+  filter: drop-shadow(0px 4px 16px rgba(44, 44, 44, 0.08));
+  padding: 4px 8px;
+  color: red;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.itemNewProjectIntro .handedOver {
+  background-color: #f0eaf4;
+  color: #563968;
+  filter: drop-shadow(0px 4px 16px rgba(44, 44, 44, 0.08));
+}
+.itemNewProjectIntro:last-child {
+  border: none;
+}
+
+.imgNewProjectIntro {
+  float: left;
+  width: 90px;
+  height: 85px;
+  margin-right: 10px;
 }

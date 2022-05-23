@@ -10738,6 +10738,9 @@ strong {
 .wrapImgResize.imgReadmore {
   padding-top: 70%;
 }
+.wrapImgResize.imgNewProjectIntro {
+  padding-top: 33%;
+}
 
 .inputItem {
   padding: 0 10px 20px 10px;

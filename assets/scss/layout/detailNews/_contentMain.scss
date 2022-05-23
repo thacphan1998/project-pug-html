@@ -255,6 +255,10 @@ svg {
         
         a {
             color: $color2;
+            &:hover {
+                color: $color13;
+                transition: 0.4s;
+            }
         }
     }
     .desReadMore {
