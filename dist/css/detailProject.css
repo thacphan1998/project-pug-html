@@ -1298,8 +1298,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 .wrapContentMain .listCardProject .itemCardProject .wrapInfoCard .tagTitle {
   font-size: 20px;
-  color: #333;
   margin: 10px 0 0 0;
+}
+.wrapContentMain .listCardProject .itemCardProject .wrapInfoCard .tagTitle a {
+  color: #333;
+}
+.wrapContentMain .listCardProject .itemCardProject .wrapInfoCard .tagTitle a:hover {
+  color: #0090cf;
+  transition: 0.4s;
 }
 .wrapContentMain .listCardProject .itemCardProject .wrapInfoCard .tagAddress,
 .wrapContentMain .listCardProject .itemCardProject .wrapInfoCard .textDes,

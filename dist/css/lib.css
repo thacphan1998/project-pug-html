@@ -10741,6 +10741,9 @@ strong {
 .wrapImgResize.imgNewProjectIntro {
   padding-top: 33%;
 }
+.wrapImgResize.wrapImgSellEsate {
+  padding-top: 33%;
+}
 
 .inputItem {
   padding: 0 10px 20px 10px;
@@ -10838,6 +10841,44 @@ strong {
   padding: 10px 15px;
   line-height: 26px;
   display: block;
+}
+
+.listSellEsate {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.listItemSellEsate {
+  display: table;
+  width: 100%;
+  border: none;
+  padding-bottom: 0;
+  padding-top: 18px;
+}
+
+.wrapImgSellEsate {
+  float: left;
+  width: 90px;
+  margin-right: 10px;
+}
+
+.titleContentSellEsate {
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: -5px;
+}
+.titleContentSellEsate a {
+  color: #444;
+}
+.titleContentSellEsate a:hover {
+  color: #0090cf;
+  transition: 0.4s;
+}
+.titleContentSellEsate span {
+  color: red;
+  font-weight: 700;
+  padding-left: 5px;
 }
 
 .headerTop {

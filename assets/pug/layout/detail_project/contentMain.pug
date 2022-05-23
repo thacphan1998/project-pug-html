@@ -37,7 +37,8 @@
                                                 span= item.statusDes
                                             else 
                                                 label.titleStatus= item.status
-                                    h4.tagTitle= item.title
+                                    h4.tagTitle
+                                        a(href='javascript:void(0);' title= item.title)= item.title
                                     .tagspecifications
                                         if item.spec_project.price
                                             span.price= item.spec_project.price
@@ -97,9 +98,9 @@
                             each item in data_page.project_news_list
                                 li.itemNewsList
                                     .wrapImgNewList.wrapImgResize
-                                        a(href='javascript:void(0);' title= item.title)
+                                        a(href= item.link title= item.title)
                                             img(src= item.url_img, alt= item.title)
                                     .wrapContentNewList
-                                        a.wrapTitleNewList(href='javascript:void(0);' title= item.title)= item.title
+                                        a.wrapTitleNewList(href= item.link title= item.title)= item.title
                                         .timeNewList= item.time                                        
 // end slide main

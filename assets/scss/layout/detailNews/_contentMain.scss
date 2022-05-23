@@ -267,3 +267,31 @@ svg {
     }
 }
 
+// media
+
+@media screen and (max-width: 992px) {
+    .blockContentRight {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .wrapReadMore {
+        .wrapImgReadMore {
+            width: 100%;
+            padding-bottom: 10px;
+            margin-right: 0;
+        }
+        .contentReadMore {
+            h2 {
+                text-align: center;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            .desReadMore {
+                font-size: 14px;
+                line-height: 24px;
+            }
+        }
+    }
+}

@@ -1,12 +1,37 @@
-.itemSellEsate {
+.listSellEsate {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.listItemSellEsate {
+    display: table;
+    width: 100%;
     border: none;
     padding-bottom: 0;
     padding-top: 18px;
 }
 
-.titleContent {
+.wrapImgSellEsate {
+    float: left;
+    width: 90px;
+    margin-right: 10px;
+}
+
+.titleContentSellEsate {
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: -5px;
+    a {
+        color: $color34;
+        &:hover {
+            color: $color13;
+            transition: 0.4s;
+        }
+    }
     span {
         color: red;
         font-weight: 700;
+        padding-left: 5px;
     }
 }

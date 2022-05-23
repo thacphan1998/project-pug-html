@@ -280,6 +280,23 @@
             "url_img": "images/light-gallery/hinh_4.jpg"
         }
     ],
+    "sell_estate": [
+        {
+            "url_img": "images/img-detail-news/hinh-6.jpg",
+            "content": "Sở Hữu Ngay Đất Nền Biển Cửa Lò Chỉ Từ 906 Triệu-Cạnh Vinpear Land-0967902489",
+            "price": "349 triệu"
+        },
+        {
+            "url_img": "images/banner/about.jpg",
+            "content": "Chủ tịch HĐQT của Công ty cổ phần Crystal Bay (Crystal Bay Group)",
+            "price": "34 triệu"
+        },
+        {
+            "url_img": "images/img-detail-news/hinh-1.jpg",
+            "content": "Chủ tịch HĐQT của Công ty cổ phần Crystal Bay (Crystal Bay Group)",
+            "price": "34 triệu"
+        }
+    ],
     "page_home": {
         "title_page": "Trang Chủ",
         "description_page": "trang chủ",
@@ -518,17 +535,20 @@
             {
                 "url_img": "images/project-list/hinh-4.jpg",
                 "title": "Bất động sản bán lẻ khởi sắc sau đại dịch ",
-                "time": "2 ngày trước"
+                "time": "2 ngày trước",
+                "link": "detailNews.html"
             },
             {
                 "url_img": "images/banner/about.jpg",
                 "title": "Sở hữu tour du thuyền đẳng cấp khi đặt cọc căn hộ Imperium Town Nha Trang",
-                "time": "2 giờ trước"
+                "time": "2 giờ trước",
+                "link": "detailNews.html"
             },
             {
                 "url_img": "images/banner/about.jpg",
                 "title": "Đi tìm điểm độc đáo của homeresort: Nơi nhà cũng là resort",
-                "time": "Hôm nay"
+                "time": "Hôm nay",
+                "link": "detailNews.html"
             }
         ],
         "card_project": [
@@ -780,23 +800,7 @@
                 "content": "Bất động sản nghỉ dưỡng mở rộng quỹ đất, chuyên gia nói gì?"
             }
         ],
-        "sell_estate": [
-            {
-                "url_img": "images/banner/about.jpg",
-                "content": " Chủ tịch HĐQT của Công ty cổ phần Crystal Bay (Crystal Bay Group) ",
-                "price": "34 triệu"
-            },
-            {
-                "url_img": "images/banner/about.jpg",
-                "content": " Chủ tịch HĐQT của Công ty cổ phần Crystal Bay (Crystal Bay Group) ",
-                "price": "34 triệu"
-            },
-            {
-                "url_img": "images/banner/about.jpg",
-                "content": " Chủ tịch HĐQT của Công ty cổ phần Crystal Bay (Crystal Bay Group) ",
-                "price": "34 triệu"
-            }
-        ],
+        
         "utility_list": [
             "Tính chi phí vay vốn",
             "Tính chi phí vay vốn",
