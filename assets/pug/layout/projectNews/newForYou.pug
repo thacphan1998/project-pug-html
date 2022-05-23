@@ -5,7 +5,8 @@
         ul.listContent
             each item in data_page.new_for_you
                 li.listItem
-                    a.wrapImg(href='javascript:void(0);' title= item.title_content)
-                        img(src= item.url_img , alt= item.title_content) 
+                    .wrapImg.imgNewForYou.wrapImgResize
+                        a(href='javascript:void(0);' title= item.title_content)
+                            img(src= item.url_img , alt= item.title_content) 
                     h4.titleContent
                         a(href='javascript:void(0);' title= item.title_content)= item.title_content

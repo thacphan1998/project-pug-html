@@ -10732,6 +10732,9 @@ strong {
 .wrapImgResize.wrapImg {
   padding-top: 80%;
 }
+.wrapImgResize.imgNewForYou {
+  padding-top: 33%;
+}
 .wrapImgResize.imgReadmore {
   padding-top: 70%;
 }

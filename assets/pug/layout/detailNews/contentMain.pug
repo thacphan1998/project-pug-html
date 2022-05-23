@@ -6,7 +6,7 @@
                     .wrapBlockTitle
                         h1 3 ông lớn khu công nghiệp đầu tư dự án 2.074 tỉ tại Quảng Trị
                         .infoDate.text-right 03/05/2022 7:59 PM
-                        .blcokIcon
+                        .blockIcon
                             .listIcon
                                 a(href= 'javascript:void(0);', title= "facebook")
                                     button(type= "submit").itemIcon
@@ -102,9 +102,11 @@
                                         .wrapImgReadMore
                                             a.imgReadmore.wrapImgResize(href= 'javascript:void(0);', title= item.title)
                                                 img(src= item.url_img , alt= item.title ) 
-                                        .wrapContent
+                                        .contentReadMore
                                             h2 
                                                 a(href= 'javascript:void(0);', title= item.title)= item.title
-                                            p= item.content_des       
+                                            p.desReadMore= item.content_des       
                 .col-lg-3.blockContentRight
-                    h1 thac
+                    include ../detailNews/readLot
+                    include ../detailNews/newProjectIntro
+                    
