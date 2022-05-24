@@ -80,7 +80,7 @@ $MrLeftItemMenu: 40px;
 }
 
 .linkMenuHeader{
-    font-size: 14px;
+    font-size: 16px;
     line-height: 22px;
     color: $color1;
     display: block;
@@ -424,8 +424,40 @@ $MrLeftItemMenu: 40px;
 
 // end ctrl right
 
+// start login
 
-// end language
+.wrapLogin {
+    padding: 24px 0;
+    float: left;
+    margin-left: 60px;
+
+    a {
+        font-size: 14px;
+        color: $color1;
+        font-weight: 600;
+        background-color: $color25;
+        border-radius: 5px;
+        padding: 6px 10px;
+        &:last-child {
+            background-color: $color11;
+            padding: 5px 10px;
+            margin-left: 5px;
+            
+        }
+        &:hover {
+            color: #006699;
+            background-color: white;
+
+        }
+    }
+
+    span {
+        color: #f2f2f2;
+        font-size: 16px;
+        padding: 0 5px;
+    }
+}
+// end login
 
 // fixed menu
 .headerBottom {

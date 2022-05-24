@@ -1367,7 +1367,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 @media (max-width: 991px) {
-  .wrapServices .rowList {
+  .wrapServices .listImgServices {
     margin: 0 -7.5px;
   }
   .wrapServices .colItem {

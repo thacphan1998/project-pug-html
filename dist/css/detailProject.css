@@ -1233,6 +1233,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .wrapContentMain .infoProject .selectStatus {
   margin-left: auto;
 }
+.wrapContentMain .listCardProject {
+  margin-bottom: 30px;
+}
 .wrapContentMain .listCardProject .itemCardProject {
   display: flex;
   border-radius: 8px;

@@ -10960,7 +10960,7 @@ strong {
 }
 
 .linkMenuHeader {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 22px;
   color: white;
   display: block;
@@ -11323,6 +11323,34 @@ strong {
 }
 .wrapCtrlRight {
   float: right;
+}
+
+.wrapLogin {
+  padding: 24px 0;
+  float: left;
+  margin-left: 60px;
+}
+.wrapLogin a {
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+  background-color: rgba(0, 127, 178, 0.5);
+  border-radius: 5px;
+  padding: 6px 10px;
+}
+.wrapLogin a:last-child {
+  background-color: red;
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+.wrapLogin a:hover {
+  color: #006699;
+  background-color: white;
+}
+.wrapLogin span {
+  color: #f2f2f2;
+  font-size: 16px;
+  padding: 0 5px;
 }
 
 .headerBottom {
