@@ -1053,12 +1053,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 .wrapFormApartment .contentItem .colItem {
   padding: 0 10px;
+  margin-bottom: 20px;
 }
 .wrapFormApartment .contentItem .colItem .formContent {
   background: #fff;
-  min-height: 330px;
+  height: 100%;
   box-shadow: 1px 4px 8px -1px;
-  margin-bottom: 20px;
 }
 .wrapFormApartment .contentItem .colItem .formContent p {
   text-align: justify;
@@ -1102,7 +1102,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .wrapAboutHome {
   background-color: rgba(0, 40, 77, 0.92);
-  padding: 40px 0;
+  padding: 30px 0;
 }
 .wrapAboutHome .titleItem {
   padding-bottom: 10px;

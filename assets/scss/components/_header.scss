@@ -141,7 +141,6 @@ $MrLeftItemMenu: 40px;
 }
 
 
-
 .wrapCloseMenuHeaderMobile {
     display: none;
 }
@@ -182,6 +181,7 @@ $MrLeftItemMenu: 40px;
         .wrapMenuHeader {
             top: -39px;
             position: relative;
+            right: 50%;
         }
     }
 
@@ -345,6 +345,24 @@ $MrLeftItemMenu: 40px;
         overflow-y: auto;
         z-index: 993;
         @include transition(0.5s);
+
+        .wrapLogin {
+            position: absolute;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            padding: 10px 15px;
+            margin: 0;
+            span {
+                color: $color2;
+            }
+            a:hover {
+                border: 2px red solid;
+            }
+            a:last-child {
+                margin-left: 10px;
+            }
+        }
     }
 
     .wrapBtnCtrMenuHeader{
@@ -413,6 +431,8 @@ $MrLeftItemMenu: 40px;
             }
         }
     }
+
+    
 }
 // end menu
 
@@ -427,6 +447,8 @@ $MrLeftItemMenu: 40px;
 // start login
 
 .wrapLogin {
+    position: absolute;
+    right: 0;
     padding: 24px 0;
     float: left;
     margin-left: 60px;
@@ -441,7 +463,7 @@ $MrLeftItemMenu: 40px;
         &:last-child {
             background-color: $color11;
             padding: 5px 10px;
-            margin-left: 5px;
+            margin-left: 8px;
             
         }
         &:hover {

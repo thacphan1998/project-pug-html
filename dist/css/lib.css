@@ -10507,7 +10507,7 @@ strong {
 .titleMainItem2,
 .titleMainItem1 {
   font-size: 40px;
-  line-height: 64px;
+  line-height: 42px;
   font-weight: 700;
   color: #051242;
   margin: 0;
@@ -11063,6 +11063,7 @@ strong {
   .wrapMenuMainHeader .wrapMenuHeader {
     top: -39px;
     position: relative;
+    right: 50%;
   }
 
   .menuSub {
@@ -11250,6 +11251,23 @@ strong {
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
   }
+  .wrapMenuMainHeader .wrapLogin {
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    padding: 10px 15px;
+    margin: 0;
+  }
+  .wrapMenuMainHeader .wrapLogin span {
+    color: #333;
+  }
+  .wrapMenuMainHeader .wrapLogin a:hover {
+    border: 2px red solid;
+  }
+  .wrapMenuMainHeader .wrapLogin a:last-child {
+    margin-left: 10px;
+  }
 
   .wrapBtnCtrMenuHeader {
     display: block;
@@ -11326,6 +11344,8 @@ strong {
 }
 
 .wrapLogin {
+  position: absolute;
+  right: 0;
   padding: 24px 0;
   float: left;
   margin-left: 60px;
@@ -11341,7 +11361,7 @@ strong {
 .wrapLogin a:last-child {
   background-color: red;
   padding: 5px 10px;
-  margin-left: 5px;
+  margin-left: 8px;
 }
 .wrapLogin a:hover {
   color: #006699;
@@ -11735,6 +11755,18 @@ strong {
     line-height: 20px;
   }
 }
+.modalFormLogin .modal-content {
+  border-radius: 15px;
+  border: none;
+}
+
+.modal-header {
+  border: none;
+}
+.modal-header h5 {
+  color: #333;
+}
+
 html {
   background-color: white;
 }

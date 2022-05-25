@@ -8,13 +8,7 @@ header.wrapHeader
                             +render_link_logo(data)
                     .clearfix.wrapCtrlRight
 
-                        .wrapLogin
-                            .contentLogin
-                                a(href='javascript:void(0);' title= 'Đăng nhập') Đăng nhập
-                                span |
-                                a(href='javascript:void(0);' title= 'Đăng ký') Đăng ký
-                                a(href='javascript:void(0);' title= 'Đăng tin') Đăng tin
-
+                        
                         .wrapBtnCtrMenuHeader
                             .btnCtrMenu
                                 svg.iconOpen(aria-hidden='true' focusable='false' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 448 512')
@@ -28,5 +22,13 @@ header.wrapHeader
 
                     .wrapMenuMainHeader
                         +menu_main(data.header.menu)
+                    
+                        .wrapLogin
+                            .contentLogin
+                                a(href='javascript:void(0);' title= 'Đăng nhập' data-toggle= 'modal' data-target= '#modalFormLogin') Đăng nhập
+                                span |
+                                a(href='javascript:void(0);' title= 'Đăng ký' data-toggle= 'modal' data-target= '#modalFormRegister') Đăng ký
+                                a(href='javascript:void(0);' title= 'Đăng tin') Đăng tin    
+
 // end header
 

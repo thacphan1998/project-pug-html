@@ -11787,8 +11787,8 @@ $(window).on('load', function () {
     videojs: false,
     share: false,
     counter: false,
-    getCaptionFromTitleOrAlt: true,
-    thumbnail: true,
+    getCaptionFromTitleOrAlt: false,
+    thumbnail: false,
     controls: true,
   })
 
@@ -11803,8 +11803,8 @@ $(window).on('load', function () {
     videojs: false,
     share: false,
     counter: false,
-    getCaptionFromTitleOrAlt: true,
-    thumbnail: true,
+    getCaptionFromTitleOrAlt: false,
+    thumbnail: false,
     controls: true,
   })
   // end video about
