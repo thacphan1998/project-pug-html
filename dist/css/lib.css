@@ -11755,16 +11755,28 @@ strong {
     line-height: 20px;
   }
 }
-.modalFormLogin .modal-content {
+.modalFormLoginRegister .modal-header {
+  border: none;
+}
+.modalFormLoginRegister .modal-header h3 {
+  color: #0a3052;
+  font-weight: 600;
+}
+.modalFormLoginRegister .modal-content {
   border-radius: 15px;
   border: none;
 }
-
-.modal-header {
-  border: none;
+.modalFormLoginRegister .form-group label {
+  color: #0a3052;
+  font-weight: 600;
 }
-.modal-header h5 {
-  color: #333;
+.modalFormLoginRegister .btn {
+  color: white;
+  background-color: #0a3052;
+  margin-top: 15px;
+}
+.modalFormLoginRegister .btn:hover {
+  opacity: 0.8;
 }
 
 html {

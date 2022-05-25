@@ -1,15 +1,15 @@
-#modalFormLogin.modalFormLogin.modal.fade(tabindex='-1' role="dialog" aria-labelledby='modalFormLogin' aria-hidden='true') 
+#modalFormLogin.modalFormLogin.modalFormLoginRegister.modal.fade(tabindex='-1' role="dialog" aria-labelledby='modalFormLogin' aria-hidden='true') 
     .modal-dialog.modal-dialog-scrollable.modal-dialog-centered(role="document")
         .modal-content
             .modal-header
-                h5#modalFormLogin.modal-title Đăng nhập
+                h3#modalFormLogin.modal-title Đăng nhập
                 a.close(href='javascript:void(0);' title='Đóng' data-dismiss='modal' aria-label='Close')
                     span(aria-hidden='true') ×
 
             .modal-body
                 form
                     .form-group
-                        label Địa chỉ Email 
+                        label Email 
                         input#exampleInputEmail1.form-control(type="email" aria-describedby="emailHelp" placeholder="Nhập địa chỉ email")
                         small#emailHelp.form-text.text-muted  Chúng tôi sẽ không bao giờ chia sẻ email của bạn với bất kỳ ai khác.
                     .form-group
@@ -19,6 +19,6 @@
                         input#exampleCheck1.form-check-input(type="checkbox")
                         label.form-check-label Nhớ mật khẩu
                         a.form-check-label.float-right(href='javascript:void(0);' title='Quên mật khẩu') Quên mật khẩu
-                    button.btn.btn-primary.w-100(type="submit") Đăng nhập   
+                    button.btn.w-100(type="submit") Đăng nhập   
             .modal-footer
-                a(href='javascript:void(0);' title='Đăng ký') Đăng ký
+                a(href='javascript:void(0);' title='Đăng ký' data-toggle= 'modal' data-target= '#modalFormRegister') Đăng ký

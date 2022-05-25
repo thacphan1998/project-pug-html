@@ -1,0 +1,31 @@
+.modalFormLoginRegister {
+    .modal-header {
+        border: none;
+        h3 {
+            color: $color38;
+            font-weight: 600;
+        }
+    }
+    .modal-content {
+        border-radius: 15px;
+        border: none;
+    }
+
+    .form-group {
+        label {
+            color: $color38;
+            font-weight: 600;
+        }
+    }
+
+    .btn {
+        color: $color1;
+        background-color: $color38;
+        margin-top: 15px;
+        &:hover {
+            opacity: 0.8;
+        }
+
+    }
+}
+
