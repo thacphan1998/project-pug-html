@@ -11589,32 +11589,6 @@ strong {
     height: 35px;
   }
 }
-.modalBookRoom .rowItem {
-  margin: 0 -7.5px;
-}
-.modalBookRoom .rowItem .colItem {
-  margin-top: 15px;
-  padding: 0 7.5px;
-}
-.modalBookRoom .rowItem .colItem:nth-child(1), .modalBookRoom .rowItem .colItem:nth-child(2) {
-  margin-top: 0;
-}
-.modalBookRoom .btnCancel,
-.modalBookRoom .btnConfirm {
-  padding: 10px 40px;
-}
-.modalBookRoom .modal-content {
-  border: 5px solid #ffc107;
-}
-.modalBookRoom .formContent .iconItem {
-  color: #ffc107;
-}
-.modalBookRoom .modal-title {
-  color: #ffc107;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
 .wrapBreadcrumb .wrapImgItem {
   position: relative;
   z-index: 0;

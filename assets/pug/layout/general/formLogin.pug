@@ -10,14 +10,13 @@
                 form
                     .form-group
                         label Email 
-                        input#exampleInputEmail1.form-control(type="email" aria-describedby="emailHelp" placeholder="Nhập địa chỉ email")
-                        small#emailHelp.form-text.text-muted  Chúng tôi sẽ không bao giờ chia sẻ email của bạn với bất kỳ ai khác.
+                        input#inputEmail.form-control(type="email" aria-describedby="emailHelp" placeholder="Nhập địa chỉ email")
                     .form-group
                         label Mật khẩu
-                        input#exampleInputPassword1.form-control(type="password" placeholder="nhập mật khẩu")
+                        input#inputPassword1.form-control(type="password" placeholder="nhập mật khẩu")
                     .form-check
-                        input#exampleCheck1.form-check-input(type="checkbox")
-                        label.form-check-label Nhớ mật khẩu
+                        input#checkPassword.form-check-input(type="checkbox")
+                        label.form-check-label(for= 'checkPassword') Nhớ mật khẩu
                         a.form-check-label.float-right(href='javascript:void(0);' title='Quên mật khẩu') Quên mật khẩu
                     button.btn.w-100(type="submit") Đăng nhập   
             .modal-footer
