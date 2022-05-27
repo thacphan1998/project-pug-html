@@ -153,6 +153,9 @@ $MrLeftItemMenu: 40px;
             > .btnDropdownMenuSub,
             > .linkMenuHeader{
                 color: $color20;
+                &:hover {
+                color: $color20;
+                }
             }
         }
     }
@@ -462,7 +465,6 @@ $MrLeftItemMenu: 40px;
         padding: 6px 10px;
         &:last-child {
             background-color: $color11;
-            padding: 5px 10px;
             margin-left: 8px;
             
         }

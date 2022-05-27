@@ -11043,6 +11043,10 @@ strong {
 .itemMenuHeader:hover > .linkMenuHeader {
     color: #ffc107;
   }
+  .itemMenuHeader:hover > .btnDropdownMenuSub:hover,
+.itemMenuHeader:hover > .linkMenuHeader:hover {
+    color: #ffc107;
+  }
 
   .linkMenuHeader {
     padding: 64px 0;
@@ -11360,7 +11364,6 @@ strong {
 }
 .wrapLogin a:last-child {
   background-color: red;
-  padding: 5px 10px;
   margin-left: 8px;
 }
 .wrapLogin a:hover {

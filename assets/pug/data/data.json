@@ -772,8 +772,6 @@
 		},
 		"page_contact": {
 			"title_page": "Liên Hệ",
-			"description_page": "Liên Hệ",
-			"keywords_page": "lien he",
 			"url_image_page": "https://demo.sweetsoft.vn/miracle-luxury-hotel/images/banner/share.jpg",
 			"link_css_page": [
 				"lib",
@@ -785,7 +783,10 @@
 			],
 			"breadcrumb": {
 				"url_img": "images/banner/breadcrumb-1.jpg",
-				"menu": []
+				"menu": [
+					"trang chủ",
+					"Liên hệ"
+				]
 			},
 			"contact_form": {
 				"title_main": "Nhắn tin",
