@@ -403,11 +403,11 @@
         "link_css_page": [
             "lib",
             "fonts",
-            "detailproject"
+            "detailProject"
         ],
         "link_js_page": [
             "lib",
-            "detailproject"
+            "detailProject"
         ],
         "slide_main": [
             {
