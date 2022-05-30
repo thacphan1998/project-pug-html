@@ -805,13 +805,7 @@
         ],
         "link_js_page": [
             "lib"
-        ],
-        "contact_form": {
-            "title_main": "Nhắn tin",
-            "text_title": "Nhắn tin cho <span style=\"color: #00cdfc;\">HKT Solutions</span>",
-            "url_img": "images/banner/contact.jpg"
-        },
-        "url_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.8270987495243!2d109.16560241481466!3d12.259977191325536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31705d6d8504ad75%3A0x327ce7c806006531!2zNTAgMTkgVGjDoW5nIDUsIFbEqW5oIEhp4buHcCwgVGjDoG5oIHBo4buRIE5oYSBUcmFuZywgS2jDoW5oIEjDsmE!5e0!3m2!1svi!2s!4v1636939186987!5m2!1svi!2s"
+        ]
     },
     "page_news_list": {
         "title_page": "Công nghệ",
