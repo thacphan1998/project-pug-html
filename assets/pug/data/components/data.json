@@ -806,14 +806,6 @@
         "link_js_page": [
             "lib"
         ],
-        "breadcrumb": {
-            "url_img": "images/banner/breadcrumb-1.jpg",
-            "menu": [
-                "trang chủ",
-                "Liên hệ"
-            ]
-        },
-        
         "contact_form": {
             "title_main": "Nhắn tin",
             "text_title": "Nhắn tin cho <span style=\"color: #00cdfc;\">HKT Solutions</span>",
@@ -946,20 +938,6 @@
                 "title": "Dự án Vincom Shophouse Đông Hà Quảng Trị",
                 "handed_over": "Đã bàn giao"
             }
-        ]
-    },
-    "page_about": {
-        "title_page": "Giới Thiệu",
-        "description_page": "Giới Thiệu",
-        "keywords_page": "gioi-thieu",
-        "url_image_page": "https://demo.sweetsoft.vn/miracle-luxury-hotel/images/banner/share.jpg",
-        "link_css_page": [
-            "lib",
-            "fonts",
-            "about"
-        ],
-        "link_js_page": [
-            "lib"
         ]
     }
 }
