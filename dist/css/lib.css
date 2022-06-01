@@ -11404,6 +11404,12 @@ strong {
   color: #333;
 }
 
+.fixedFooter {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 .footer {
   background-color: #1b3a69;
 }

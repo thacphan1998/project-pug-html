@@ -1,16 +1,9 @@
 {
     "general": {
         "title_website": "The Jade Orchid",
-        "description_website": "Miracle Luxury Hotel Nha Trang",
-        "keywords_website": "Miracle Luxury Hotel Nha Trang",
-        "url_favicon": "images/logo/logo-header.png",
-        "url_website": "http://www.miracleluxuryhotel.vn/",
-        "created_website": "2022-03-04",
-        "position_website": "12.288247, 109.205426",
-        "placename_website": "Nha Trang, Khanh Hoa, Viet Nam",
-        "country_website": "VN",
-        "region_website": "VN-65",
-        "hreflang_website": "vi, en, rus, kor"
+        "description_website": "The Jade Orchid",
+        "keywords_website": "The Jade Orchid",
+        "url_favicon": "images/logo/logo-header.png"
     },
     "header": {
         "logo": "images/logo/logo-header.png",
