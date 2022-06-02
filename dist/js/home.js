@@ -11792,7 +11792,7 @@ $(window).on('load', function () {
     controls: true,
   })
 
-  // video about
+  //wraplightGallery
   $('.wraplightGallery').lightGallery({
     showThumbByDefault: true,
     download: false,
@@ -11807,37 +11807,5 @@ $(window).on('load', function () {
     thumbnail: false,
     controls: true,
   })
-  // end video about
-
-  // date book room
-  var languagePage = $('html').attr('lang')
-
-  if ($('.checkInBookRoom').length && $('.checkOutBookRoom').length) {
-    $('.checkInBookRoom')
-      .datepicker({
-        format: 'dd/mm/yyyy',
-        language: languagePage,
-        startDate: new Date(),
-        autoclose: true,
-      })
-      .datepicker('setDates', new Date())
-      .on('changeDate', function (selected) {
-        var minDate = new Date(selected.date.valueOf())
-        $('.checkOutBookRoom').datepicker('setStartDate', minDate)
-      })
-
-    $('.checkOutBookRoom')
-      .datepicker({
-        format: 'dd/mm/yyyy',
-        language: languagePage,
-        startDate: new Date(),
-        autoclose: true,
-      })
-      .datepicker('setDates', new Date())
-      .on('changeDate', function (selected) {
-        var minDate = new Date(selected.date.valueOf())
-        $('.checkInBookRoom').datepicker('setEndDate', minDate)
-      })
-  }
-  // date book room
+  // end wraplightGallery
 })

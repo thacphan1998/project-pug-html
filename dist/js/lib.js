@@ -9889,29 +9889,6 @@ $('.btnDropdownMenuSub').on('click', function (e) {
 })
 // end menu
 
-// language
-$('.titleLanguage').on('click', function () {
-  $('body').toggleClass('showLanguage')
-  $('.dropdownLanguage').slideToggle()
-})
-
-$('body, html').on('click', function (e) {
-  var target = $(e.target)
-  if (
-    e.type == 'focusin' ||
-    target.closest(this.element).length ||
-    target.closest(this.container).length ||
-    target.closest('.wrapLanguage').length
-  )
-    return
-
-  if ($('body').hasClass('showLanguage')) {
-    $('body').removeClass('showLanguage')
-    $('.dropdownLanguage').slideUp()
-  }
-})
-// end language
-
 // set footer
 function setFooter() {
   if ($('.wrapFooter').length) {
@@ -9922,61 +9899,7 @@ function setFooter() {
 }
 // end set footer
 
-// set table in text
-function setTableInText($element) {
-  if ($($element).length) {
-    $($element).each(function () {
-      $(this).wrapAll('<div class="reponsiveTable"></div>')
-    })
-  }
-}
-// end set table in text
-
-// set iframe in text
-function setIframeInText($element) {
-  if ($($element).length) {
-    $($element).each(function () {
-      $(this).wrapAll(
-        '<div class="reponsiveIframe wrapImgResize img16And9"></div>',
-      )
-    })
-  }
-}
-// end set iframe in text
-
 $(window).on('load', function () {
-  // modal date book room
-  var languagePage = $('html').attr('lang')
-
-  if ($('.checkInModalBookRoom').length && $('.checkOutModalBookRoom').length) {
-    $('.checkInModalBookRoom')
-      .datepicker({
-        format: 'dd/mm/yyyy',
-        language: languagePage,
-        startDate: new Date(),
-        autoclose: true,
-      })
-      .datepicker('setDates', new Date())
-      .on('changeDate', function (selected) {
-        var minDate = new Date(selected.date.valueOf())
-        $('.checkOutModalBookRoom').datepicker('setStartDate', minDate)
-      })
-
-    $('.checkOutModalBookRoom')
-      .datepicker({
-        format: 'dd/mm/yyyy',
-        language: languagePage,
-        startDate: new Date(),
-        autoclose: true,
-      })
-      .datepicker('setDates', new Date())
-      .on('changeDate', function (selected) {
-        var minDate = new Date(selected.date.valueOf())
-        $('.checkInModalBookRoom').datepicker('setEndDate', minDate)
-      })
-  }
-  // end modal date book room
-
   showBtnScrollTop()
 
   fixedMenu()
@@ -10004,40 +9927,11 @@ $(window).on('scroll', function () {
 })
 
 // fix footer
-// $(window).on('load', function () {
-//   var heightScreen = $(window).height()
-//   var heightHeader = $('.wrapHeader').outerHeight()
-//   var heightFooter = $('.footer').outerHeight()
-//   var heightMain = $('.wrapContentMainDetailNews').outerHeight()
-//   var heightControl = heightScreen - (heightHeader + heightFooter)
-//   if (heightMain < heightControl) {
-//     $('heightMain').height(heightControl)
-//   }
-// })
-
-// $footer = $('.footer')
-// $win = $(window)
-// var ipos = $footer.offset().top
-// var winScroll, space
-
-// function fixedFooter(e) {
-//   winScroll = $win.scrollTop()
-//   space = $win.height() - $footer.height() * 2
-//   if (winScroll + space < ipos) {
-//     $footer.addClass('fixed_footer')
-//   } else {
-//     $footer.removeClass('fixed_footer')
-//   }
-// }
-
-// fixedFooter()
-
-var docHeight = $(window).height()
-console.log('docHeight ===', docHeight)
-var footerHeight = $('.footer').height()
-var footerTop = $('.footer').position().top + footerHeight
-console.log('footer top postion', $('.footer').position())
-console.log('===== footerTop', footerTop, docHeight)
-if (footerTop < docHeight) {
-  $('.footer').css('margin-top', docHeight - footerTop + 'px')
-}
+$(window).on('resize', function () {
+  var docHeight = $(window).height()
+  var footerHeight = $('.footer').height()
+  var footerTop = $('.footer').position().top + footerHeight
+  if (footerTop < docHeight) {
+    $('.footer').css('margin-top', docHeight - footerTop + 'px')
+  }
+})
