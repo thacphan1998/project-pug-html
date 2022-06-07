@@ -9889,36 +9889,14 @@ $('.btnDropdownMenuSub').on('click', function (e) {
 })
 // end menu
 
-// set footer
-function setFooter() {
-  if ($('.wrapFooter').length) {
-    if ($('body').outerHeight() > $(window).height())
-      $('.wrapFooter').removeClass('fixFooter')
-    else $('.wrapFooter').addClass('fixFooter')
-  }
-}
-// end set footer
-
 $(window).on('load', function () {
   showBtnScrollTop()
 
   fixedMenu()
 
-  setFooter()
-
   // show content
   $('body').addClass('showContent')
   // endshow content
-})
-
-$(window).on('resize', function () {
-  if ($('.wrapFooter').length && $('.wrapFooter').hasClass('fixFooter')) {
-    $('.wrapFooter').removeClass('fixFooter')
-  }
-
-  setTimeout(function () {
-    setFooter()
-  }, 300)
 })
 
 $(window).on('scroll', function () {

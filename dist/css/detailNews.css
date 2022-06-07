@@ -108,7 +108,7 @@ svg {
   font-size: 16px;
 }
 .blockTextContent img {
-  width: 98%;
+  width: 100%;
   height: auto;
 }
 .blockTextContent p {
@@ -119,11 +119,6 @@ svg {
 .titleContentPostDes {
   font-weight: 600;
   margin-bottom: 10px;
-}
-
-.imgPostDes {
-  position: relative;
-  text-align: center;
 }
 
 .linkDesPost {
@@ -284,6 +279,12 @@ svg {
 @media screen and (max-width: 992px) {
   .blockContentRight {
     display: none;
+  }
+}
+@media screen and (max-width: 780px) {
+  .wrapTableResponsive {
+    width: 100%;
+    overflow-x: auto;
   }
 }
 @media screen and (max-width: 375px) {
