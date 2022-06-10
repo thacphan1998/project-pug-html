@@ -11320,6 +11320,13 @@ strong {
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
   }
+  .activeMenu > .btnDropdownMenuSub svg {
+    transform: translate(0, 4px);
+    -webkit-transform: translate(0, 4px);
+    -moz-transform: translate(0, 4px);
+    -ms-transform: translate(0, 4px);
+    -o-transform: translate(0, 4px);
+  }
   .activeMenu > .btnDropdownMenuSub,
 .activeMenu > .linkMenuHeader {
     color: #ffc107;

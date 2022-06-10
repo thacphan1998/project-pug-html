@@ -401,6 +401,9 @@ $MrLeftItemMenu: 40px;
     .activeMenu {
         > .btnDropdownMenuSub {
             @include transform(rotate(180deg));
+            svg {
+                @include translate(0, 4px);
+            }
         }
 
         > .btnDropdownMenuSub,
