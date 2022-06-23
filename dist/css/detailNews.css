@@ -281,12 +281,6 @@ svg {
     display: none;
   }
 }
-@media screen and (max-width: 780px) {
-  .wrapTableResponsive {
-    width: 100%;
-    overflow-x: auto;
-  }
-}
 @media screen and (max-width: 375px) {
   .wrapReadMore .wrapImgReadMore {
     width: 100%;
