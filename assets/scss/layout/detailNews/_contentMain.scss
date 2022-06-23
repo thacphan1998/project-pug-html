@@ -1,306 +1,292 @@
 // start title main
 .wrapContentMainDetailNews {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 .wrapBlockTitle {
-    h1 {
-        font-size: 32px;
-        font-weight: 600;
-        line-height: 45px;
-        margin: 0;
-    }
-
-    
-
-
+  h1 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 45px;
+    margin: 0;
+  }
 }
 
-.infoDate  {
-    font-size: 14px;
-    font-style: italic;
-    padding: 8px 15px;
+.infoDate {
+  font-size: 14px;
+  font-style: italic;
+  padding: 8px 15px;
 }
 
 .blockIcon {
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-    border-bottom: 1px $color37 dotted;
-    
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px $color37 dotted;
 }
 
 // end titile Main
 
 .contentBlock {
-    border-bottom: 1px $color32 solid;
-    margin-bottom: 15px;
-    padding-bottom: 10px;
+  border-bottom: 1px $color32 solid;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 .itemIcon {
-    width: auto;
+  width: auto;
+  outline: none;
+  height: 26px;
+  font-size: 12px;
+  color: white;
+  background-color: blue;
+  padding: 2px 6px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:focus {
     outline: none;
-    height: 26px;
-    font-size: 12px;
-    color: white;
-    background-color: blue;
-    padding: 2px 6px;
-    margin-right: 10px;
-    border-radius: 5px;
-    border: none;
+  }
 
-    &:hover {
-        opacity: 0.6;
-    }
-
-    &:focus {
-        outline: none;
-    }
-
-    .iconFaceNumber {
-        margin-left: 5px;
-    }
+  .iconFaceNumber {
+    margin-left: 5px;
+  }
 }
 svg {
-    fill: white;
-    width: 12px;
-    height: 12px;
-    margin-right: 5px;
+  fill: white;
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
 }
 
 .iconSave {
-    background: none;
-    color: blue;
-    border: 1px #999 solid;
-    margin-right: 0;
+  background: none;
+  color: blue;
+  border: 1px #999 solid;
+  margin-right: 0;
 
-    svg {
-        fill: blue;
-    }
+  svg {
+    fill: blue;
+  }
 }
 
 // start content post detail news
 
 .blockTextContent {
-    font-size: 16px;
-    img {
-        width: 100%;
-        height: auto;
-    }
-    p {
-        margin-bottom: 10px;
-        line-height: 26px;
-    }
+  font-size: 16px;
+  img {
+    width: 100%;
+    height: auto;
+  }
+  p {
+    margin-bottom: 10px;
+    line-height: 26px;
+  }
 }
 
 .titleContentPostDes {
-    font-weight: 600;
-    margin-bottom: 10px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
 .linkDesPost {
-    margin-bottom: 15px;
-    line-height: 26px;
-    > a {
-        color: blue;
-        font-size: 20px;
-        font-weight: 600;
-    }
+  margin-bottom: 15px;
+  line-height: 26px;
+  > a {
+    color: blue;
+    font-size: 20px;
+    font-weight: 600;
+  }
 }
 
 .postAuthor {
-    text-align: right;
-    font-size: 16px;
-    font-weight: 600;
-    padding: 10px 0;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 0;
 }
 
 // start Tags
 
 .wrapBoxTagLink {
-    margin: 10px 0 15px;
+  margin: 10px 0 15px;
 }
 
 .boxTextTags {
+  color: $color34;
+  padding: 10px 10px;
+  background-color: #f2f2f2;
+  border: 1px #e5e5e5 solid;
+  a {
     color: $color34;
-    padding: 10px 10px;
-    background-color: #f2f2f2;
-    border: 1px #e5e5e5 solid;
-    a {
-        color: $color34;
-        &:hover {
-            color: $color18;
-        }
+    &:hover {
+      color: $color18;
     }
+  }
 }
 
 // end Tags
 
 // start Detail Others
 .wrapItemDetailOthers {
-    margin-bottom: 20px;
-    ul {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-
-        
-    }
+  margin-bottom: 20px;
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
 }
 
 .titleDetailOthers {
-    font-size: 20px;
-    color: #444;
-    font-weight: bold;
-    padding-bottom: 5px;
-    margin-bottom: 7px;
-    border-bottom: 1px $color37 dashed;
+  font-size: 20px;
+  color: #444;
+  font-weight: bold;
+  padding-bottom: 5px;
+  margin-bottom: 7px;
+  border-bottom: 1px $color37 dashed;
 }
 
 .itemDetailOthers {
-    margin-bottom: 8px;
-    h5 {
-        font-size: 16px;
-        a {
-            color: $color2;
-            &:hover {
-                opacity: 0.6;
-            }
-        }
+  margin-bottom: 8px;
+  h5 {
+    font-size: 16px;
+    a {
+      color: $color2;
+      &:hover {
+        opacity: 0.6;
+      }
     }
-    .ionDetailOthers {
-        width: 6px;
-        height: 6px;
-        fill: red;
-        margin-bottom: 4px;
-        margin-right: 12px;
-    }
+  }
+  .ionDetailOthers {
+    width: 6px;
+    height: 6px;
+    fill: red;
+    margin-bottom: 4px;
+    margin-right: 12px;
+  }
 }
 // End Detail Others
 .boxComment {
-    border-top: 5px $color32 solid;
-    padding-top: 15px;
-    h5 {
-        font-size: 20px;
-        color: #0749ad;
-        font-weight: 700;
-        margin-bottom: 10px;
-    }
+  border-top: 5px $color32 solid;
+  padding-top: 15px;
+  h5 {
+    font-size: 20px;
+    color: #0749ad;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
 
-    textarea {
-        width: 100%;
-        background-color: $color36;
-        border-top: 1px solid #8d979c;
-        border: 1px solid #ced4da;
-        padding: 5px 10px;
-        
-        &:focus {
-            background-color: $color1;
-            border-color: #80bdff;
-        }
-    }
+  textarea {
+    width: 100%;
+    background-color: $color36;
+    border-top: 1px solid #8d979c;
+    border: 1px solid #ced4da;
+    padding: 5px 10px;
 
-    input {
-        float: right;
-        border: none;
-        border-radius: 4px;
-        margin-top: 10px;
-        padding: 5px 15px;
-        font-weight: 600;
-        color: white;
-        background-color: $color23;
-
-        &:hover {
-            opacity: 0.8;
-        }
+    &:focus {
+      background-color: $color1;
+      border-color: #80bdff;
     }
+  }
+
+  input {
+    float: right;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 5px 15px;
+    font-weight: 600;
+    color: white;
+    background-color: $color23;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
 }
 
 // start read more
 
 .wrapReadMore {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .wrapContentReadMore {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 .listReadMore {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .itemReadMore {
-    width: 100%;
-    border-bottom: 1px #ddd dotted;
-    margin-bottom: 15px;
-    padding-bottom: 15px;
-    display: table;
+  width: 100%;
+  border-bottom: 1px #ddd dotted;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  display: table;
 
-    &:last-child {
-        border: none;
-    }
+  &:last-child {
+    border: none;
+  }
 }
 
 .wrapImgReadMore {
-    width: 200px;
-    float: left;
-    margin-right: 15px;
+  width: 200px;
+  float: left;
+  margin-right: 15px;
 }
 
 .contentReadMore {
-    h2 {
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 30px;
-        
-        a {
-            color: $color2;
-            &:hover {
-                color: $color13;
-                transition: 0.4s;
-            }
-        }
+  h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+
+    a {
+      color: $color2;
+      &:hover {
+        color: $color13;
+        transition: 0.4s;
+      }
     }
-    .desReadMore {
-        line-height: 26px;
-        margin: 0;
-    }
+  }
+  .desReadMore {
+    line-height: 26px;
+    margin: 0;
+  }
 }
 
 // media
 
 @media screen and (max-width: 992px) {
-    .blockContentRight {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 780px) {
-    .wrapTableResponsive {
-        width: 100%;
-        overflow-x: auto;
-    }
+  .blockContentRight {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 375px) {
-    .wrapReadMore {
-        .wrapImgReadMore {
-            width: 100%;
-            padding-bottom: 10px;
-            margin-right: 0;
-        }
-        .contentReadMore {
-            h2 {
-                text-align: center;
-                font-size: 16px;
-                line-height: 24px;
-            }
-            .desReadMore {
-                font-size: 14px;
-                line-height: 24px;
-            }
-        }
+  .wrapReadMore {
+    .wrapImgReadMore {
+      width: 100%;
+      padding-bottom: 10px;
+      margin-right: 0;
     }
+    .contentReadMore {
+      h2 {
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+      }
+      .desReadMore {
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+  }
 }
